@@ -1,0 +1,12 @@
+slug: ppt-engineered-dark-deck
+display_name: Engineered Dark Deck
+track: ppt
+family: engineered-dark
+summary: 거의 검정 차콜 배경에 미세한 라디얼 글로우 한 점과 헤어라인 보더, 발광 라인 차트와 빠른 마이크로 모션으로 정밀함을 연출하는 다크 SaaS 덱.
+axes: { color: dark, type: minimal-sans, layout: centered, space: airy, motion: snappy }
+sources:
+  - { title: "Brand Guidelines — Linear", url: "https://linear.app/brand", type: official, inspiration: "다크 배경 + 절제된 글로우 + 중립 산세리프 타이포 원리" }
+  - { title: "The rise of Linear style design — Bootcamp/Medium", url: "https://medium.com/design-bootcamp/the-rise-of-linear-style-design-origins-trends-and-techniques-4fd96aab7646", type: article, inspiration: "다크 배경·라디얼 글로우·마이크로 모션 원리" }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩은 시각 원리만 명세하며 영감 브랜드의 로고·구체 그라디언트 마크·독점 자산을 복제하지 않는다. 폰트는 오픈 라이선스 Inter / JetBrains Mono."
+source_depth: full
+status: pass

@@ -1,0 +1,12 @@
+slug: ppt-monochrome-infrastructure-deck
+display_name: Monochrome Infrastructure Deck
+track: ppt
+family: mono-infrastructure
+summary: 순백·순흑만으로 환원한 개발자 인프라 덱 — 산세리프+모노스페이스 혼합, 1px 순흑 헤어라인 도면 그리드, 컬러 없이 굵기 대비로 강조하는 채움 없는 스텝 차트.
+axes: { color: mono, type: mixed, layout: strict-grid, space: balanced, motion: subtle }
+sources:
+  - { title: "Geist — Introduction (Vercel)", url: "https://vercel.com/geist/introduction", type: official, inspiration: "순흑백 + 산세리프/모노 혼합, 공격적 환원 원리" }
+  - { title: "Vercel Design System Breakdown — SeedFlip", url: "https://seedflip.co/blog/vercel-design-system", type: article, inspiration: "극히 좁은 팔레트·헤어라인 정밀함 원리" }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩은 시각 원리만 명세한다. Geist는 오픈 라이선스 폰트로 사용 권장만 하며 팩이 폰트 파일을 재배포하지 않는다(대체: Inter / IBM Plex Mono). 영감 브랜드의 로고·마크는 복제하지 않는다."
+source_depth: full
+status: pass

@@ -1,0 +1,23 @@
+slug: web-tactile-soft-product
+display_name: Tactile Soft Product
+track: web
+family: tactile-soft-product
+summary: 따뜻한 그레이지 배경에 둥근 카드가 다중 소프트 그림자로 떠 있고, 세이지 민트·클레이 코랄 두 강조색과 스냅한 마이크로인터랙션으로 만질 수 있을 듯한 촉각적 제품 UI를 전시하는 웹 스타일.
+axes:
+  color: pastel
+  type: minimal-sans
+  layout: centered
+  space: balanced
+  motion: snappy
+sources:
+  - title: "Airbnb 디자인 언어 시스템 (Figma 커뮤니티) — 부드러운 그림자·둥근 카드·친근한 지오메트릭 산세리프·큰 라운드 입력 필드 원리"
+    url: "https://www.figma.com/community/file/1065547623799988323/airbnb-design-language-system-mobile"
+    type: article
+    brand_inspiration: "Airbnb — 소프트 그림자와 둥근 컴포넌트의 시각 원리만 차용. Cereal 폰트·로고·Rausch 고유 코랄 미사용. 강조색은 팩 자체 지정(세이지 민트·클레이 코랄)."
+  - title: "유명 브랜드 웹 디자인 스타일 가이드 분석 (Canva) — 색 하모니 시스템·여백 위주 클린 UI 원리"
+    url: "https://www.canva.com/learn/apple-google-starbucks-inside-the-web-design-style-guides-of-10-famous-companies/"
+    type: article
+    brand_inspiration: "Airbnb 등 — 색 하모니 구성·클린 여백 운용 원리 참고."
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님. 폰트는 오픈 웹폰트(Plus Jakarta Sans, Google Fonts)로 명세. 강조색은 브랜드 고유색을 피한 팩 자체 지정값."
+source_depth: full
+status: pass

@@ -1,0 +1,16 @@
+slug: web-warm-workspace
+display_name: 웜 워크스페이스
+track: web
+family: warm-workspace
+summary: 웜 오프화이트 캔버스 + 휴머니스트 세리프/산세리프 혼합 타이포 + 1.5px 단색 라인 일러스트 + 둥근 문서 친화 카드 + 인디고·살구 2톤 강조의 따뜻한 워크스페이스 웹 스타일.
+axes: { color: earth, type: mixed, layout: centered, space: airy, motion: subtle }
+sources:
+  - { title: "Unofficial Notion Design System", url: "https://www.figma.com/community/file/877573866872969565/unofficial-notion-design-system-v1-1", type: article, brand_inspiration: "Notion — 따뜻한 오프화이트 + 휴머니스트 세리프/산세리프 혼합 + 단색 라인 일러스트 + 문서 친화 카드 원리만 차용. Notion 일러스트·로고 미사용." }
+  - { title: "Top Web Design Trends 2026 (Figma)", url: "https://www.figma.com/resource-library/web-design-trends/", type: article, brand_inspiration: "Notion·Figma 마케팅 사이트 — 친근한 일러스트 시스템·따뜻한 중성 팔레트 참고." }
+fonts:
+  - { name: "Fraunces", source: "Google Fonts", license: "SIL Open Font License 1.1" }
+  - { name: "Source Serif 4", source: "Google Fonts", license: "SIL Open Font License 1.1" }
+  - { name: "Inter", source: "Google Fonts", license: "SIL Open Font License 1.1" }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님. 폰트는 오픈(Fraunces/Source Serif 4 + Inter). 라인 일러스트는 스타일 원리만 명세하고 특정 브랜드 일러스트 세트를 복제하지 않음."
+source_depth: full
+status: pass

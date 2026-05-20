@@ -1,0 +1,23 @@
+slug: web-editorial-confidence
+display_name: Editorial Confidence
+track: web
+family: editorial-confidence
+summary: 넓은 미색 캔버스에 비대칭 다단 그리드, 큰 디스플레이 세리프 헤드라인과 산세리프 본문, 단 하나의 딥 포레스트 면강조색과 헤어라인 룰로 잡지 같은 차분한 권위를 내는 편집형 웹 스타일.
+axes:
+  color: vivid-primary
+  type: serif-editorial
+  layout: asymmetric
+  space: balanced
+  motion: subtle
+sources:
+  - title: "Figma 마케팅 사이트 분석 — Top Web Design Trends 2026 (디스플레이 세리프·비대칭 다단·단일 면강조색·큰 사진 배치 원리)"
+    url: "https://www.figma.com/resource-library/web-design-trends/"
+    type: article
+    brand_inspiration: "Figma 마케팅 사이트 — 자신감 있는 디스플레이 세리프와 비대칭 다단 레이아웃 원리만 차용. Figma 로고·고유 그라디언트 미사용. 면강조색은 팩 자체 지정(딥 포레스트)."
+  - title: "Good Website Designs Examples 2026 (UXPin) — 프리미엄 브랜드 마케팅 사이트의 편집형 자신감 톤"
+    url: "https://www.uxpin.com/studio/blog/good-website-designs-examples/"
+    type: article
+    brand_inspiration: "프리미엄 마케팅 사이트의 편집형 레이아웃·자신감 톤 참고."
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님. 폰트는 오픈 웹폰트(Fraunces, Inter, Google Fonts)로 명세. 면강조색은 브랜드 고유색을 피한 팩 자체 지정값."
+source_depth: full
+status: pass

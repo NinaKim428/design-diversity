@@ -1,0 +1,15 @@
+slug: web-luminous-dark-bento
+display_name: 루미너스 다크 벤토
+track: web
+family: luminous-dark-bento
+summary: 딥 차콜 배경 + 비대칭 벤토 타일 + 1px 발광 보더 + 자홍-인디고 라디얼 글로우 + 실제 제품 UI 스크린샷 + 스내피 마이크로모션의 발광 다크 웹 스타일.
+axes: { color: dark, type: minimal-sans, layout: block-grid, space: balanced, motion: snappy }
+sources:
+  - { title: "The rise of Linear style design: origins, trends, techniques", url: "https://medium.com/design-bootcamp/the-rise-of-linear-style-design-origins-trends-and-techniques-4fd96aab7646", type: article, brand_inspiration: "Linear — 다크 캔버스 + 발광 보더 벤토 그리드 + 실제 UI 스크린샷 타일 + 마이크로모션 원리만 차용. Linear 로고·구체 마크·실제 UI 미사용." }
+  - { title: "Bento Grid UI Design Guide 2026", url: "https://superfiles.in/bento-grid-ui-design-trend.php", type: article, brand_inspiration: "Linear·Vercel — 다크 환경 벤토 정보 밀도·여백 균형 참고." }
+fonts:
+  - { name: "Inter", source: "Google Fonts", license: "SIL Open Font License 1.1" }
+  - { name: "JetBrains Mono", source: "Google Fonts", license: "SIL Open Font License 1.1" }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님. 폰트는 오픈 그로테스크(Inter)로 명세. 라디얼 글로우 색은 브랜드 보라가 아닌 팩 지정값."
+source_depth: full
+status: pass

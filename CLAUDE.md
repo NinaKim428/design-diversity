@@ -10,13 +10,15 @@
 
 **팀 구성:** 에이전트 팀(7인) — design-scout · pack-architect · ppt-pack-curator · web-pack-curator · sample-renderer · diversity-qa · catalog-publisher. 스킬 8개(오케스트레이터 `design-diversity` + 컴포넌트 7). 상세는 `.claude/agents/`·`.claude/skills/`가 SSOT.
 
-**발행 (1차 빌드):**
+**발행:**
 - GitHub: https://github.com/epoko77-ai/design-diversity (공개)
 - 사이트(production): https://site-six-kappa-74.vercel.app — Vercel 프로젝트 `site` (team epoko77-9135), Deployment Protection 해제됨
-- 카탈로그: 40팩 (PPT 20 + 웹 20), 전부 status pass
+- 카탈로그: 60팩 (PPT 30 + 웹 30), 전부 status pass
 
 **변경 이력:**
 | 날짜 | 변경 내용 | 대상 | 사유 |
 |------|----------|------|------|
 | 2026-05-20 | 초기 구성 (7 에이전트 + 8 스킬) | 전체 | - |
 | 2026-05-20 | 1차 풀빌드 — 40팩 + 레포 + 사이트 발행 | catalog | - |
+| 2026-05-20 | ppt-design-idioms에 전문 차트 기준 추가 | skills/ppt-design-idioms | PPT 차트 허접 피드백 |
+| 2026-05-20 | 프리미엄 브랜드 스타일 20팩 추가 (40→60), PPT 20팩 차트 재작업·재렌더 | catalog | 전문성·고급화 피드백 |

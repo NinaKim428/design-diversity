@@ -1,0 +1,12 @@
+slug: ppt-heritage-luxury-deck
+display_name: 헤리티지 럭셔리
+track: ppt
+family: heritage-luxury
+summary: 따뜻한 세피아-샴페인 톤에 옅은 골드 헤어라인으로 격을 내고, 디돈 세리프 디스플레이와 중앙 정렬 축·광활한 여백으로 구성한 헤리티지·럭셔리 브랜드 IR 덱.
+axes: { color: earth, type: serif-editorial, layout: centered, space: balanced, motion: subtle }
+sources:
+  - { title: "25 Best Pitch Deck Examples 2025 — Deckez (heritage/sepia section)", url: "https://deckez.com/blogs/pitch-deck/25-best-pitch-deck-examples-in-2025/", type: article, inspiration: "헤리티지/럭셔리 덱 — 세피아 톤·장인정신 미감 원리 (영감 출처)" }
+  - { title: "The branding style guidelines archive — Branding Style Guides", url: "https://brandingstyleguides.com/", type: article, inspiration: "공개 브랜드 가이드 아카이브 — 럭셔리 브랜드의 세리프·골드 헤어라인·여백 원리 (영감 출처)" }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 시각 원리(세피아 팔레트·디돈 세리프 위계·골드 헤어라인·중앙 정렬 여백·차트 스타일) 명세이며 특정 럭셔리 브랜드의 로고·모노그램·패턴·독점 자산 사본이 아니다. 폰트는 오픈 라이선스 대체(Playfair Display / EB Garamond)를 지정한다."
+source_depth: full
+status: pass

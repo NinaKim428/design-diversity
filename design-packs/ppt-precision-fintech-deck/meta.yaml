@@ -1,0 +1,12 @@
+slug: ppt-precision-fintech-deck
+display_name: Precision Fintech Deck
+track: ppt
+family: precision-fintech
+summary: 순백 캔버스 위 푸른 회색 면 단차와 단일 인디고-바이올렛 강조, 음수 자간 디스플레이와 부드러운 면적 차트의 절제된 핀테크 프로덕트 덱.
+axes: { color: pastel, type: minimal-sans, layout: asymmetric, space: airy, motion: subtle }
+sources:
+  - { title: "Designing accessible color systems — Stripe Blog", url: "https://stripe.com/blog/accessible-color-systems", type: official, inspiration: "단일 바이올렛 강조 + 푸른 회색 면, 접근성 기반 색 시스템 원리" }
+  - { title: "Stripe Brand Color Palette — Mobbin", url: "https://mobbin.com/colors/brand/stripe", type: article, inspiration: "푸른 회색 면과 인디고 강조의 색 관계 원리" }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 시각 원리(색 관계·그리드·차트 스타일) 명세이며 영감 브랜드의 상표·로고·독점 폰트·독점색을 포함하지 않는다. 폰트는 오픈 라이선스 Inter."
+source_depth: full
+status: pass

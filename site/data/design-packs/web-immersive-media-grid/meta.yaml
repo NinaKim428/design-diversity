@@ -1,0 +1,23 @@
+slug: web-immersive-media-grid
+display_name: Immersive Media Grid
+track: web
+family: immersive-media-grid
+summary: 잉크 블랙 캔버스에 풀블리드 미디어 타일이 비균일 모듈러 그리드로 빽빽이 깔린 몰입형 콜라주. 큰 디스플레이 산세리프와 단일 시그널 그린, 호버 확대·라벨 슬라이드인의 발랄한 마이크로모션이 정체성인 다크 웹 스타일.
+axes:
+  color: dark
+  type: heavy-display
+  layout: block-grid
+  space: dense
+  motion: playful
+sources:
+  - title: "50 best website design examples 2026 (Eleken) — 다크 미디어 그리드·풀블리드 아트워크 타일·활기찬 단일 강조 그린·호버 미디어 모션 원리"
+    url: "https://www.eleken.co/blog-posts/best-website-design-examples"
+    type: article
+    brand_inspiration: "Spotify — 다크 미디어 그리드와 호버 미디어 모션의 시각 원리만 차용. Spotify 로고·고유 그린·앨범 아트 미사용. 강조 그린은 팩 자체 지정값."
+  - title: "Best Bento Grid Design Examples 2026 (Mockuuups) — 미디어 중심 모듈러 그리드 콜라주 구성"
+    url: "https://mockuuups.studio/blog/post/best-bento-grid-design-examples/"
+    type: article
+    brand_inspiration: "미디어 중심 모듈러 그리드 콜라주의 비균일 타일 구성 원리 참고."
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님. 폰트는 오픈 웹폰트(Space Grotesk, Inter, Google Fonts)로 명세. 아트워크 타일은 사용 측 자체 미디어용 placeholder 규격만 제공. 강조 그린은 브랜드 고유색을 피한 팩 자체 지정값."
+source_depth: full
+status: pass

@@ -642,6 +642,326 @@
       },
       "preview": "design-packs/web-bauhaus-geometric/preview.png",
       "status": "pass"
+    },
+    {
+      "slug": "ppt-precision-fintech-deck",
+      "track": "ppt",
+      "family": "precision-fintech",
+      "display_name": "Precision Fintech Deck",
+      "summary": "푸른 회색 면 위 단일 인디고-바이올렛 강조색이 CTA·핵심 수치·차트를 모두 책임지는 절제된 핀테크 덱. 헤어라인 그리드와 면적 그래프의 에디토리얼 밀도.",
+      "axes": {
+        "color": "pastel",
+        "type": "minimal-sans",
+        "layout": "asymmetric",
+        "space": "airy",
+        "motion": "subtle"
+      },
+      "preview": "design-packs/ppt-precision-fintech-deck/preview.png",
+      "status": "pass"
+    },
+    {
+      "slug": "ppt-engineered-dark-deck",
+      "track": "ppt",
+      "family": "engineered-dark",
+      "display_name": "Engineered Dark Deck",
+      "summary": "차콜 배경에 미세 라디얼 글로우 한 점, 중립 산세리프와 헤어라인 보더, 120~180ms 마이크로 모션의 정밀한 다크 SaaS 덱.",
+      "axes": {
+        "color": "dark",
+        "type": "minimal-sans",
+        "layout": "centered",
+        "space": "airy",
+        "motion": "snappy"
+      },
+      "preview": "design-packs/ppt-engineered-dark-deck/preview.png",
+      "status": "pass"
+    },
+    {
+      "slug": "ppt-warm-hospitality-deck",
+      "track": "ppt",
+      "family": "warm-hospitality",
+      "display_name": "Warm Hospitality Deck",
+      "summary": "흰 캔버스에 단일 산호-레드 강조와 둥근 터미널 휴머니스트 산세리프, 풀블리드 라운드 코너 사진의 환대 미감 덱.",
+      "axes": {
+        "color": "earth",
+        "type": "minimal-sans",
+        "layout": "full-bleed",
+        "space": "airy",
+        "motion": "playful"
+      },
+      "preview": "design-packs/ppt-warm-hospitality-deck/preview.png",
+      "status": "pass"
+    },
+    {
+      "slug": "ppt-monochrome-infrastructure-deck",
+      "track": "ppt",
+      "family": "mono-infrastructure",
+      "display_name": "Monochrome Infrastructure Deck",
+      "summary": "순백·순흑만으로 환원한 인프라 덱 — 산세리프+모노 혼합, 1px 헤어라인 보더, 색이 아닌 굵기 대비로만 강조하는 도면 같은 정밀함.",
+      "axes": {
+        "color": "mono",
+        "type": "mixed",
+        "layout": "strict-grid",
+        "space": "balanced",
+        "motion": "subtle"
+      },
+      "preview": "design-packs/ppt-monochrome-infrastructure-deck/preview.png",
+      "status": "pass"
+    },
+    {
+      "slug": "ppt-expressive-soundwave-deck",
+      "track": "ppt",
+      "family": "expressive-soundwave",
+      "display_name": "Expressive Soundwave Deck",
+      "summary": "다크 캔버스에 활기찬 듀오톤 그라디언트를 면적으로 깔고 초대형 와이드 디스플레이로 한 슬라이드 한 메시지를 외치는 표현적 덱.",
+      "axes": {
+        "color": "gradient",
+        "type": "heavy-display",
+        "layout": "block-grid",
+        "space": "balanced",
+        "motion": "playful"
+      },
+      "preview": "design-packs/ppt-expressive-soundwave-deck/preview.png",
+      "status": "pass"
+    },
+    {
+      "slug": "ppt-editorial-product-deck",
+      "track": "ppt",
+      "family": "editorial-product",
+      "display_name": "Editorial Product Deck",
+      "summary": "크림-아이보리 면에 잉크 블랙, 세리프 헤딩+산세리프 본문, 12열 엄격 그리드의 따뜻한 미니멀리즘 프로덕트 덱.",
+      "axes": {
+        "color": "earth",
+        "type": "serif-editorial",
+        "layout": "strict-grid",
+        "space": "balanced",
+        "motion": "none"
+      },
+      "preview": "design-packs/ppt-editorial-product-deck/preview.png",
+      "status": "pass"
+    },
+    {
+      "slug": "ppt-cinematic-keynote-deck",
+      "track": "ppt",
+      "family": "cinematic-keynote",
+      "display_name": "Cinematic Keynote Deck",
+      "summary": "순흑 무대 위 거대 키 비주얼 한 점과 최소 텍스트, 정연한 균형 리듬과 끝의 서머리 슬라이드를 가진 시네마틱 키노트 덱.",
+      "axes": {
+        "color": "dark",
+        "type": "minimal-sans",
+        "layout": "full-bleed",
+        "space": "balanced",
+        "motion": "subtle"
+      },
+      "preview": "design-packs/ppt-cinematic-keynote-deck/preview.png",
+      "status": "pass"
+    },
+    {
+      "slug": "ppt-confident-color-block-deck",
+      "track": "ppt",
+      "family": "confident-color-block",
+      "display_name": "Confident Color-Block Deck",
+      "summary": "흰 바탕에 큼직한 솔리드 컬러 블록(슬라이드당 1~2색)을 비대칭으로 깔고 화이트 헤비 산세리프를 얹는 자신감 있는 모던 피치 덱.",
+      "axes": {
+        "color": "vivid-primary",
+        "type": "heavy-display",
+        "layout": "asymmetric",
+        "space": "airy",
+        "motion": "snappy"
+      },
+      "preview": "design-packs/ppt-confident-color-block-deck/preview.png",
+      "status": "pass"
+    },
+    {
+      "slug": "ppt-strategy-navy-deck",
+      "track": "ppt",
+      "family": "strategy-navy",
+      "display_name": "Strategy Navy Deck",
+      "summary": "다층 블루 2색 시스템과 세리프 헤딩+산세리프 본문, 12열 그리드 위 액션 타이틀과 근거 모듈의 전략 컨설팅 덱.",
+      "axes": {
+        "color": "vivid-primary",
+        "type": "mixed",
+        "layout": "strict-grid",
+        "space": "dense",
+        "motion": "none"
+      },
+      "preview": "design-packs/ppt-strategy-navy-deck/preview.png",
+      "status": "pass"
+    },
+    {
+      "slug": "ppt-heritage-luxury-deck",
+      "track": "ppt",
+      "family": "heritage-luxury",
+      "display_name": "Heritage Luxury Deck",
+      "summary": "세피아-샴페인 톤과 골드 헤어라인, 하이콘트라스트 디돈 세리프를 중앙에 앉힌 헤리티지·럭셔리 IR 덱.",
+      "axes": {
+        "color": "earth",
+        "type": "serif-editorial",
+        "layout": "centered",
+        "space": "balanced",
+        "motion": "subtle"
+      },
+      "preview": "design-packs/ppt-heritage-luxury-deck/preview.png",
+      "status": "pass"
+    },
+    {
+      "slug": "web-precision-fintech",
+      "track": "web",
+      "family": "precision-fintech",
+      "display_name": "정밀 핀테크 라이트",
+      "summary": "오프화이트와 잉크 네이비 본문, 상단 1/3을 가르는 이리데센트 파스텔 밴드, 음수 자간 가는 그로테스크와 등폭 숫자 캡션의 정밀 핀테크 레이아웃.",
+      "axes": {
+        "color": "mono",
+        "type": "minimal-sans",
+        "layout": "asymmetric",
+        "space": "balanced",
+        "motion": "subtle"
+      },
+      "preview": "design-packs/web-precision-fintech/preview.png",
+      "status": "pass"
+    },
+    {
+      "slug": "web-blueprint-grid",
+      "track": "web",
+      "family": "blueprint-grid",
+      "display_name": "블루프린트 그리드",
+      "summary": "흰 또는 잉크 블랙 캔버스에 1px 헤어라인 도트/라인 그리드를 청사진처럼 노출하고 콘텐츠를 격자에 스냅시키는 등폭 영향 마케팅 레이아웃.",
+      "axes": {
+        "color": "mono",
+        "type": "mono",
+        "layout": "strict-grid",
+        "space": "balanced",
+        "motion": "subtle"
+      },
+      "preview": "design-packs/web-blueprint-grid/preview.png",
+      "status": "pass"
+    },
+    {
+      "slug": "web-luminous-dark-bento",
+      "track": "web",
+      "family": "luminous-dark-bento",
+      "display_name": "루미너스 다크 벤토",
+      "summary": "딥 차콜 위 비대칭 벤토 타일이 1px 발광 보더로 떠 있고, 라디얼 글로우와 마이크로모션이 인터페이스 속도감을 연출하는 다크 제품 사이트.",
+      "axes": {
+        "color": "dark",
+        "type": "minimal-sans",
+        "layout": "block-grid",
+        "space": "balanced",
+        "motion": "snappy"
+      },
+      "preview": "design-packs/web-luminous-dark-bento/preview.png",
+      "status": "pass"
+    },
+    {
+      "slug": "web-warm-workspace",
+      "track": "web",
+      "family": "warm-workspace",
+      "display_name": "웜 워크스페이스",
+      "summary": "따뜻한 오프화이트와 잉크 그레이, 단색 라인 일러스트와 둥근 카드, 휴머니스트 세리프+산세리프 혼합의 절제된 따뜻한 워크스페이스 톤.",
+      "axes": {
+        "color": "earth",
+        "type": "mixed",
+        "layout": "centered",
+        "space": "airy",
+        "motion": "subtle"
+      },
+      "preview": "design-packs/web-warm-workspace/preview.png",
+      "status": "pass"
+    },
+    {
+      "slug": "web-iridescent-marketing-flow",
+      "track": "web",
+      "family": "iridescent-marketing-flow",
+      "display_name": "이리데센트 마케팅 플로우",
+      "summary": "밝은 화이트 배경에 곡면형 컬러 블록이 흐르듯 끼어들고 굵은 산세리프·둥근 버튼·풀폭 일러스트 배너로 즐거운 마케팅 톤을 내는 패럴랙스 사이트.",
+      "axes": {
+        "color": "vivid-primary",
+        "type": "heavy-display",
+        "layout": "full-bleed",
+        "space": "balanced",
+        "motion": "playful"
+      },
+      "preview": "design-packs/web-iridescent-marketing-flow/preview.png",
+      "status": "pass"
+    },
+    {
+      "slug": "web-spatial-immersive-hero",
+      "track": "web",
+      "family": "spatial-immersive-hero",
+      "display_name": "스페이셜 이머시브 히어로",
+      "summary": "스크롤에 따라 배경색이 전환되고 텍스트가 등장·소멸하는 수직 슬라이더, 부유하는 입체 오브제와 영화적 전환의 공간 연출 사이트.",
+      "axes": {
+        "color": "dark",
+        "type": "minimal-sans",
+        "layout": "full-bleed",
+        "space": "airy",
+        "motion": "playful"
+      },
+      "preview": "design-packs/web-spatial-immersive-hero/preview.png",
+      "status": "pass"
+    },
+    {
+      "slug": "web-tactile-soft-product",
+      "track": "web",
+      "family": "tactile-soft-product",
+      "display_name": "택타일 소프트 프로덕트",
+      "summary": "그레이지 배경에 부드러운 다중 그림자를 단 둥근 카드가 미세하게 떠 있고, 절제된 민트·코랄 강조와 스냅 마이크로인터랙션으로 촉각적 피드백을 주는 제품 UI 사이트.",
+      "axes": {
+        "color": "pastel",
+        "type": "minimal-sans",
+        "layout": "centered",
+        "space": "balanced",
+        "motion": "snappy"
+      },
+      "preview": "design-packs/web-tactile-soft-product/preview.png",
+      "status": "pass"
+    },
+    {
+      "slug": "web-editorial-confidence",
+      "track": "web",
+      "family": "editorial-confidence",
+      "display_name": "에디토리얼 컨피던스",
+      "summary": "넓은 화이트 캔버스에 비대칭 다단, 큰 디스플레이 세리프 헤드라인과 단일 진한 면강조색, 헤어라인 룰의 차분한 자신감 편집형 사이트.",
+      "axes": {
+        "color": "vivid-primary",
+        "type": "serif-editorial",
+        "layout": "asymmetric",
+        "space": "balanced",
+        "motion": "subtle"
+      },
+      "preview": "design-packs/web-editorial-confidence/preview.png",
+      "status": "pass"
+    },
+    {
+      "slug": "web-signal-monochrome",
+      "track": "web",
+      "family": "signal-monochrome",
+      "display_name": "시그널 모노크롬",
+      "summary": "순백·순흑 고대비 캔버스에 단일 시그널 컬러가 CTA에만 점처럼 찍히고, 빽빽한 위계와 색 반전 호버·스냅 트랜지션으로 절제된 긴장감을 주는 사이트.",
+      "axes": {
+        "color": "mono",
+        "type": "minimal-sans",
+        "layout": "asymmetric",
+        "space": "dense",
+        "motion": "snappy"
+      },
+      "preview": "design-packs/web-signal-monochrome/preview.png",
+      "status": "pass"
+    },
+    {
+      "slug": "web-immersive-media-grid",
+      "track": "web",
+      "family": "immersive-media-grid",
+      "display_name": "이머시브 미디어 그리드",
+      "summary": "잉크 블랙 배경에 풀블리드 미디어 타일이 모듈러 그리드로 빽빽이 깔린 몰입형 콜라주, 큰 산세리프와 단일 강조 그린·호버 미디어 모션의 활기찬 사이트.",
+      "axes": {
+        "color": "dark",
+        "type": "heavy-display",
+        "layout": "block-grid",
+        "space": "dense",
+        "motion": "playful"
+      },
+      "preview": "design-packs/web-immersive-media-grid/preview.png",
+      "status": "pass"
     }
   ]
 }

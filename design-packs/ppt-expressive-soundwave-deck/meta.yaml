@@ -1,0 +1,12 @@
+slug: ppt-expressive-soundwave-deck
+display_name: Expressive Soundwave Deck
+track: ppt
+family: expressive-soundwave
+summary: 거의 검정 캔버스에 듀오톤 그라디언트 컬러 블록과 초대형 헤비 디스플레이 타이포, 그라디언트 막대 차트로 한 슬라이드 한 메시지를 외치는 표현적 덱.
+axes: { color: gradient, type: heavy-display, layout: block-grid, space: balanced, motion: playful }
+sources:
+  - { title: "Spotify Mix — Dinamo Typefaces", url: "https://abcdinamo.com/news/spotify", type: official, inspiration: "그로테스크/휴머니스트 혼합 와이드 디스플레이 타이포 원리" }
+  - { title: "Spotify: Color, Emotion, and Design at Scale — Blake Crosley", url: "https://blakecrosley.com/guides/design/spotify", type: article, inspiration: "다크 우선 + 아트워크 추출 듀오톤 그라디언트 색 시스템 원리" }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩은 시각 원리만 명세하며 영감 브랜드의 독점 폰트·로고·시그니처 그린 등 독점색을 복제하지 않는다. 폰트는 오픈 라이선스 Archivo."
+source_depth: full
+status: pass

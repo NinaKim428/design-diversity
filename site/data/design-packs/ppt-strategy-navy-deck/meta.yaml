@@ -1,0 +1,12 @@
+slug: ppt-strategy-navy-deck
+display_name: 스트래티지 네이비
+track: ppt
+family: strategy-navy
+summary: 흰 바탕에 다크 네이비 + 비비드 블루 2색 시스템, 세리프 액션 타이틀 + 산세리프 본문, 12열 그리드에 근거 모듈을 정렬한 맥킨지·BCG식 전략 컨설팅 덱.
+axes: { color: vivid-primary, type: mixed, layout: strict-grid, space: dense, motion: none }
+sources:
+  - { title: "Decoding McKinsey's new visual identity and PowerPoint template — Slideworks", url: "https://slideworks.io/resources/decoding-mckinseys-visual-identity-and-powerpoint-template", type: article, inspiration: "McKinsey — 다층 블루 팔레트·세리프 타이틀 + 산세리프 본문 원리 (영감 출처)" }
+  - { title: "BCG Presentation Style — Deckary", url: "https://deckary.com/blog/bcg-presentation-style", type: article, inspiration: "BCG — 액션 타이틀·근거 모듈·데이터 라벨 직접 부착 차트 원리 (영감 출처)" }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 업계 공통 시각 규범(액션 타이틀·12열 그리드·데이터잉크 최소화 차트) 명세이며 McKinsey/BCG의 로고·고유 색 코드·독점 PowerPoint 템플릿 자산 사본이 아니다. 폰트는 오픈 라이선스 대체(PT Serif / Inter)를 지정한다."
+source_depth: full
+status: pass

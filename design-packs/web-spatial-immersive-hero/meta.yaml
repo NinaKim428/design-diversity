@@ -1,0 +1,23 @@
+slug: web-spatial-immersive-hero
+display_name: Spatial Immersive Hero
+track: web
+family: spatial-immersive-hero
+summary: 풀스크린 히어로 패널 스택에서 스크롤이 카메라가 되어 배경색이 흐르고 텍스트가 들고나며, 반투명 글래스 오브제가 패럴랙스로 깊이를 만드는 영화적 다크 웹 스타일.
+axes:
+  color: dark
+  type: minimal-sans
+  layout: full-bleed
+  space: airy
+  motion: playful
+sources:
+  - title: "Arc Browser 랜딩 페이지 디자인 (Figma 커뮤니티) — 스크롤 구동 공간 전환·부유 입체 오브제·영화적 히어로 시각 원리"
+    url: "https://www.figma.com/community/file/1409253055098186951/arc-browser-landing-page-design-inspiration-for-designers-web-to-figma"
+    type: article
+    brand_inspiration: "Arc Browser — 스크롤 구동 공간 전환과 부유 글래스 오브제의 레이아웃 원리만 차용. Arc 로고·독점 폰트·실제 UI 미사용."
+  - title: "Apple 웹 디자인 — 스크롤 스토리텔링 분석 (배경색 점진 전환·텍스트 등장/소멸 시퀀스)"
+    url: "https://www.dbswebsite.com/blog/how-to-design-a-website-like-apples/"
+    type: article
+    brand_inspiration: "Apple — 스크롤 시퀀스 기반 배경 보간·텍스트 등장 원리 참고. San Francisco 폰트·제품 이미지·로고 미사용."
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님. 폰트는 오픈 웹폰트(Inter, Google Fonts)로 명세. 모션은 prefers-reduced-motion 폴백 포함."
+source_depth: full
+status: pass

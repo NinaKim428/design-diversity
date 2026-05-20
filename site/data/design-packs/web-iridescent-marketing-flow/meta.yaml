@@ -1,0 +1,15 @@
+slug: web-iridescent-marketing-flow
+display_name: 이리데센트 마케팅 플로우
+track: web
+family: iridescent-marketing-flow
+summary: 밝은 화이트 캔버스 + 곡면 비대칭 경계로 흐르는 파스텔 라임·코랄·스카이 컬러 블록 + 굵은 산세리프 + 알약 CTA + 패럴랙스 흐름의 발랄한 마케팅 웹 스타일.
+axes: { color: vivid-primary, type: heavy-display, layout: full-bleed, space: balanced, motion: playful }
+sources:
+  - { title: "Brand style guides: Mailchimp, Airbnb, Uber (Canva)", url: "https://www.canva.com/learn/apple-google-starbucks-inside-the-web-design-style-guides-of-10-famous-companies/", type: article, brand_inspiration: "Mailchimp — 즐겁고 자신감 있는 컬러 블록 + 굵은 산세리프 + 풀폭 일러스트 배너 원리만 차용. Mailchimp 마스코트·로고·고유 옐로 미사용." }
+  - { title: "Top Web Design Trends 2026 (Figma)", url: "https://www.figma.com/resource-library/web-design-trends/", type: article, brand_inspiration: "Mailchimp·Figma — 곡면 컬러 블록·도파민 디자인 패럴랙스 흐름 참고." }
+fonts:
+  - { name: "Space Grotesk", source: "Google Fonts", license: "SIL Open Font License 1.1" }
+  - { name: "Inter", source: "Google Fonts", license: "SIL Open Font License 1.1" }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님. 디스플레이 폰트는 오픈 폰트(Space Grotesk)로 명세. 컬러 블록 값은 브랜드 고유색을 피하고 팩에서 별도 지정."
+source_depth: full
+status: pass

@@ -1,0 +1,12 @@
+slug: ppt-editorial-product-deck
+display_name: 에디토리얼 프로덕트
+track: ppt
+family: editorial-product
+summary: 따뜻한 크림 면 위 잉크 블랙 텍스트, 세리프 헤딩 + 산세리프 본문으로 위계를 가르는 12열 엄격 그리드의 따뜻한 미니멀리즘 프로덕트 덱.
+axes: { color: earth, type: serif-editorial, layout: strict-grid, space: balanced, motion: none }
+sources:
+  - { title: "Design System Inspired by Notion — getdesign.md", url: "https://getdesign.md/notion/design-md", type: article, inspiration: "Notion — 따뜻한 미니멀리즘·세리프 헤딩·soft surface 원리 (영감 출처)" }
+  - { title: "What Font Does Notion Use — designyourway", url: "https://www.designyourway.net/blog/what-font-does-notion-use/", type: article, inspiration: "Notion — 세리프 헤딩 + 산세리프 본문 위계 (영감 출처)" }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 시각 원리(크림 팔레트·세리프/산세리프 위계·카드·차트 스타일) 명세이며 Notion의 로고·일러스트·아이콘셋·독점 자산 사본이 아니다. 폰트는 오픈 라이선스 대체(Source Serif 4 / Inter)를 지정한다."
+source_depth: full
+status: pass

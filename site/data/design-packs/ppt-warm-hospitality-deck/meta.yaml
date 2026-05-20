@@ -1,0 +1,12 @@
+slug: ppt-warm-hospitality-deck
+display_name: Warm Hospitality Deck
+track: ppt
+family: warm-hospitality
+summary: 흰 캔버스에 단일 산호-레드 강조, 풀블리드 라운드 코너 사진과 둥근 지오메트릭 산세리프, 둥근 끝 막대 차트로 여행 매거진 같은 환대 미감을 내는 덱.
+axes: { color: earth, type: minimal-sans, layout: full-bleed, space: airy, motion: playful }
+sources:
+  - { title: "Airbnb Cereal — Introduction (Airbnb Design)", url: "https://airbnb.design/wp-content/themes/airbnbdesign/microsites/cereal/introduction/", type: official, inspiration: "둥근 터미널 지오메트릭 휴머니스트 타이포 원리" }
+  - { title: "Working Type — Airbnb Design / Medium", url: "https://medium.com/airbnb-design/working-type-81294544608b", type: article, inspiration: "단일 따뜻한 강조색·사진 우선·라운드 코너 미감 원리" }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩은 시각 원리만 명세하며 영감 브랜드의 독점 폰트·로고·독점 자산을 복제하지 않는다. 폰트는 오픈 라이선스 Poppins."
+source_depth: full
+status: pass

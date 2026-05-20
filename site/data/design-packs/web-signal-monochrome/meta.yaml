@@ -1,0 +1,23 @@
+slug: web-signal-monochrome
+display_name: Signal Monochrome
+track: web
+family: signal-monochrome
+summary: 순백·순흑 양극 고대비 캔버스에 단 하나의 코발트 시그널 컬러를 점처럼 찍고, 빽빽한 산세리프 위계·헤어라인 룰·색 반전 호버·큰 통계 블록으로 절제된 긴장감을 내는 모노크롬 웹 스타일.
+axes:
+  color: mono
+  type: minimal-sans
+  layout: asymmetric
+  space: dense
+  motion: snappy
+sources:
+  - title: "Linear style design 분석 — 절제된 고대비 + 단일 강조 (고대비 흑백·단일 시그널 컬러 한정·빽빽한 산세리프 위계 원리)"
+    url: "https://medium.com/design-bootcamp/the-rise-of-linear-style-design-origins-trends-and-techniques-4fd96aab7646"
+    type: article
+    brand_inspiration: "Linear — 고대비 흑백과 단일 시그널 컬러 한정 사용 원리만 차용. Linear 다크 테마·구체 마크 미사용(본 팩은 라이트 베이스). 시그널 컬러는 팩 자체 지정(코발트)."
+  - title: "Vercel Design System Breakdown — 순흑백 양극 토큰·헤어라인 분할·큰 통계 블록 원리"
+    url: "https://seedflip.co/blog/vercel-design-system"
+    type: article
+    brand_inspiration: "Vercel — 순흑백 양극 토큰 구조와 헤어라인 분할·통계 블록 원리 참고. Geist 폰트·로고 미사용."
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님. 폰트는 오픈 웹폰트(Inter, Google Fonts)로 명세. 시그널 컬러는 브랜드 고유색을 피한 팩 자체 지정값."
+source_depth: full
+status: pass

@@ -1,0 +1,16 @@
+slug: web-blueprint-grid
+display_name: 블루프린트 그리드
+track: web
+family: blueprint-grid
+summary: 24px 헤어라인 도트/라인 그리드를 의도적으로 노출하고 콘텐츠를 격자에 스냅, 흑백 양극 + 단일 시그널 레드 + 모서리 십자 마커 + 등폭 라벨의 청사진형 웹 스타일.
+axes: { color: mono, type: mono, layout: strict-grid, space: balanced, motion: subtle }
+sources:
+  - { title: "Vercel aesthetic: 블루프린트 그리드 디자인 완전 가이드", url: "https://www.setproduct.com/blog/complete-guide-to-blueprint-grid-design", type: article, brand_inspiration: "Vercel — 콘텐츠 뒤 미세 도트/라인 그리드 + 등폭 영향 타이포 + 흑백 양극 팔레트 원리만 차용. Geist 폰트·로고 미사용." }
+  - { title: "Vercel Design System Breakdown: Colors, Typography, Tokens", url: "https://seedflip.co/blog/vercel-design-system", type: article, brand_inspiration: "Vercel — 시스템적 스페이싱·순흑백 토큰 구조 참고." }
+fonts:
+  - { name: "IBM Plex Sans", source: "Google Fonts", license: "SIL Open Font License 1.1" }
+  - { name: "JetBrains Mono", source: "Google Fonts", license: "SIL Open Font License 1.1" }
+  - { name: "IBM Plex Mono", source: "Google Fonts", license: "SIL Open Font License 1.1" }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님. Geist(OFL) 대신 오픈 대체 폰트(IBM Plex 계열·JetBrains Mono)를 명세. 시그널 컬러는 브랜드 고유색이 아닌 팩 지정값."
+source_depth: full
+status: pass

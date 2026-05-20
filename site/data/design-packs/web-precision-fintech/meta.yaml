@@ -1,0 +1,16 @@
+slug: web-precision-fintech
+display_name: 정밀 핀테크 라이트
+track: web
+family: precision-fintech
+summary: 오프화이트 캔버스 + 상단 1/3 이리데센트 파스텔 밴드 + 가는 그로테스크 + tabular-nums 숫자 캡션 + 2분할 제품/코드 셀의 정밀 금융 웹 스타일.
+axes: { color: gradient, type: minimal-sans, layout: asymmetric, space: balanced, motion: subtle }
+sources:
+  - { title: "Stripe 디자인 시스템 분석 (가로 이리데센트 밴드·가는 그로테스크·tnum 캡션)", url: "https://www.designmd.co/d/stripe", type: article, brand_inspiration: "Stripe — 가로 이리데센트 밴드 + 가는 그로테스크 + 등폭 숫자 캡션의 시각 원리만 차용. Söhne 폰트·MiniGL 셰이더·로고 미사용." }
+  - { title: "Best Financial/Fintech Website Designs 2026", url: "https://toimi.pro/blog/best-fintech-website-designs/", type: article, brand_inspiration: "Wise·Mercury — 단일 색 확신 + 데이터 정렬 원리 참고." }
+fonts:
+  - { name: "Inter Tight", source: "Google Fonts", license: "SIL Open Font License 1.1" }
+  - { name: "Inter", source: "Google Fonts", license: "SIL Open Font License 1.1" }
+  - { name: "IBM Plex Mono", source: "Google Fonts", license: "SIL Open Font License 1.1" }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님. 디스플레이 폰트는 상용 Söhne가 아닌 오픈 폰트(Inter Tight/Pretendard)로 명세."
+source_depth: full
+status: pass

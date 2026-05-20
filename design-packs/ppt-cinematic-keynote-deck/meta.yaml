@@ -1,0 +1,12 @@
+slug: ppt-cinematic-keynote-deck
+display_name: 시네마틱 키노트
+track: ppt
+family: cinematic-keynote
+summary: 순흑 무대 위 거대한 키 비주얼 한 점과 최소화된 라이트 산세리프 텍스트, 끝에 KPI 서머리 슬라이드를 두는 시네마틱 키노트 덱.
+axes: { color: dark, type: minimal-sans, layout: full-bleed, space: balanced, motion: subtle }
+sources:
+  - { title: "What we can learn about presentation design from Apple's Keynote — Medium", url: "https://medium.com/@adriennestiles/what-we-can-learn-about-great-presentation-design-from-apples-september-2019-keynote-816ea544bb63", type: article, inspiration: "Apple Keynote — 시네마틱 다크 무대·텍스트 최소화·서머리 슬라이드 원리 (영감 출처)" }
+  - { title: "All Apple Event Summary Slides 2019-2025 — Figma Community", url: "https://www.figma.com/community/file/1150817983915754582/all-apple-event-summary-slides-2019-2025", type: article, inspiration: "Apple 이벤트 — 요약 슬라이드 레이아웃·풀블리드 비주얼 구성 (영감 출처)" }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 시각 연출 원리(다크 무대·풀블리드 비주얼·서머리 그리드·차트 스타일) 명세이며 Apple의 로고·제품 이미지·SF Pro 폰트·독점 자산 사본이 아니다. 폰트는 오픈 라이선스 대체(Inter)를 지정한다."
+source_depth: full
+status: pass

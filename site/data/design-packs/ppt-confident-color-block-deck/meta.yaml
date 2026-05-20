@@ -1,0 +1,12 @@
+slug: ppt-confident-color-block-deck
+display_name: 컨피던트 컬러블록
+track: ppt
+family: confident-color-block
+summary: 흰 바탕에 솔리드 컬러 블록을 비대칭으로 대담하게 깔고 화이트 텍스트와 굵은 그로테스크 산세리프를 얹는 자신감 있는 모던 피치 덱.
+axes: { color: vivid-primary, type: heavy-display, layout: asymmetric, space: airy, motion: snappy }
+sources:
+  - { title: "34 Inspiring Pitch Deck Examples + Templates — Figma", url: "https://www.figma.com/resource-library/pitch-deck-examples/", type: article, inspiration: "Figma — 대담한 컬러 블록·기하학적 모던 피치 덱 원리 (영감 출처)" }
+  - { title: "25 Best Pitch Deck Examples 2025 — Deckez", url: "https://deckez.com/blogs/pitch-deck/25-best-pitch-deck-examples-in-2025/", type: article, inspiration: "현대 피치 덱 — 솔리드 컬러 블록 + 큰 수치 데이터 시각화 (영감 출처)" }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 시각 원리(컬러 블록 비율·비대칭 배치·차트 스타일) 명세이며 특정 피치 덱 템플릿이나 Figma 브랜드 자산·로고 사본이 아니다. 폰트는 오픈 라이선스 대체(Archivo / Space Grotesk)를 지정한다."
+source_depth: full
+status: pass
