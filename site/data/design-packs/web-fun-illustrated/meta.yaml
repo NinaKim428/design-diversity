@@ -1,0 +1,13 @@
+slug: web-fun-illustrated
+display_name: Fun Illustrated
+track: web
+family: illustrated
+summary: 플랫 손맛 일러스트·채도 높은 다색·둥근 굵은 산세리프·통통 튀는 마이크로 인터랙션의 명랑 웹 스타일.
+axes: { color: vivid-primary, type: heavy-display, layout: centered, space: balanced, motion: playful }
+sources:
+  - { title: "Tubik Studio — Media & Editorial Website Design", url: "https://blog.tubikstudio.com/media-editorial-website-design/", type: article }
+  - { title: "Awwwards — Editorial Layout Inspiration", url: "https://www.awwwards.com/inspiration/editorial-layout", type: article }
+  - { title: "Material 3 — Building with M3 Expressive", url: "https://m3.material.io/blog/building-with-m3-expressive", type: official }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님."
+source_depth: full
+status: pass

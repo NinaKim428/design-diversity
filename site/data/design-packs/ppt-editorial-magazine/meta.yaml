@@ -1,0 +1,12 @@
+slug: ppt-editorial-magazine
+display_name: 에디토리얼 매거진
+track: ppt
+family: editorial-magazine
+summary: 다단 비대칭 칼럼 그리드, 큰 세리프 헤드라인과 드롭캡, 풀컷 사진이 교차하는 고급 잡지 스프레드 스타일.
+axes: { color: mono, type: serif-editorial, layout: asymmetric, space: balanced, motion: none }
+sources:
+  - { title: "Publitas — How to Design a Magazine Layout", url: "https://www.publitas.com/blog/how-to-design-a-magazine-layout/", type: article }
+  - { title: "Better Design — Editorial Design Principles", url: "https://www.betterdesign.space/2025/06/editorial-design-principles-for.html", type: article }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님."
+source_depth: full
+status: pass

@@ -1,0 +1,17 @@
+slug: web-botanical-organic
+display_name: Botanical Organic
+track: web
+family: botanical
+summary: 베이지·세이지·테라코타 어스 톤에 손그림 식물 일러스트와 불규칙 유기 곡선·종이 질감으로 짠 자연주의 비대칭 웹 스타일.
+axes: { color: earth, type: serif-editorial, layout: asymmetric, space: airy, motion: subtle }
+sources:
+  - { title: "What is Swiss Design — Good Mood Prints", url: "https://www.goodmoodprints.com/goodnews/what-is-swiss-design-exploring-the-influential-design-style", type: article }
+  - { title: "Media & Editorial Website Design — Tubik Studio Blog", url: "https://blog.tubikstudio.com/media-editorial-website-design/", type: article }
+  - { title: "Editorial Layout Inspiration — Awwwards", url: "https://www.awwwards.com/inspiration/editorial-layout", type: article }
+fonts:
+  - { name: "Fraunces", source: "Google Fonts", license: "SIL Open Font License 1.1" }
+  - { name: "Mulish", source: "Google Fonts", license: "SIL Open Font License 1.1" }
+  - { name: "Caveat", source: "Google Fonts", license: "SIL Open Font License 1.1" }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님."
+source_depth: full
+status: pass

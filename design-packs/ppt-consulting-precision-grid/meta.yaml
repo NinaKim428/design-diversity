@@ -1,0 +1,12 @@
+slug: ppt-consulting-precision-grid
+display_name: 컨설팅 정밀그리드
+track: ppt
+family: consulting-grid
+summary: 12열 모듈러 그리드 위 무채색 본문 + 단일 코발트 강조, 헤어라인 보더로 구획한 액션 타이틀 전략 보고서 스타일.
+axes: { color: mono, type: minimal-sans, layout: strict-grid, space: dense, motion: none }
+sources:
+  - { title: "Carbon Design System — 2x Grid", url: "https://carbondesignsystem.com/elements/2x-grid/overview/", type: official }
+  - { title: "IBM Design Language — 2x Grid", url: "https://www.ibm.com/design/language/2x-grid/", type: official }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님."
+source_depth: full
+status: pass

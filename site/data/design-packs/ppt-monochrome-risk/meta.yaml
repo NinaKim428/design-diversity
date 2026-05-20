@@ -1,0 +1,12 @@
+slug: ppt-monochrome-risk
+display_name: 모노크롬 리스크
+track: ppt
+family: monochrome-serious
+summary: 색 전무 흑백/회색 5단계, 굵은 산세리프 경고 헤드라인, 두꺼운 룰 라인 구획의 엄숙한 위험·감사 보고서 스타일.
+axes: { color: mono, type: heavy-display, layout: strict-grid, space: balanced, motion: none }
+sources:
+  - { title: "PRINT — Swiss Style Principles", url: "https://www.printmag.com/featured/swiss-style-principles-typefaces-designers/", type: article }
+  - { title: "NN/g — Brutalism / Anti-Design", url: "https://www.nngroup.com/articles/brutalism-antidesign/", type: article }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님."
+source_depth: full
+status: pass

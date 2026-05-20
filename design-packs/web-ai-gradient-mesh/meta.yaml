@@ -1,0 +1,14 @@
+slug: web-ai-gradient-mesh
+display_name: AI Gradient Mesh
+track: web
+family: gradient-mesh
+summary: 앰버·산호·청록·라임 5정점 메시 그라디언트 + 그레인 노이즈 위에 솔리드 흰 카드가 뜨는 비(非)보라 풀블리드 웹 스타일.
+axes: { color: gradient, type: minimal-sans, layout: full-bleed, space: balanced, motion: subtle }
+sources:
+  - { title: "Medium — The Rise of Linear-Style Design", url: "https://medium.com/design-bootcamp/the-rise-of-linear-style-design-origins-trends-and-techniques-4fd96aab7646", type: article }
+  - { title: "LogRocket — Linear Design", url: "https://blog.logrocket.com/ux-design/linear-design/", type: article }
+  - { title: "EverydayUX — Glassmorphism & Apple Liquid Glass Interface Design", url: "https://www.everydayux.net/glassmorphism-apple-liquid-glass-interface-design/", type: article }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님."
+source_depth: full
+status: pass
+risk_notes: "Claude 기본 미감(보라-핑크 그라디언트)과 정면 경합 — curator_directive 반영: 메시 5정점을 비보라 hex(앰버/산호/청록/라임/딥틸)로 고정, 그레인 노이즈 opacity 0.07 수치 강제, 색 관계(난색2+한색2+브리지1) 명시. diversity-qa 우선 검수 대상."

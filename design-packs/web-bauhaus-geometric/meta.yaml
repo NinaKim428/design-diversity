@@ -1,0 +1,14 @@
+slug: web-bauhaus-geometric
+display_name: Bauhaus Geometric
+track: web
+family: bauhaus
+summary: 바우하우스 조형 원리 — 원·삼각형·사각형 기본 도형, 빨강·노랑·파랑 3원색, 격자 정렬·대각 구성의 기하 추상 웹 스타일.
+axes: { color: vivid-primary, type: heavy-display, layout: block-grid, space: balanced, motion: snappy }
+sources:
+  - { title: "PRINT Mag — Swiss Style Principles, Typefaces & Designers", url: "https://www.printmag.com/featured/swiss-style-principles-typefaces-designers/", type: article }
+  - { title: "Wikipedia — Swiss Style (design)", url: "https://en.wikipedia.org/wiki/Swiss_Style_(design)", type: official }
+  - { title: "99designs — Design History: Brutalism", url: "https://99designs.com/blog/design-history-movements/brutalism/", type: article }
+license: "1920년대 디자인 운동의 공개 조형 원리(도형·3원색·그리드). 원작 포스터·작품 복제 없음. 본 팩이 배포하는 것은 디자인 명세·토큰."
+source_depth: partial
+status: pass
+risk_notes: "sources_confidence: medium — 바우하우스 전용 1차 자료는 인접 운동 자료(스위스 스타일)로 검증. curator_directive 반영: 기하 추상·삼원색·격자 정렬을 끝까지 밀어 memphis(무작위 키치)·swiss-grid(무채)와 분리."

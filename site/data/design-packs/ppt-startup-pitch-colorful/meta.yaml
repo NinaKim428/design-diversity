@@ -1,0 +1,12 @@
+slug: ppt-startup-pitch-colorful
+display_name: 스타트업 피치 컬러풀
+track: ppt
+family: startup-pitch
+summary: 밝은 화이트 배경·채도 높은 5색 팔레트·둥근 알약 배지/카드·거대 숫자 메트릭의 에너지 넘치는 투자 피치 덱 스타일.
+axes: { color: vivid-primary, type: mixed, layout: centered, space: balanced, motion: playful }
+sources:
+  - { title: "Material 3 — Applying Type", url: "https://m3.material.io/styles/typography/applying-type", type: official }
+  - { title: "Material 3 — Styles", url: "https://m3.material.io/styles", type: official }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님."
+source_depth: full
+status: pass

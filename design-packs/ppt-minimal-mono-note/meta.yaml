@@ -1,0 +1,12 @@
+slug: ppt-minimal-mono-note
+display_name: 미니멀 모노 노트
+track: ppt
+family: minimal-mono-note
+summary: 순백 지면·모노스페이스 단일 폰트·잉크 블랙 하나·헤어라인 디바이더만 쓰는 극절제 노트형 슬라이드 스타일.
+axes: { color: mono, type: mono, layout: centered, space: airy, motion: none }
+sources:
+  - { title: "Brutalist Design Principles — nat.io", url: "https://nat.io/blog/brutalist-design-principles", type: article }
+  - { title: "Brutalist Web Design — Today Made", url: "https://www.todaymade.com/blog/brutalist-web-design", type: article }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님."
+source_depth: full
+status: pass

@@ -1,0 +1,12 @@
+slug: ppt-luxury-editorial-serif
+display_name: 럭셔리 에디토리얼 세리프
+track: ppt
+family: luxury-serif
+summary: 광활한 여백·가는 하이콘트라스트 디드로 세리프·넓은 자간 캡션·무채색+골드 한 점의 절제된 럭셔리 슬라이드 스타일.
+axes: { color: mono, type: serif-editorial, layout: centered, space: airy, motion: subtle }
+sources:
+  - { title: "Editorial Design Principles — Better Design", url: "https://www.betterdesign.space/2025/06/editorial-design-principles-for.html", type: article }
+  - { title: "Bloomberg Businessweek — Fonts In Use", url: "https://fontsinuse.com/uses/10/bloomberg-businessweek", type: article }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님."
+source_depth: full
+status: pass

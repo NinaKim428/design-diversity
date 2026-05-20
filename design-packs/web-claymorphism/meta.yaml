@@ -1,0 +1,16 @@
+slug: web-claymorphism
+display_name: Claymorphism Soft
+track: web
+family: claymorphism
+summary: 통통하게 부푼 점토형 3D 표면 — 크게 둥근 모서리, inner 하이라이트+inner 그림자+바깥 부드러운 컬러 그림자 3겹, 파스텔 톤의 촉각적 웹 스타일.
+axes: { color: pastel, type: minimal-sans, layout: centered, space: airy, motion: playful }
+sources:
+  - { title: "Claymorphism in CSS UI Design Trend — Smashing Magazine", url: "https://www.smashingmagazine.com/2022/03/claymorphism-css-ui-design-trend/", type: article }
+  - { title: "Claymorphism in User Interfaces — Hype4 Academy", url: "https://hype4.academy/articles/design/claymorphism-in-user-interfaces", type: article }
+  - { title: "What is Claymorphism in Web Design — LogRocket", url: "https://blog.logrocket.com/ux-design/what-is-claymorphism-web-design/", type: article }
+fonts:
+  - { name: "Nunito", source: "Google Fonts", license: "SIL Open Font License 1.1" }
+  - { name: "Quicksand", source: "Google Fonts", license: "SIL Open Font License 1.1" }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님."
+source_depth: full
+status: pass

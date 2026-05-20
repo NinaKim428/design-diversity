@@ -1,0 +1,12 @@
+slug: ppt-neo-brutalism
+display_name: 네오브루탈리즘
+track: ppt
+family: neo-brutalism
+summary: 두꺼운 검정 보더, 100% 불투명 하드 섀도, 원색 평면 블록의 거친 충돌과 의도적 비대칭의 반(反)미니멀 슬라이드 스타일.
+axes: { color: vivid-primary, type: heavy-display, layout: block-grid, space: dense, motion: snappy }
+sources:
+  - { title: "NN/g — Neobrutalism", url: "https://www.nngroup.com/articles/neobrutalism/", type: article }
+  - { title: "SVGator — What Is Neubrutalism", url: "https://www.svgator.com/blog/what-is-neubrutalism/", type: article }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님."
+source_depth: full
+status: pass

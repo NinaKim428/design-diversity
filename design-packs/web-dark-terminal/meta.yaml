@@ -1,0 +1,16 @@
+slug: web-dark-terminal
+display_name: Dark Tech / Terminal
+track: web
+family: dark-terminal
+summary: 거의 순흑 배경·전면 모노스페이스·형광 민트 강조 1색·헤어라인 격자·깜빡이는 커서·ASCII 장식의 터미널형 개발자 도구 웹 스타일.
+axes: { color: dark, type: mono, layout: strict-grid, space: dense, motion: subtle }
+sources:
+  - { title: "Geist Design System — Vercel", url: "https://vercel.com/geist/introduction", type: official }
+  - { title: "Geist UI — GitHub", url: "https://github.com/geist-org/geist-ui", type: official }
+  - { title: "The Linear Look — Frontend Horse", url: "https://frontend.horse/articles/the-linear-look/", type: article }
+fonts:
+  - { name: "JetBrains Mono", source: "Google Fonts", license: "SIL Open Font License 1.1" }
+  - { name: "IBM Plex Mono", source: "Google Fonts", license: "SIL Open Font License 1.1" }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님."
+source_depth: full
+status: pass

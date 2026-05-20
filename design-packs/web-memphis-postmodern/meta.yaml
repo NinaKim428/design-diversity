@@ -1,0 +1,13 @@
+slug: web-memphis-postmodern
+display_name: Memphis Postmodern
+track: web
+family: memphis
+summary: 원색·파스텔 충돌·무작위 흩뿌린 기하 도형·테라초 질감의 포스트모던 키치 웹 스타일.
+axes: { color: vivid-primary, type: mixed, layout: asymmetric, space: dense, motion: playful }
+sources:
+  - { title: "Wikipedia — Memphis Group", url: "https://en.wikipedia.org/wiki/Memphis_Group", type: official }
+  - { title: "Artsy — Ettore Sottsass, Design Icon", url: "https://www.artsy.net/article/artsy-editorial-design-icon-ettore-sottsass", type: article }
+  - { title: "Hommes Studio — What is Memphis Design Style", url: "https://hommes.studio/journal/what-is-memphis-design-style/", type: article }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님."
+source_depth: full
+status: pass

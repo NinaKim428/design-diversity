@@ -1,0 +1,13 @@
+slug: web-news-journal-grid
+display_name: News / Journal Grid
+track: web
+family: news-grid
+summary: 신문 1면 미감 — 다단 밀집 그리드·굵은 세리프 헤드라인·룰 라인 구획·빨강 한 점.
+axes: { color: mono, type: serif-editorial, layout: strict-grid, space: dense, motion: none }
+sources:
+  - { title: "Awwwards — Editorial Layout Inspiration", url: "https://www.awwwards.com/inspiration/editorial-layout", type: article }
+  - { title: "TypeType — 15 Best Magazine Fonts for Editorial Design", url: "https://typetype.org/blog/15-best-magazine-fonts-for-perfect-editorial-designs/", type: article }
+  - { title: "Tubik Studio — Media & Editorial Website Design", url: "https://blog.tubikstudio.com/media-editorial-website-design/", type: article }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님."
+source_depth: full
+status: pass

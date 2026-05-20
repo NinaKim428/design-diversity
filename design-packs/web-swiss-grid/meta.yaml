@@ -1,0 +1,16 @@
+slug: web-swiss-grid
+display_name: Swiss Grid Minimal
+track: web
+family: swiss-international
+summary: 엄격한 12열 그리드 위 좌측 정렬 비대칭, 무채색 + 단일 빨강 강조, 장식 전무의 스위스 타이포그래픽 웹 스타일.
+axes: { color: mono, type: minimal-sans, layout: strict-grid, space: balanced, motion: none }
+sources:
+  - { title: "Swiss Style (design) — Wikipedia", url: "https://en.wikipedia.org/wiki/Swiss_Style_(design)", type: article }
+  - { title: "Swiss Style Principles, Typefaces & Designers — PRINT Magazine", url: "https://www.printmag.com/featured/swiss-style-principles-typefaces-designers/", type: article }
+  - { title: "Lessons From Swiss Style Graphic Design — Smashing Magazine", url: "https://www.smashingmagazine.com/2009/07/lessons-from-swiss-style-graphic-design/", type: article }
+fonts:
+  - { name: "Inter", source: "Google Fonts", license: "SIL Open Font License 1.1" }
+  - { name: "Helvetica Neue / Arial", source: "system", license: "system font" }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님."
+source_depth: full
+status: pass

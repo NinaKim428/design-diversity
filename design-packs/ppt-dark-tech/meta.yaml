@@ -1,0 +1,12 @@
+slug: ppt-dark-tech
+display_name: 다크모드 테크
+track: ppt
+family: dark-tech
+summary: 차콜 배경에 네온 시안·바이올렛 발광 라인, 모노스페이스 라벨, 코드 블록형 표면의 사이버 테크 슬라이드 스타일.
+axes: { color: dark, type: mono, layout: asymmetric, space: balanced, motion: snappy }
+sources:
+  - { title: "Material 3 — Styles", url: "https://m3.material.io/styles", type: official }
+  - { title: "Nat — Brutalist Design Principles", url: "https://nat.io/blog/brutalist-design-principles", type: article }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님."
+source_depth: full
+status: pass

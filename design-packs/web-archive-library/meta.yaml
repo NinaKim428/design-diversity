@@ -1,0 +1,13 @@
+slug: web-archive-library
+display_name: Archive / Library
+track: web
+family: archive
+summary: 디지털 아카이브·도서관 카탈로그 미감 — 빽빽한 인덱스 행·세리프+모노 혼합·종이빛 베이지·메타데이터 라벨.
+axes: { color: earth, type: mixed, layout: strict-grid, space: dense, motion: none }
+sources:
+  - { title: "Carbon Design System", url: "https://carbondesignsystem.com/", type: official }
+  - { title: "Awwwards — Editorial Layout Inspiration", url: "https://www.awwwards.com/inspiration/editorial-layout", type: article }
+  - { title: "TypeType — 15 Best Magazine Fonts for Editorial Design", url: "https://typetype.org/blog/15-best-magazine-fonts-for-perfect-editorial-designs/", type: article }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님."
+source_depth: full
+status: pass

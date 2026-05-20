@@ -1,0 +1,13 @@
+slug: web-minimal-luxury
+display_name: Minimal Luxury Fashion
+track: web
+family: minimal-luxury
+summary: 광활한 여백·넓은 자간 대문자 산세리프·무채 3색의 패션 하우스풍 절제된 럭셔리 웹 스타일.
+axes: { color: mono, type: minimal-sans, layout: full-bleed, space: airy, motion: subtle }
+sources:
+  - { title: "Awwwards — Editorial Layout Inspiration", url: "https://www.awwwards.com/inspiration/editorial-layout", type: article }
+  - { title: "Big Human — Guide to Swiss Design Style", url: "https://www.bighuman.com/blog/guide-to-swiss-design-style", type: article }
+  - { title: "Tubik Studio — Media & Editorial Website Design", url: "https://blog.tubikstudio.com/media-editorial-website-design/", type: article }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님."
+source_depth: full
+status: pass

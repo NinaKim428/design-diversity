@@ -1,0 +1,12 @@
+slug: ppt-memphis-retro-90s
+display_name: 90s 멤피스 레트로
+track: ppt
+family: memphis-retro
+summary: 원색 충돌·지그재그/도트/테라조 패턴·비정형 기하 도형이 비대칭으로 부유하는 포스트모던 키치 슬라이드 스타일.
+axes: { color: vivid-primary, type: heavy-display, layout: asymmetric, space: dense, motion: playful }
+sources:
+  - { title: "Memphis Group — Wikipedia", url: "https://en.wikipedia.org/wiki/Memphis_Group", type: article }
+  - { title: "Memphis — History (official)", url: "https://memphis.it/en/history/", type: official }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님."
+source_depth: full
+status: pass

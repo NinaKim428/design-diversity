@@ -1,0 +1,14 @@
+slug: web-risograph-print
+display_name: Risograph Print
+track: web
+family: risograph
+summary: 리소그래프 인쇄 미감을 웹으로 — 2~3색 스폿 잉크 오프셋·망점·그레인 텍스처·형광 핑크/블루의 인쇄 불완전함 재현.
+axes: { color: vivid-primary, type: heavy-display, layout: block-grid, space: balanced, motion: snappy }
+sources:
+  - { title: "PRINT Mag — Swiss Style Principles, Typefaces & Designers", url: "https://www.printmag.com/featured/swiss-style-principles-typefaces-designers/", type: article }
+  - { title: "Readymag — Web Brutalism", url: "https://blog.readymag.com/web-brutalism/", type: article }
+  - { title: "Awwwards — Editorial Layout Inspiration", url: "https://www.awwwards.com/inspiration/editorial-layout", type: article }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님."
+source_depth: partial
+status: pass
+risk_notes: "sources_confidence: low — 1차 정전 부족, 인쇄 기법을 웹으로 옮긴 트렌드 묶음. curator_directive 반영: 그레인 강도(opacity 0.12)·misregistration 오프셋(1~4px)·스폿 잉크 hex를 절차적 CSS/SVG 수치로 명시해 임의 자산 의존 차단."

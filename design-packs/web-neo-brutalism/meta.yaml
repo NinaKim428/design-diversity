@@ -1,0 +1,16 @@
+slug: web-neo-brutalism
+display_name: Neo-Brutalism
+track: web
+family: neo-brutalism
+summary: 3px+ 검정 하드 보더·6px 오프셋 하드 섀도·직각 모서리·채도 100% 원색 블록 충돌의 반미니멀 웹 스타일.
+axes: { color: vivid-primary, type: heavy-display, layout: asymmetric, space: dense, motion: snappy }
+sources:
+  - { title: "Brutalism and Anti-Design — Nielsen Norman Group", url: "https://www.nngroup.com/articles/brutalism-antidesign/", type: article }
+  - { title: "Web Brutalism — Readymag Blog", url: "https://blog.readymag.com/web-brutalism/", type: article }
+  - { title: "Brutalism in Design — 99designs", url: "https://99designs.com/blog/design-history-movements/brutalism/", type: article }
+fonts:
+  - { name: "Archivo Black", source: "Google Fonts", license: "SIL Open Font License 1.1" }
+  - { name: "Space Grotesk", source: "Google Fonts", license: "SIL Open Font License 1.1" }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님."
+source_depth: full
+status: pass

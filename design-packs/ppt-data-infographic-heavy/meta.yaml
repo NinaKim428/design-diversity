@@ -1,0 +1,12 @@
+slug: ppt-data-infographic-heavy
+display_name: 데이터 인포그래픽 헤비
+track: ppt
+family: data-infographic
+summary: 차트·KPI 카드·아이콘 통계가 빽빽이 채워진 대시보드형 슬라이드, 색이 데이터 인코딩에 종속되는 고밀도 인포그래픽 스타일.
+axes: { color: vivid-primary, type: minimal-sans, layout: block-grid, space: dense, motion: subtle }
+sources:
+  - { title: "DataCamp — Dashboard Design Tutorial", url: "https://www.datacamp.com/tutorial/dashboard-design-tutorial", type: article }
+  - { title: "Justinmind — Data Visualization Principles", url: "https://www.justinmind.com/blog/data-visualization-examples-principles/", type: article }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님."
+source_depth: full
+status: pass

@@ -1,0 +1,12 @@
+slug: ppt-botanical-organic
+display_name: 보태니컬 오가닉
+track: ppt
+family: botanical-organic
+summary: 베이지·테라코타·모스그린 어스 톤·손그림 식물 일러스트·유기 곡선·종이 질감의 따뜻한 자연주의 슬라이드 스타일.
+axes: { color: earth, type: serif-editorial, layout: asymmetric, space: airy, motion: subtle }
+sources:
+  - { title: "New Naturalism — Earth Tones and Organic Shapes", url: "https://www.japanprint.com/new-naturalism-designs-with-earth-tones-and-organic-shapes/", type: article }
+  - { title: "Back to Basics — Organic Graphic Design Trends", url: "https://elements.envato.com/learn/back-to-basics-organic-graphic-design-trends", type: article }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님."
+source_depth: full
+status: pass

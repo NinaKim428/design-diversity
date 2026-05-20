@@ -1,0 +1,16 @@
+slug: web-y2k-chrome
+display_name: Y2K Chrome Revival
+track: web
+family: y2k
+summary: 메탈릭 크롬 그라디언트·홀로그램 펄 광택·베벨 버튼·블롭과 렌즈 플레어로 2000년대 초 사이버 키치를 재현한 웹 스타일.
+axes: { color: gradient, type: mixed, layout: asymmetric, space: dense, motion: playful }
+sources:
+  - { title: "Y2K Aesthetic — Wikipedia", url: "https://en.wikipedia.org/wiki/Y2K_aesthetic", type: article }
+  - { title: "Y2K Aesthetic in Web Design — Webflow Blog", url: "https://webflow.com/blog/y2k-aesthetic", type: article }
+  - { title: "Chromecore — Aesthetics Wiki", url: "https://aesthetics.fandom.com/wiki/Chromecore", type: article }
+fonts:
+  - { name: "Orbitron", source: "Google Fonts", license: "SIL Open Font License 1.1" }
+  - { name: "Rajdhani", source: "Google Fonts", license: "SIL Open Font License 1.1" }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님."
+source_depth: full
+status: pass

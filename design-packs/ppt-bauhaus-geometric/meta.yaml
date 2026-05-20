@@ -1,0 +1,12 @@
+slug: ppt-bauhaus-geometric
+display_name: 바우하우스 지오메트릭
+track: ppt
+family: bauhaus-geometric
+summary: 원·삼각형·사각형 기본 도형과 빨강·노랑·파랑 삼원색만으로 비대칭 균형·대각 구성하는 기하 추상 슬라이드 스타일.
+axes: { color: vivid-primary, type: heavy-display, layout: asymmetric, space: balanced, motion: none }
+sources:
+  - { title: "Bauhaus Design — Linearity", url: "https://www.linearity.io/blog/bauhaus-design/", type: article }
+  - { title: "The Evolution of Design — Bauhaus, Swiss Style", url: "https://english.artandthecity.com/the-evolution-of-design-bauhaus-swiss-style-and-typographic-simplicity/", type: article }
+license: "1920년대 디자인 운동의 공개 조형 원리(도형·삼원색·그리드). 원작 포스터·작품 복제 없음. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님."
+source_depth: full
+status: pass

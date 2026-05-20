@@ -1,0 +1,17 @@
+slug: web-editorial-longform
+display_name: Editorial Longform
+track: web
+family: editorial
+summary: 단일 680px 세리프 본문 컬럼·드롭캡·풀퀘이트·컬럼을 깨는 이미지로 구성한 잡지 기사형 롱폼 읽기 웹 스타일.
+axes: { color: mono, type: serif-editorial, layout: centered, space: airy, motion: subtle }
+sources:
+  - { title: "Editorial Layout Inspiration — Awwwards", url: "https://www.awwwards.com/inspiration/editorial-layout", type: article }
+  - { title: "15 Best Magazine Fonts for Editorial Designs — TypeType", url: "https://typetype.org/blog/15-best-magazine-fonts-for-perfect-editorial-designs/", type: article }
+  - { title: "How to Design for Long-Form Content — Design Shack", url: "https://designshack.net/articles/layouts/how-to-design-for-long-form-content/", type: article }
+fonts:
+  - { name: "Playfair Display", source: "Google Fonts", license: "SIL Open Font License 1.1" }
+  - { name: "Source Serif 4", source: "Google Fonts", license: "SIL Open Font License 1.1" }
+  - { name: "Inter", source: "Google Fonts", license: "SIL Open Font License 1.1" }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님."
+source_depth: full
+status: pass

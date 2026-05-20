@@ -1,0 +1,12 @@
+slug: ppt-vivid-gradient-future
+display_name: 비비드 그라디언트 퓨처
+track: ppt
+family: vivid-gradient-future
+summary: 4정점 메시 그라디언트 풀블리드 배경·발광 3D 형태·굵은 기하 산세리프의 미래지향 AI/테크 키노트 스타일.
+axes: { color: gradient, type: heavy-display, layout: full-bleed, space: balanced, motion: snappy }
+sources:
+  - { title: "Material 3 — Styles", url: "https://m3.material.io/styles", type: official }
+  - { title: "Material 3 Expressive", url: "https://supercharge.design/blog/material-3-expressive", type: article }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님."
+source_depth: full
+status: pass

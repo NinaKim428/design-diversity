@@ -1,0 +1,12 @@
+slug: ppt-keynote-minimal-fullbleed
+display_name: Keynote 미니멀 풀블리드
+track: ppt
+family: keynote-minimal
+summary: 한 슬라이드 한 메시지, 압도적 여백, 풀블리드 사진이 색을 담당하는 애플 키노트식 극단적 미니멀.
+axes: { color: mono, type: minimal-sans, layout: full-bleed, space: airy, motion: subtle }
+sources:
+  - { title: "Apple HIG — Presentation", url: "https://developer.apple.com/design/human-interface-guidelines/presentation", type: official }
+  - { title: "Apple Design Resources", url: "https://developer.apple.com/design/resources/", type: official }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님."
+source_depth: full
+status: pass

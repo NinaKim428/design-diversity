@@ -1,0 +1,16 @@
+slug: web-big-type-statement
+display_name: Big Type Statement
+track: web
+family: big-typography
+summary: clamp 6~14vw 초대형 디스플레이 타이포가 콘텐츠 자체 — 음수 자간, 화면 폭을 넘치는 글자, 무채 + 강조 1색의 타이포그래픽 웹 스타일.
+axes: { color: mono, type: heavy-display, layout: full-bleed, space: airy, motion: subtle }
+sources:
+  - { title: "Editorial Layout Inspiration — Awwwards", url: "https://www.awwwards.com/inspiration/editorial-layout", type: article }
+  - { title: "Swiss Style Principles & Typefaces — PRINT Magazine", url: "https://www.printmag.com/featured/swiss-style-principles-typefaces-designers/", type: article }
+  - { title: "15 Best Magazine Fonts for Editorial Designs — TypeType", url: "https://typetype.org/blog/15-best-magazine-fonts-for-perfect-editorial-designs/", type: article }
+fonts:
+  - { name: "Anton", source: "Google Fonts", license: "SIL Open Font License 1.1" }
+  - { name: "Inter", source: "Google Fonts", license: "SIL Open Font License 1.1" }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님."
+source_depth: full
+status: pass

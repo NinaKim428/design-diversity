@@ -1,0 +1,12 @@
+slug: ppt-glassmorphism
+display_name: 글래스모피즘
+track: ppt
+family: glassmorphism
+summary: 반투명 프로스티드 글래스 패널이 4색 메시 그라디언트 위에 부유, 하이라이트 보더로 깊이감을 만드는 슬라이드 스타일.
+axes: { color: gradient, type: minimal-sans, layout: centered, space: airy, motion: subtle }
+sources:
+  - { title: "Wikipedia — Liquid Glass", url: "https://en.wikipedia.org/wiki/Liquid_Glass", type: article }
+  - { title: "LogRocket — What is Glassmorphism", url: "https://blog.logrocket.com/ux-design/what-is-glassmorphism/", type: article }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님."
+source_depth: full
+status: pass

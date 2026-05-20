@@ -1,0 +1,18 @@
+# dependencies
+node_modules/
+
+# next.js build output
+.next/
+out/
+
+# vercel
+.vercel/
+
+# harness intermediate artifacts (audit trail, not for publish)
+_workspace/
+_workspace_prev/
+
+# os / editor
+.DS_Store
+*.log
+npm-debug.log*

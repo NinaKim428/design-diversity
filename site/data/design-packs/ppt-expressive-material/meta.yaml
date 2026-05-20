@@ -1,0 +1,12 @@
+slug: ppt-expressive-material
+display_name: 익스프레시브 머티리얼
+track: ppt
+family: expressive-material
+summary: Material 3 Expressive 기반 — 토널 색 시스템·5단계 타입 스케일·큰 둥근 모핑 셰이프·스프링 모션의 표현적 슬라이드 스타일.
+axes: { color: vivid-primary, type: mixed, layout: block-grid, space: balanced, motion: playful }
+sources:
+  - { title: "Material 3 — Applying Type", url: "https://m3.material.io/styles/typography/applying-type", type: official }
+  - { title: "Material 3 Expressive — Supercharge", url: "https://supercharge.design/blog/material-3-expressive", type: article }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님."
+source_depth: full
+status: pass

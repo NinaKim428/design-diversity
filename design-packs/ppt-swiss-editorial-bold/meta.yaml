@@ -1,0 +1,12 @@
+slug: ppt-swiss-editorial-bold
+display_name: 스위스 에디토리얼 볼드
+track: ppt
+family: swiss-editorial-bold
+summary: 정밀 12열 그리드 위 거대 압축 디스플레이 활자를 타이포그래픽 일러스트로 쓰는 흑백+스팟 컬러 에디토리얼 스타일.
+axes: { color: vivid-primary, type: heavy-display, layout: strict-grid, space: balanced, motion: snappy }
+sources:
+  - { title: "Bloomberg Businessweek — Commercial Type", url: "https://commercialtype.com/custom/bloomberg_businessweek", type: official }
+  - { title: "At Work With Richard Turley, Bloomberg Businessweek — Magculture", url: "https://magculture.com/blogs/journal/at-work-with-richard-turley-bloomberg-businessweek", type: article }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님."
+source_depth: full
+status: pass

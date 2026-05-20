@@ -1,0 +1,12 @@
+slug: ppt-print-first-newspaper
+display_name: 프린트-퍼스트 뉴스페이퍼
+track: ppt
+family: newspaper-print
+summary: 다단 칼럼·세리프 마스트헤드 헤드라인·룰 라인 구획·뉴스프린트 크림 톤의 신문 1면형 슬라이드 스타일.
+axes: { color: mono, type: serif-editorial, layout: block-grid, space: dense, motion: none }
+sources:
+  - { title: "How to Design a Magazine Layout — Publitas", url: "https://www.publitas.com/blog/how-to-design-a-magazine-layout/", type: article }
+  - { title: "Bloomberg Businessweek — Commercial Type", url: "https://commercialtype.com/custom/bloomberg_businessweek", type: official }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님."
+source_depth: full
+status: pass

@@ -1,0 +1,13 @@
+slug: web-material-expressive
+display_name: Material Expressive
+track: web
+family: material-expressive
+summary: Material 3 Expressive 계보 — 토널 색 시스템·radius 혼용 모핑 셰이프·스프링 통통 모션·가변 굵은 타이포.
+axes: { color: vivid-primary, type: minimal-sans, layout: block-grid, space: balanced, motion: playful }
+sources:
+  - { title: "Material Design 3", url: "https://m3.material.io/", type: official }
+  - { title: "Material 3 — Building with M3 Expressive", url: "https://m3.material.io/blog/building-with-m3-expressive", type: official }
+  - { title: "design.google — Expressive Material Design (Google Research)", url: "https://design.google/library/expressive-material-design-google-research", type: official }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님."
+source_depth: full
+status: pass

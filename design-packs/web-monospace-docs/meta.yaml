@@ -1,0 +1,16 @@
+slug: web-monospace-docs
+display_name: Monospace Docs
+track: web
+family: monospace-docs
+summary: 전면 모노스페이스 타이포·흰 배경·헤어라인 격자·각진 코드 블록으로 짠 라이트 모드 문서/레퍼런스 사이트 스타일. 정보 밀도와 정렬 정밀함만으로 성립.
+axes: { color: mono, type: mono, layout: strict-grid, space: dense, motion: none }
+sources:
+  - { title: "Geist Design System — Vercel", url: "https://vercel.com/geist/introduction", type: official }
+  - { title: "Carbon Design System — IBM", url: "https://carbondesignsystem.com/", type: official }
+  - { title: "Geist UI — GitHub", url: "https://github.com/geist-org/geist-ui", type: official }
+fonts:
+  - { name: "IBM Plex Mono", source: "Google Fonts", license: "SIL Open Font License 1.1" }
+  - { name: "JetBrains Mono", source: "Google Fonts", license: "SIL Open Font License 1.1" }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님."
+source_depth: full
+status: pass

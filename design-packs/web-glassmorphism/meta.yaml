@@ -1,0 +1,16 @@
+slug: web-glassmorphism
+display_name: Glassmorphism
+track: web
+family: glassmorphism
+summary: backdrop-blur 반투명 유리 표면이 보라·핑크·시안 그라디언트 배경 위에 부유하며 레이어 겹침으로 깊이를 만드는 웹 스타일.
+axes: { color: gradient, type: minimal-sans, layout: centered, space: airy, motion: subtle }
+sources:
+  - { title: "Liquid Glass — Wikipedia", url: "https://en.wikipedia.org/wiki/Liquid_Glass", type: article }
+  - { title: "Glassmorphism — Aesthetics Wiki", url: "https://aesthetics.fandom.com/wiki/Glassmorphism", type: article }
+  - { title: "Glassmorphism Meets Accessibility — Axess Lab", url: "https://axesslab.com/glassmorphism-meets-accessibility-can-frosted-glass-be-inclusive/", type: article }
+fonts:
+  - { name: "Inter", source: "Google Fonts", license: "SIL Open Font License 1.1" }
+  - { name: "SF Pro Text / system-ui", source: "system", license: "system font" }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님."
+source_depth: full
+status: pass
