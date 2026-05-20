@@ -13,12 +13,14 @@ export default function HomePage() {
     <>
       <section className="hero">
         <div className="wrap">
-          <h1>AI 디자인의 천편일률을 푸는 디자인 팩 카탈로그</h1>
+          <h1>AI도 매번 다른 PPT와 웹사이트를 만들 수 있습니다</h1>
           <p>
-            생성형 AI에게 PPT나 웹페이지를 맡기면 결과물이 늘 닮습니다. 같은
-            그라디언트, 같은 둥근 카드. Design Diversity는 서로 뚜렷하게
-            구별되는 디자인 스타일을, AI가 그대로 재현할 수 있는 정밀한 지시문
-            <code> prompt.md</code>로 명세화한 카탈로그입니다.
+            AI에게 발표자료나 웹페이지를 맡기면 결과물이 늘 비슷합니다. 같은
+            그라디언트, 같은 둥근 카드. 문제는 AI의 한계가 아니라 “어떤
+            디자인으로”를 알려주지 않은 것뿐입니다. 서로 뚜렷하게 구별되는{" "}
+            <b>80가지 디자인 스타일</b>을 AI가 그대로 재현하는 지시문
+            <code> prompt.md</code>로 정리해 뒀습니다. 골라서 복사해 붙여넣기만
+            하세요.
           </p>
           <div className="stats">
             <span>
