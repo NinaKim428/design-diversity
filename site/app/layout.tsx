@@ -2,10 +2,30 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import "./globals.css";
 
+const SITE_URL = "https://design-diversity.vercel.app";
+const TITLE = "AI도 매번 다른 PPT와 웹사이트를 만들 수 있습니다";
+const DESC =
+  "AI에게 발표자료·웹페이지를 맡기면 결과물이 늘 비슷합니다. 서로 뚜렷이 구별되는 80가지 디자인 스타일을 골라 Claude가 그대로 만들게 하는 디자인 팩 카탈로그.";
+
 export const metadata: Metadata = {
-  title: "Design Diversity — 디자인 팩 카탈로그",
-  description:
-    "Claude가 만드는 PPT·웹 디자인의 천편일률을 푸는, 복붙 가능한 디자인 팩 카탈로그. 40개의 뚜렷한 디자인 스타일을 prompt.md로 명세화했다.",
+  metadataBase: new URL(SITE_URL),
+  title: "Design Diversity — AI 디자인 팩 카탈로그",
+  description: DESC,
+  openGraph: {
+    title: TITLE,
+    description: DESC,
+    url: SITE_URL,
+    siteName: "Design Diversity",
+    locale: "ko_KR",
+    type: "website",
+    images: [{ url: "/og.png", width: 1200, height: 630, alt: TITLE }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: TITLE,
+    description: DESC,
+    images: ["/og.png"],
+  },
 };
 
 export default function RootLayout({

@@ -50,31 +50,40 @@ export default function HomePage() {
             <li>
               <span className="usage-num">2</span>
               <div>
-                <b>지시문을 복사합니다.</b> 팩 상세 페이지의{" "}
-                <code>prompt.md</code> 블록을 “복사” 버튼으로 통째로 복사합니다.
+                <b>적용 명령을 복사합니다.</b> 팩 상세 페이지에서{" "}
+                <code>design-pick</code> 스킬 적용 명령 한 줄을 복사합니다.
+                (스킬 없이 쓰려면 <code>prompt.md</code> 전문을 복사해도 됩니다.)
               </div>
             </li>
             <li>
               <span className="usage-num">3</span>
               <div>
-                <b>Claude / Claude Code에 붙여넣습니다.</b> 지시문을 붙여넣고
-                이렇게 요청하세요:
+                <b>Claude Code에 붙여넣습니다.</b> 이렇게 요청하면 그 스타일로
+                만들어 줍니다:
                 <div className="usage-eg">
                   <span className="usage-eg-tag ppt">PPT</span>
-                  “위 디자인 팩을 그대로 따라 <i>2026 사업계획</i> 발표자료를
-                  만들어줘”
+                  “design-pick 스킬로 <i>ppt-mckinsey-ghost-deck</i> 팩을 적용해
+                  2026 사업계획 발표자료를 만들어줘”
                 </div>
                 <div className="usage-eg">
                   <span className="usage-eg-tag web">웹</span>
-                  “위 디자인 팩 스타일로 <i>제품 소개</i> 랜딩페이지를 만들어줘”
+                  “design-pick 스킬로 <i>web-velvet-dark-boutique</i> 팩을 적용해
+                  제품 소개 웹사이트를 만들어줘”
                 </div>
               </div>
             </li>
           </ol>
           <p className="usage-note">
-            PPT 팩은 표지·본문·차트·다이어그램(프로세스·타임라인·매트릭스 등)
-            양식까지, 웹 팩은 레이아웃·컴포넌트·모션까지 한 벌로 명세돼 있어 AI가
-            일관된 결과물을 냅니다.
+            <b>design-pick 스킬</b>은{" "}
+            <a
+              href="https://github.com/epoko77-ai/design-diversity"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub 저장소
+            </a>
+            에서 받아 Claude Code에 설치합니다. 80개 팩 명세가 스킬에 번들돼
+            있어, 느낌만 말해도 어울리는 팩을 추천받을 수 있습니다.
           </p>
         </div>
       </section>

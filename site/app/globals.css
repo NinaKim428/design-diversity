@@ -639,3 +639,48 @@ img {
   color: var(--ink-faint);
   line-height: 1.55;
 }
+
+/* ===== Pack detail — design-pick skill apply ===== */
+.skill-apply {
+  border: 1px solid var(--line-strong);
+}
+.skill-lead {
+  font-size: 13.5px;
+  color: var(--ink-soft);
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+.cmd-pre {
+  max-height: none !important;
+  overflow: visible !important;
+  font-size: 13.5px !important;
+  line-height: 1.65 !important;
+  white-space: pre-wrap;
+  color: var(--ink) !important;
+}
+.prompt-fallback {
+  background: var(--surface);
+}
+.prompt-fallback > summary {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink-soft);
+  list-style: none;
+  padding: 2px 0;
+}
+.prompt-fallback > summary::-webkit-details-marker { display: none; }
+.prompt-fallback > summary::before {
+  content: "▸ ";
+  color: var(--ink-faint);
+}
+.prompt-fallback[open] > summary::before { content: "▾ "; }
+.prompt-fallback > summary:hover { color: var(--ink); }
+
+.usage a,
+.usage-box-note a,
+.license-note a {
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}

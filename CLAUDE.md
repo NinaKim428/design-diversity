@@ -12,7 +12,7 @@
 
 **발행:**
 - GitHub: https://github.com/epoko77-ai/design-diversity (공개)
-- 사이트(production): https://site-six-kappa-74.vercel.app — Vercel 프로젝트 `site` (team epoko77-9135), Deployment Protection 해제됨
+- 사이트(production): https://design-diversity.vercel.app — Vercel 프로젝트 `site` (team epoko77-9135), Deployment Protection 해제됨
 - 카탈로그: 80팩 (PPT 40 + 웹 40), 전부 status pass. PPT는 차트 + 다이어그램·컴포넌트 키트 포함
 
 **변경 이력:**

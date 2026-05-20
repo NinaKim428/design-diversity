@@ -203,47 +203,61 @@ export default async function PackPage({
             </div>
           </div>
 
-          {/* RIGHT — prompt.md + copy (primary action) */}
+          {/* RIGHT — design-pick skill (primary) + prompt.md (fallback) */}
           <div>
-            <div className="section">
-              <h2>디자인 지시문 — 이 블록을 복사하세요</h2>
+            <div className="section skill-apply">
+              <h2>이 팩 적용하기 — design-pick 스킬</h2>
+              <p className="skill-lead">
+                Claude Code에 <code>design-pick</code> 스킬이 설치돼 있으면,
+                아래 한 줄을 붙여넣는 것으로 이 팩이 적용됩니다.
+              </p>
               <div className="prompt-box">
+                <div className="prompt-bar">
+                  <span>{pack.track === "ppt" ? "PPT 만들기" : "웹사이트 만들기"}</span>
+                  <CopyButton
+                    text={
+                      pack.track === "ppt"
+                        ? `design-pick 스킬로 "${pack.slug}" 팩을 적용해서 [내 주제] 발표자료를 만들어줘`
+                        : `design-pick 스킬로 "${pack.slug}" 팩을 적용해서 [내 주제] 웹사이트를 만들어줘`
+                    }
+                  />
+                </div>
+                <pre className="prompt-pre cmd-pre">
+                  {pack.track === "ppt"
+                    ? `design-pick 스킬로 "${pack.slug}" 팩을\n적용해서 [내 주제] 발표자료를 만들어줘`
+                    : `design-pick 스킬로 "${pack.slug}" 팩을\n적용해서 [내 주제] 웹사이트를 만들어줘`}
+                </pre>
+              </div>
+              <p className="usage-box-note">
+                스킬이 없다면 — GitHub 저장소의{" "}
+                <a
+                  href="https://github.com/epoko77-ai/design-diversity"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  design-diversity
+                </a>{" "}
+                에서 <code>skills/design-pick</code>을{" "}
+                <code>.claude/skills/</code>에 복사하면 됩니다.
+              </p>
+            </div>
+
+            <details className="section prompt-fallback">
+              <summary>
+                스킬 없이 쓰기 — 디자인 지시문(prompt.md) 직접 복사
+              </summary>
+              <div className="prompt-box" style={{ marginTop: 12 }}>
                 <div className="prompt-bar">
                   <span>prompt.md</span>
                   <CopyButton text={pack.promptMd} />
                 </div>
                 <pre className="prompt-pre">{pack.promptMd}</pre>
               </div>
-            </div>
-
-            <div className="section usage-box">
-              <h2>사용법</h2>
-              <ol className="usage-mini">
-                <li>위 <code>prompt.md</code> 블록을 “복사” 버튼으로 복사합니다.</li>
-                <li>Claude(claude.ai) 또는 Claude Code에 붙여넣습니다.</li>
-                <li>이어서 아래처럼 요청합니다:</li>
-              </ol>
-              <div className="usage-cmd">
-                {pack.track === "ppt" ? (
-                  <>
-                    <span className="usage-eg-tag ppt">PPT</span>
-                    위 디자인 팩을 그대로 따라 <i>[내 주제]</i> 발표자료를
-                    만들어줘. 표지·본문·차트·다이어그램까지 이 스타일로.
-                  </>
-                ) : (
-                  <>
-                    <span className="usage-eg-tag web">웹</span>
-                    위 디자인 팩 스타일로 <i>[내 주제]</i> 웹페이지를 만들어줘.
-                    레이아웃·컴포넌트·모션까지 이 명세대로.
-                  </>
-                )}
-              </div>
               <p className="usage-box-note">
-                {pack.track === "ppt"
-                  ? "PPT 생성은 Claude Code의 슬라이드 제작 도구와 함께 쓰면 가장 정확합니다."
-                  : "웹페이지는 Claude Code에서 HTML/React로 바로 구현하도록 요청하세요."}
+                복사한 지시문을 Claude(claude.ai)나 Claude Code에 붙여넣고
+                “위 디자인 팩을 그대로 따라 [내 주제]로 만들어줘”라고 요청하세요.
               </p>
-            </div>
+            </details>
           </div>
         </div>
       </div>
