@@ -1,0 +1,14 @@
+slug: ppt-soft-pastel-system-deck
+display_name: 소프트 파스텔 시스템
+track: ppt
+family: soft-pastel-system
+summary: 포근한 오프화이트 캔버스에 라일락·민트·피치 파스텔 3색, 부드러운 멀티 섀도가 통통한 라운드 카드·노드를 살짝 띄우는 촉각적 소프트 UI 다이어그램 키트.
+axes: { color: pastel, type: minimal-sans, layout: centered, space: balanced, motion: snappy }
+diagram_kit: "프로세스=통통한 라운드 사각 노드 + 떠 있는 흰 원 번호 배지 / 타임라인=라운드 베이스 라인 + 부푼 원형 도트(현재만 펄스 링) / 비교=라운드 카드(추천만 들어 올림) / 매트릭스=4 라운드 존 + 부푼 원형 버블 / 계층·퍼널=라운드 적층 단(파스텔 명도 단계) / KPI=부푼 라운드 카드 + 파스텔 원 칩 아이콘 + 도넛 링 / 차트=라운드캡 막대·곡선 보간 라인·라운드 아크 도넛"
+sources:
+  - { title: "Slidesgo — KPI Measurement Tool Pitch Deck", url: "https://slidesgo.com/theme/kpi-measurement-tool-pitch-deck", type: article }
+  - { title: "GraphicRiver — KPI and Dashboard Graphics", url: "https://graphicriver.net/kpi-and-dashboard-graphics", type: article }
+  - { title: "SlideBazaar — 5-Step Pyramid Diagram", url: "https://slidebazaar.com/items/5-step-pyramid-diagram/", type: article }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님."
+source_depth: full
+status: pass

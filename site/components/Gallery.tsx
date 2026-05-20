@@ -17,11 +17,52 @@ function uniqSorted(values: (string | undefined)[]): string[] {
   return Array.from(new Set(values.filter(Boolean) as string[])).sort();
 }
 
+function PackCard({ p }: { p: CatalogPack }) {
+  return (
+    <Link
+      href={`/pack/${p.slug}/`}
+      className="card"
+      prefetch={false}
+    >
+      <div className="card-thumb">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src={`/previews/${p.slug}.png`}
+          alt={`${p.display_name} 미리보기`}
+          loading="lazy"
+        />
+      </div>
+      <div className="card-body">
+        <div className="card-top">
+          <span className={`badge badge-${p.track}`}>
+            {TRACK_LABELS[p.track]}
+          </span>
+          {p.status !== "pass" && (
+            <span className="badge badge-draft">{p.status}</span>
+          )}
+          <span className="card-title">{p.display_name}</span>
+        </div>
+        <p className="card-summary">{p.summary}</p>
+        <div className="card-axes">
+          {AXIS_ORDER.map(
+            (axis) =>
+              p.axes?.[axis] && (
+                <span className="tag" key={axis}>
+                  {p.axes[axis]}
+                </span>
+              )
+          )}
+        </div>
+      </div>
+    </Link>
+  );
+}
+
 export default function Gallery({ packs }: { packs: CatalogPack[] }) {
   const [track, setTrack] = useState<string>("all");
-  const [axisFilters, setAxisFilters] = useState<Partial<Record<keyof Axes, string>>>(
-    {}
-  );
+  const [axisFilters, setAxisFilters] = useState<
+    Partial<Record<keyof Axes, string>>
+  >({});
 
   const axisOptions = useMemo(() => {
     const opts: Record<string, string[]> = {};
@@ -42,6 +83,9 @@ export default function Gallery({ packs }: { packs: CatalogPack[] }) {
     });
   }, [packs, track, axisFilters]);
 
+  const pptPacks = filtered.filter((p) => p.track === "ppt");
+  const webPacks = filtered.filter((p) => p.track === "web");
+
   function toggleAxis(axis: keyof Axes, value: string) {
     setAxisFilters((prev) => ({
       ...prev,
@@ -49,26 +93,43 @@ export default function Gallery({ packs }: { packs: CatalogPack[] }) {
     }));
   }
 
-  const hasFilter =
-    track !== "all" || Object.values(axisFilters).some(Boolean);
+  const hasAxisFilter = Object.values(axisFilters).some(Boolean);
+
+  const SEG: { id: string; label: string; sub: string }[] = [
+    { id: "all", label: "전체", sub: `${packs.length}` },
+    {
+      id: "ppt",
+      label: "프레젠테이션 · PPT",
+      sub: `${packs.filter((p) => p.track === "ppt").length}`,
+    },
+    {
+      id: "web",
+      label: "웹사이트",
+      sub: `${packs.filter((p) => p.track === "web").length}`,
+    },
+  ];
 
   return (
-    <>
-      <section className="filters">
-        <div className="wrap">
-          <div className="filter-row">
-            <span className="filter-label">트랙</span>
-            {["all", "ppt", "web"].map((t) => (
-              <button
-                key={t}
-                className="chip"
-                aria-pressed={track === t}
-                onClick={() => setTrack(t)}
-              >
-                {t === "all" ? "전체" : TRACK_LABELS[t]}
-              </button>
-            ))}
-          </div>
+    <section className="catalog">
+      <div className="wrap">
+        {/* prominent PPT / Website separation */}
+        <div className="seg" role="tablist" aria-label="트랙 선택">
+          {SEG.map((s) => (
+            <button
+              key={s.id}
+              role="tab"
+              aria-selected={track === s.id}
+              className="seg-btn"
+              onClick={() => setTrack(s.id)}
+            >
+              {s.label}
+              <span className="seg-count">{s.sub}</span>
+            </button>
+          ))}
+        </div>
+
+        {/* axis filters */}
+        <div className="filters-inline">
           {AXIS_ORDER.map((axis) => (
             <div className="filter-row" key={axis}>
               <span className="filter-label">{AXIS_LABELS[axis]}</span>
@@ -84,77 +145,72 @@ export default function Gallery({ packs }: { packs: CatalogPack[] }) {
               ))}
             </div>
           ))}
-        </div>
-      </section>
-
-      <div className="wrap">
-        <p className="result-count">
-          {filtered.length}개 팩
-          {hasFilter && (
-            <>
-              {" "}
-              <button
-                className="chip"
-                style={{ marginLeft: 8 }}
-                onClick={() => {
-                  setTrack("all");
-                  setAxisFilters({});
-                }}
-              >
-                필터 초기화
-              </button>
-            </>
-          )}
-        </p>
-
-        <div className="grid">
-          {filtered.map((p) => (
-            <Link
-              href={`/pack/${p.slug}/`}
-              key={p.slug}
-              className="card"
-              prefetch={false}
+          {hasAxisFilter && (
+            <button
+              className="chip chip-reset"
+              onClick={() => setAxisFilters({})}
             >
-              <div className="card-thumb">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src={`/previews/${p.slug}.png`}
-                  alt={`${p.display_name} 미리보기`}
-                  loading="lazy"
-                />
-              </div>
-              <div className="card-body">
-                <div className="card-top">
-                  <span className={`badge badge-${p.track}`}>
-                    {TRACK_LABELS[p.track]}
-                  </span>
-                  {p.status !== "pass" && (
-                    <span className="badge badge-draft">{p.status}</span>
-                  )}
-                  <span className="card-title">{p.display_name}</span>
-                </div>
-                <p className="card-summary">{p.summary}</p>
-                <div className="card-axes">
-                  {AXIS_ORDER.map(
-                    (axis) =>
-                      p.axes?.[axis] && (
-                        <span className="tag" key={axis}>
-                          {p.axes[axis]}
-                        </span>
-                      )
-                  )}
-                </div>
-              </div>
-            </Link>
-          ))}
+              축 필터 초기화
+            </button>
+          )}
         </div>
 
         {filtered.length === 0 && (
-          <p style={{ padding: "40px 0", color: "var(--ink-faint)" }}>
+          <p style={{ padding: "48px 0", color: "var(--ink-faint)" }}>
             조건에 맞는 팩이 없습니다. 필터를 조정해 보세요.
           </p>
         )}
+
+        {/* "전체" → grouped by track; specific track → single grid */}
+        {track === "all" ? (
+          <>
+            {pptPacks.length > 0 && (
+              <div className="track-group">
+                <div className="track-head">
+                  <span className="badge badge-ppt">프레젠테이션 · PPT</span>
+                  <h2>발표자료 디자인 팩</h2>
+                  <span className="track-count">{pptPacks.length}팩</span>
+                </div>
+                <p className="track-desc">
+                  표지·본문·차트·다이어그램 양식까지 한 벌로 명세된 슬라이드 덱
+                  스타일.
+                </p>
+                <div className="grid">
+                  {pptPacks.map((p) => (
+                    <PackCard p={p} key={p.slug} />
+                  ))}
+                </div>
+              </div>
+            )}
+            {webPacks.length > 0 && (
+              <div className="track-group">
+                <div className="track-head">
+                  <span className="badge badge-web">웹사이트</span>
+                  <h2>웹사이트 디자인 팩</h2>
+                  <span className="track-count">{webPacks.length}팩</span>
+                </div>
+                <p className="track-desc">
+                  레이아웃·컴포넌트·타이포·모션까지 명세된 웹페이지 스타일.
+                </p>
+                <div className="grid">
+                  {webPacks.map((p) => (
+                    <PackCard p={p} key={p.slug} />
+                  ))}
+                </div>
+              </div>
+            )}
+          </>
+        ) : (
+          <div className="track-group">
+            <p className="result-count">{filtered.length}개 팩</p>
+            <div className="grid">
+              {filtered.map((p) => (
+                <PackCard p={p} key={p.slug} />
+              ))}
+            </div>
+          </div>
+        )}
       </div>
-    </>
+    </section>
   );
 }

@@ -1,0 +1,13 @@
+slug: ppt-editorial-infographic-deck
+display_name: Editorial Infographic Deck
+track: ppt
+family: editorial-infographic
+summary: 오프화이트 지면에 큰 세리프 헤드라인 + 산세리프 캡션, 가는 룰 라인 구획과 잉크 단색 데이터로 데이터 저널리즘식 인포그래픽을 조판하는 PPT 다이어그램 키트 팩. 강조는 잉크 레드 한 점.
+axes: { color: vivid-primary, type: serif-editorial, layout: block-grid, space: balanced, motion: none }
+sources:
+  - { title: "PresentationGO — Charts & Diagrams", url: "https://www.presentationgo.com/presentation/category/charts-diagrams/", type: official }
+  - { title: "StrategyU — Slide Layouts", url: "https://strategyu.co/slide-layouts/", type: article }
+  - { title: "24Slides — Consulting Presentation Templates", url: "https://24slides.com/presentbetter/consulting-presentation-templates", type: article }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님."
+source_depth: full
+status: pass

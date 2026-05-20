@@ -1,0 +1,12 @@
+slug: web-iridescent-noir-prestige
+display_name: 이리데센트 누아르 프레스티지
+track: web
+family: iridescent-noir-prestige
+summary: 딥 잉크 블랙 위 가장자리 한정 홀로그래픽 메탈릭 — 실버·바이올렛·시안 이리데센트가 1px 보더·텍스트 가장자리에만, 가는 그로테스크+등폭 모노 혼합, 비대칭 배치, 절제된 흐름 모션.
+axes: { color: gradient, type: mixed, layout: asymmetric, space: airy, motion: subtle }
+sources:
+  - { title: "Endschema — Dark Mode Premium E-commerce Design 2026", url: "https://www.endschema.com/dark-mode-premium-ecommerce-design-2026/", type: article }
+  - { title: "AND Academy — Color Trends for Designers", url: "https://www.andacademy.com/resources/blog/graphic-design/color-trends-for-designers/", type: article }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님. 폰트는 공개 웹폰트(Geist OFL · Geist Mono OFL · Inter Tight OFL). 이리데센트는 CSS gradient/blend 원리로 명세 — 독점 그래픽 자산 미포함."
+source_depth: full
+status: pass

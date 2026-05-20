@@ -1,0 +1,12 @@
+slug: web-couture-color-block
+display_name: 쿠튀르 컬러 블록
+track: web
+family: couture-color-block
+summary: 흰 캔버스에 채도 있는 솔리드 컬러 블록(버건디·포레스트·코발트)이 큼직하게 비대칭으로 깔리고 가는 디스플레이 세리프와 경계를 가로지르는 룩북 사진이 얹히는, 모션 없는 정적 쿠튀르 컬러 블록 웹 스타일.
+axes: { color: vivid-primary, type: serif-editorial, layout: asymmetric, space: airy, motion: none }
+sources:
+  - { title: "Awwwards — Fashion Websites", url: "https://www.awwwards.com/websites/fashion/", type: article }
+  - { title: "Selvane — Typography and Fashion: The Visual Language of Luxury", url: "https://www.selvane.co/blogs/knowledge/typography-and-fashion-the-visual-language-of-luxury", type: article }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님. 폰트는 공개 웹폰트(Playfair Display·Bodoni Moda·Inter, OFL). 룩북 사진은 placeholder 규격만. 버건디·포레스트·코발트 블록색은 브랜드 고유색을 회피한 본 팩 자체 지정값."
+source_depth: full
+status: pass

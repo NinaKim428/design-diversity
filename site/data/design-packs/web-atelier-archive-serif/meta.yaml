@@ -1,0 +1,12 @@
+slug: web-atelier-archive-serif
+display_name: 아틀리에 아카이브 세리프
+track: web
+family: atelier-archive-serif
+summary: 미술관 도록 미감의 갤러리 웹 — 12열 엄격 그리드·좌측 세리프 작품 인덱스·우측 단일 작품 이미지·세리프+산세리프+모노 3겹 타이포·무채 잉크.
+axes: { color: mono, type: mixed, layout: strict-grid, space: airy, motion: none }
+sources:
+  - { title: "Subframe — Museum Website Design Examples", url: "https://www.subframe.com/tips/museum-website-design-examples", type: article }
+  - { title: "Axiell — The Definitive Museum Guide to Fonts", url: "https://www.axiell.com/blog-post/the-definitive-museum-guide-to-fonts/", type: article }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님. 폰트는 공개 웹폰트(Source Serif 4 OFL · Spectral OFL · Inter OFL · IBM Plex Mono OFL). 작품 이미지는 placeholder 규격만 — 실제 작품·브랜드 자산 미포함."
+source_depth: full
+status: pass

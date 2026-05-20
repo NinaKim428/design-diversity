@@ -1,0 +1,12 @@
+slug: web-prestige-saas-restraint
+display_name: 프레스티지 SaaS 리스트레인트
+track: web
+family: prestige-saas-restraint
+summary: 오프화이트 배경에 미디엄 그로테스크 헤드라인·세리프 악센트 한 단어·잉크 슬레이트 네이비 단색·비대칭 제품 스크린샷·스냅 마이크로인터랙션의 절제된 프리미엄 SaaS 웹 스타일.
+axes: { color: mono, type: mixed, layout: asymmetric, space: airy, motion: snappy }
+sources:
+  - { title: "Framiq — Best SaaS Landing Pages 2026", url: "https://framiq.app/blog/best-saas-landing-pages-2026", type: article }
+  - { title: "Ariel Digital Marketing — Design Psychology of Premium Web Design 2026", url: "https://www.arieldigitalmarketing.com/blog/design-psychology-premium-web-design-2026/", type: article }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님. 폰트는 공개 웹폰트(Geist·Inter·Source Serif 4, OFL). 제품 스크린샷은 placeholder 규격만. 슬레이트 네이비는 본 팩 자체 지정값."
+source_depth: full
+status: pass

@@ -1,0 +1,14 @@
+slug: ppt-mckinsey-ghost-deck
+display_name: MBB Ghost Deck Framework
+track: ppt
+family: mbb-ghost
+summary: 순백 캔버스 위 완결 문장 액션 타이틀 + 무채색 슬레이트 본문, 워터폴·메코·2×2 매트릭스를 기본 어휘로 하는 컨설팅 다이어그램 키트형 PPT 팩. 강조는 색이 아닌 굵기·잉크 네이비 채움 1칸.
+axes: { color: mono, type: minimal-sans, layout: asymmetric, space: balanced, motion: none }
+sources:
+  - { title: "The Analyst Academy — Consulting Slide Structure", url: "https://www.theanalystacademy.com/consulting-slide-structure/", type: article }
+  - { title: "SlideModel — McKinsey Presentation Structure", url: "https://slidemodel.com/mckinsey-presentation-structure/", type: article }
+  - { title: "StrategyU — Slide Layouts", url: "https://strategyu.co/slide-layouts/", type: article }
+  - { title: "YouExec — The BCG Matrix", url: "https://youexec.com/tools/the-bcg-matrix", type: article }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님. 클라이언트 실명·MBB 로고는 복제하지 않음."
+source_depth: full
+status: pass

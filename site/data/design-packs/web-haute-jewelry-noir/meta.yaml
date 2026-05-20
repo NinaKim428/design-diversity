@@ -1,0 +1,12 @@
+slug: web-haute-jewelry-noir
+display_name: 오트 주얼리 누아르
+track: web
+family: haute-jewelry-noir
+summary: 오트 주얼리 단일 오브제 쇼케이스 — 순흑 캔버스·중앙 라디얼 스포트라이트·가는 하이콘트라스트 세리프·샴페인 골드 헤어라인·영화적 느린 스크롤 회전.
+axes: { color: dark, type: serif-editorial, layout: centered, space: airy, motion: playful }
+sources:
+  - { title: "WebGPU — Jewelry Ring 3D Configurator Showcase", url: "https://www.webgpu.com/showcase/jewelry-ring-3d-configurator/", type: article }
+  - { title: "Awwwards — Luxury Websites", url: "https://www.awwwards.com/websites/luxury/", type: article }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님. 폰트는 공개 웹폰트(Cormorant OFL · Bodoni Moda OFL · Inter OFL). 영감 브랜드의 로고·워드마크·독점색 미복제 — 골드는 본 팩 지정값 #c8a96a. 제품 렌더는 placeholder 규격만."
+source_depth: full
+status: pass

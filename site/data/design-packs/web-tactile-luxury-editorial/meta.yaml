@@ -1,0 +1,12 @@
+slug: web-tactile-luxury-editorial
+display_name: 택타일 럭셔리 에디토리얼
+track: web
+family: tactile-luxury-editorial
+summary: 크림-샌드 페이퍼 배경에 절차적 그레인 텍스처·비대칭 다단 매거진 그리드·세리프와 산세리프 혼합·종이처럼 떠 있는 카드의 촉각적 럭셔리 에디토리얼 웹 스타일.
+axes: { color: earth, type: mixed, layout: asymmetric, space: balanced, motion: subtle }
+sources:
+  - { title: "Snix — Tactile Maximalism Web Design 2026", url: "https://www.snix.mt/post/tactile-maximalism-web-design-2026", type: article }
+  - { title: "Creative Bloq — Texture, Warmth and Tactile Rebellion: 2026 Graphic Design Trends", url: "https://www.creativebloq.com/design/graphic-design/texture-warmth-and-tactile-rebellion-the-big-graphic-design-trends-for-2026", type: article }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님. 폰트는 공개 웹폰트(Spectral·Source Serif 4·Inter, OFL). 텍스처는 절차적 SVG/CSS 생성물로 스톡 자산 미사용. 어스 강조색은 본 팩 자체 지정값."
+source_depth: full
+status: pass

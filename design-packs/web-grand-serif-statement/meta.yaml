@@ -1,0 +1,12 @@
+slug: web-grand-serif-statement
+display_name: 그랜드 세리프 스테이트먼트
+track: web
+family: grand-serif-statement
+summary: 오프화이트 캔버스를 한 화면에 가득 채우는 초대형 디스플레이 세리프 단어·음수 자간 압축·한 모서리의 극소 산세리프 본문·강조색 없는 잉크 무채·크로스페이드 전환의 빅타이포 스테이트먼트 웹 스타일.
+axes: { color: mono, type: serif-editorial, layout: full-bleed, space: balanced, motion: subtle }
+sources:
+  - { title: "The Source — Best Website Designs 2026", url: "https://thesource.com/2026/04/03/best-website-designs-2026/", type: article }
+  - { title: "Awwwards — Editorial Layout Inspiration", url: "https://www.awwwards.com/inspiration/editorial-layout", type: article }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님. 폰트는 공개 웹폰트(Playfair Display·Fraunces·Inter, OFL). 특정 브랜드 활자·워드마크 미사용."
+source_depth: full
+status: pass

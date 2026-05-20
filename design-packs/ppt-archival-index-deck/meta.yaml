@@ -1,0 +1,14 @@
+slug: ppt-archival-index-deck
+display_name: 아카이벌 인덱스
+track: ppt
+family: archival-index
+summary: 종이빛 베이지 캔버스에 세리프 + 등폭 혼합, 도서관 카드·아카이브 대장처럼 모든 다이어그램이 번호·라벨·룰 라인으로 색인되는 빽빽한 카탈로그 미감.
+axes: { color: mono, type: mixed, layout: strict-grid, space: dense, motion: none }
+diagram_kit: "프로세스=번호 매겨진 대장 행 셀 + 등폭 인덱스 번호(화살표 없이 룰 연속성) / 타임라인=수직 인덱스 타임라인(등폭 연도 컬럼 + 세로 룰) / 비교=카탈로그 다열 표(소형 대문자 헤더·등폭 우정렬 수치) / 매트릭스=표 형식 2×2 + 인덱스 코드 A1~B2 / 계층=들여쓰기 인덱스 트리(목차식 번호) / KPI=대장 행 카드 + 등폭 코드 + 44pt 등폭 수치 / 차트=윤곽·해치 막대(텍스처 인코딩)·도판 번호·세리프 출처 각주"
+sources:
+  - { title: "StrategyU — Consulting Slide Layouts", url: "https://strategyu.co/slide-layouts/", type: article }
+  - { title: "PresentationGO — Charts & Diagrams", url: "https://www.presentationgo.com/presentation/category/charts-diagrams/", type: article }
+  - { title: "24slides — Consulting Presentation Templates", url: "https://24slides.com/presentbetter/consulting-presentation-templates", type: article }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님."
+source_depth: full
+status: pass

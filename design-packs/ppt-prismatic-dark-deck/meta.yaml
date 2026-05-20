@@ -1,0 +1,14 @@
+slug: ppt-prismatic-dark-deck
+display_name: 프리즈매틱 다크 다이어그램
+track: ppt
+family: prismatic-dark
+summary: 잉크 네이비-블랙 배경 위 다이어그램 노드·라인이 시안→마젠타→앰버 프리즘 그라디언트로 발광하는, 빛으로 그린 윤곽선 다이어그램 키트.
+axes: { color: gradient, type: minimal-sans, layout: full-bleed, space: balanced, motion: snappy }
+diagram_kit: "프로세스=투명 채움 캡슐 + 발광 그라디언트 라인 커넥터 + 끝 빛 점 / 타임라인=수평 그라디언트 빔 + 발광 노드 마일스톤 / 비교=다크 글래스 패널(추천만 보더 글로우) / 매트릭스=1px 그라디언트 십자 + 발광 도트(밝기=값) / 계층·퍼널=적층 투명 캡슐(그라디언트 위치 이동) / KPI=다크 글래스 카드 + 프리즘 그라디언트 텍스트 수치 + 도넛 링 / 차트=발광 그라디언트 폴리라인·페이드 면적·윗면 글로우 막대"
+sources:
+  - { title: "Slidesgo — KPI Dashboard Software Pitch Deck", url: "https://slidesgo.com/theme/kpi-dashboard-software-pitch-deck", type: article }
+  - { title: "SlideGeeks — KPI Deck", url: "https://www.slidegeeks.com/powerpoint/Kpi-Deck", type: article }
+  - { title: "SlideBazaar — Gradient VC Pitch Deck", url: "https://slidebazaar.com/templates/gradient-vc-pitch-deck-powerpoint-google-slides/", type: article }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님."
+source_depth: full
+status: pass

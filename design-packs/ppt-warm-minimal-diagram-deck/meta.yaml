@@ -1,0 +1,14 @@
+slug: ppt-warm-minimal-diagram-deck
+display_name: 웜 미니멀 다이어그램
+track: ppt
+family: warm-minimal-diagram
+summary: 따뜻한 샌드-아이보리 캔버스에 잉크 브라운 본문, 단일 테라코타 강조, 가는 1pt 라인 다이어그램과 넉넉한 여백의 절제된 따뜻한 미니멀 다이어그램 키트.
+axes: { color: earth, type: minimal-sans, layout: centered, space: airy, motion: none }
+diagram_kit: "프로세스=라운드 무채움 노드 + 1pt 곡선 커넥터 + 테라코타 원 번호 배지 / 타임라인=가는 수평선 + 속 빈 원 마커(현재만 테라코타 솔리드)·상하 교대 라벨 / 비교=2~3열 헤어라인 룰 + 라인 체크 아이콘 / 매트릭스=1pt 십자 축 + 속 빈 원(강조만 테라코타 솔리드) / 계층·퍼널=가는 윤곽선 적층 사다리꼴 + 라인 리더 / KPI=1pt 보더 라운드 카드 + 52pt 라이트 수치 + 테라코타 라인 화살표 델타 / 차트=1pt 헤어라인 라인 차트·가는 윤곽 막대(강조 1개 테라코타 채움)"
+sources:
+  - { title: "24slides — Consulting Presentation Templates", url: "https://24slides.com/presentbetter/consulting-presentation-templates", type: article }
+  - { title: "PresentationGO — Charts & Diagrams", url: "https://www.presentationgo.com/presentation/category/charts-diagrams/", type: article }
+  - { title: "SlideModel — Isometric Templates", url: "https://slidemodel.com/templates/tag/isometric/", type: article }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님."
+source_depth: full
+status: pass

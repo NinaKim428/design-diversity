@@ -1,0 +1,13 @@
+slug: ppt-vivid-gradient-infographic-deck
+display_name: Vivid Gradient Infographic Deck
+track: ppt
+family: gradient-infographic
+summary: 라이트 캔버스 위 채도 높은 바이올렛→코랄 듀오톤 그라디언트가 둥근 노드·아이콘 칩·KPI 링·차트 데이터를 한 스케일로 채우는 PPT 다이어그램 키트 팩. 배경은 항상 라이트.
+axes: { color: gradient, type: heavy-display, layout: block-grid, space: balanced, motion: playful }
+sources:
+  - { title: "SlideBazaar — Gradient VC Pitch Deck", url: "https://slidebazaar.com/templates/gradient-vc-pitch-deck-powerpoint-google-slides/", type: official }
+  - { title: "Slidesgo — Formal Modern Gradients Pitch Deck", url: "https://slidesgo.com/theme/basic-template-formal-modern-gradients-pitch-deck", type: official }
+  - { title: "Slidesgo — KPI Dashboard Software Pitch Deck", url: "https://slidesgo.com/theme/kpi-dashboard-software-pitch-deck", type: official }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님."
+source_depth: full
+status: pass

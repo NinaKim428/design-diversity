@@ -214,16 +214,34 @@ export default async function PackPage({
                 </div>
                 <pre className="prompt-pre">{pack.promptMd}</pre>
               </div>
-              <p
-                style={{
-                  fontSize: 12.5,
-                  color: "var(--ink-faint)",
-                  marginTop: 10,
-                  lineHeight: 1.55,
-                }}
-              >
-                복사한 지시문을 Claude Code 등 AI 도구에 붙여넣고 “위 디자인
-                팩을 그대로 따라 [내 주제]로 만들어줘”라고 요청하세요.
+            </div>
+
+            <div className="section usage-box">
+              <h2>사용법</h2>
+              <ol className="usage-mini">
+                <li>위 <code>prompt.md</code> 블록을 “복사” 버튼으로 복사합니다.</li>
+                <li>Claude(claude.ai) 또는 Claude Code에 붙여넣습니다.</li>
+                <li>이어서 아래처럼 요청합니다:</li>
+              </ol>
+              <div className="usage-cmd">
+                {pack.track === "ppt" ? (
+                  <>
+                    <span className="usage-eg-tag ppt">PPT</span>
+                    위 디자인 팩을 그대로 따라 <i>[내 주제]</i> 발표자료를
+                    만들어줘. 표지·본문·차트·다이어그램까지 이 스타일로.
+                  </>
+                ) : (
+                  <>
+                    <span className="usage-eg-tag web">웹</span>
+                    위 디자인 팩 스타일로 <i>[내 주제]</i> 웹페이지를 만들어줘.
+                    레이아웃·컴포넌트·모션까지 이 명세대로.
+                  </>
+                )}
+              </div>
+              <p className="usage-box-note">
+                {pack.track === "ppt"
+                  ? "PPT 생성은 Claude Code의 슬라이드 제작 도구와 함께 쓰면 가장 정확합니다."
+                  : "웹페이지는 Claude Code에서 HTML/React로 바로 구현하도록 요청하세요."}
               </p>
             </div>
           </div>

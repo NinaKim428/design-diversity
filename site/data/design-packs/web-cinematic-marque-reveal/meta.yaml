@@ -1,0 +1,12 @@
+slug: web-cinematic-marque-reveal
+display_name: 시네마틱 마퀴 리빌
+track: web
+family: cinematic-marque-reveal
+summary: 영화 예고편식 웹 — 잉크 블랙·21:9 풀블리드 키 비주얼·클립 마스크 순차 리빌·거대 와이드 헤비 디스플레이(Anton)·시그널 컬러 하나·스텝 스냅 페이싱.
+axes: { color: dark, type: heavy-display, layout: full-bleed, space: airy, motion: snappy }
+sources:
+  - { title: "Design.md — Ferrari Website Case Study", url: "https://getdesign.md/ferrari/design-md", type: article }
+  - { title: "A Fresh Website — 10 Best Automotive Website Examples 2025", url: "https://a-fresh.website/blog/10-best-automotive-website-examples-2025", type: article }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님. 폰트는 공개 웹폰트(Anton OFL · Archivo OFL). 영감 브랜드(자동차 브랜드 등)의 로고·워드마크·고유색 미복제 — 시그널 컬러는 본 팩 지정값 #ff4d2e. 키 비주얼은 placeholder 규격만."
+source_depth: full
+status: pass

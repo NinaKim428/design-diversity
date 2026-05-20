@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-05-20",
+  "updated": "2026-05-21",
   "schema": "design-pack-schema v1",
   "packs": [
     {
@@ -961,6 +961,326 @@
         "motion": "playful"
       },
       "preview": "design-packs/web-immersive-media-grid/preview.png",
+      "status": "pass"
+    },
+    {
+      "slug": "ppt-isometric-platform-deck",
+      "track": "ppt",
+      "family": "isometric-platform",
+      "display_name": "Isometric Platform Deck",
+      "summary": "밝은 쿨그레이 캔버스 위 정사 아이소메트릭 투영의 입체 플랫폼·블록·계단 구조가 콘텐츠를 떠받치고, 코발트 명도 3단계로 입체면을 칠하며 평면 텍스트는 헤어라인 리더선으로 분리하는 입체 다이어그램 키트 덱.",
+      "axes": {
+        "color": "mono",
+        "type": "minimal-sans",
+        "layout": "centered",
+        "space": "airy",
+        "motion": "subtle"
+      },
+      "preview": "design-packs/ppt-isometric-platform-deck/preview.png",
+      "status": "pass"
+    },
+    {
+      "slug": "ppt-mckinsey-ghost-deck",
+      "track": "ppt",
+      "family": "mbb-ghost",
+      "display_name": "MBB Ghost Deck Framework",
+      "summary": "순백 캔버스에 완결된 문장의 액션 타이틀과 슬레이트 그레이 본문, 색 대신 굵기로만 강조하는 MBB식 덱 — 워터폴·메코·2×2를 기본 다이어그램 어휘로 삼는다.",
+      "axes": {
+        "color": "mono",
+        "type": "minimal-sans",
+        "layout": "asymmetric",
+        "space": "balanced",
+        "motion": "none"
+      },
+      "preview": "design-packs/ppt-mckinsey-ghost-deck/preview.png",
+      "status": "pass"
+    },
+    {
+      "slug": "ppt-blueprint-schematic-deck",
+      "track": "ppt",
+      "family": "blueprint-schematic",
+      "display_name": "Blueprint Schematic Deck",
+      "summary": "딥 인디고-블루 배경에 1px 시안 도트 그리드를 청사진처럼 노출하고, 치수 보조선·인출선·단면 해치 등 제도 주석을 정보 장식으로 차용하는 라인 드로잉 다이어그램 덱.",
+      "axes": {
+        "color": "dark",
+        "type": "mono",
+        "layout": "strict-grid",
+        "space": "dense",
+        "motion": "none"
+      },
+      "preview": "design-packs/ppt-blueprint-schematic-deck/preview.png",
+      "status": "pass"
+    },
+    {
+      "slug": "ppt-editorial-infographic-deck",
+      "track": "ppt",
+      "family": "editorial-infographic",
+      "display_name": "Editorial Infographic Deck",
+      "summary": "오프화이트 지면에 큰 세리프 헤드라인과 가는 룰 라인 구획, 잉크 레드 한 점으로 데이터를 신문·잡지 데이터 저널리즘처럼 읽히는 그래픽으로 조판하는 인포그래픽 덱.",
+      "axes": {
+        "color": "vivid-primary",
+        "type": "serif-editorial",
+        "layout": "block-grid",
+        "space": "balanced",
+        "motion": "none"
+      },
+      "preview": "design-packs/ppt-editorial-infographic-deck/preview.png",
+      "status": "pass"
+    },
+    {
+      "slug": "ppt-vivid-gradient-infographic-deck",
+      "track": "ppt",
+      "family": "gradient-infographic",
+      "display_name": "Vivid Gradient Infographic Deck",
+      "summary": "밝은 캔버스 위 채도 높은 듀오톤 그라디언트가 둥근 알약 노드·아이콘 칩·KPI 링을 채우는 VC 피치형 인포그래픽 키트 덱 — 모든 다이어그램 도형이 그라디언트 채움을 공유한다.",
+      "axes": {
+        "color": "gradient",
+        "type": "heavy-display",
+        "layout": "block-grid",
+        "space": "balanced",
+        "motion": "playful"
+      },
+      "preview": "design-packs/ppt-vivid-gradient-infographic-deck/preview.png",
+      "status": "pass"
+    },
+    {
+      "slug": "ppt-bold-block-infographic-deck",
+      "track": "ppt",
+      "family": "bold-block-infographic",
+      "display_name": "Bold Block Infographic Deck",
+      "summary": "흰 바탕에 차콜·앰버·틸 3색 솔리드 컬러 블록이 노드·구간·셀이 되어 다이어그램 자체를 이루는, 보더 없는 단정한 평면 모더니즘 인포그래픽 덱.",
+      "axes": {
+        "color": "vivid-primary",
+        "type": "heavy-display",
+        "layout": "block-grid",
+        "space": "dense",
+        "motion": "none"
+      },
+      "preview": "design-packs/ppt-bold-block-infographic-deck/preview.png",
+      "status": "pass"
+    },
+    {
+      "slug": "ppt-prismatic-dark-deck",
+      "track": "ppt",
+      "family": "prismatic-dark",
+      "display_name": "Prismatic Dark Diagram Deck",
+      "summary": "잉크 네이비-블랙 배경에 다이어그램 노드·라인이 시안→마젠타→앰버 프리즘 그라디언트로 발광하는 테크 컨퍼런스 키노트형 다이어그램 키트 덱.",
+      "axes": {
+        "color": "gradient",
+        "type": "minimal-sans",
+        "layout": "full-bleed",
+        "space": "balanced",
+        "motion": "snappy"
+      },
+      "preview": "design-packs/ppt-prismatic-dark-deck/preview.png",
+      "status": "pass"
+    },
+    {
+      "slug": "ppt-soft-pastel-system-deck",
+      "track": "ppt",
+      "family": "soft-pastel-system",
+      "display_name": "Soft Pastel System Deck",
+      "summary": "오프화이트 캔버스에 라일락·민트·피치 파스텔 3색과 부드러운 멀티 섀도, 통통한 라운드 노드·카드로 다이어그램을 한 키트로 묶는 촉각적 소프트 UI 덱.",
+      "axes": {
+        "color": "pastel",
+        "type": "minimal-sans",
+        "layout": "centered",
+        "space": "balanced",
+        "motion": "snappy"
+      },
+      "preview": "design-packs/ppt-soft-pastel-system-deck/preview.png",
+      "status": "pass"
+    },
+    {
+      "slug": "ppt-archival-index-deck",
+      "track": "ppt",
+      "family": "archival-index",
+      "display_name": "Archival Index Deck",
+      "summary": "종이빛 베이지 캔버스에 세리프+등폭 혼합, 도서관 카드·아카이브 대장처럼 모든 다이어그램을 번호·라벨·룰 라인으로 색인하는 학술 리서치 카탈로그 키트 덱.",
+      "axes": {
+        "color": "mono",
+        "type": "mixed",
+        "layout": "strict-grid",
+        "space": "dense",
+        "motion": "none"
+      },
+      "preview": "design-packs/ppt-archival-index-deck/preview.png",
+      "status": "pass"
+    },
+    {
+      "slug": "ppt-warm-minimal-diagram-deck",
+      "track": "ppt",
+      "family": "warm-minimal-diagram",
+      "display_name": "Warm Minimal Diagram Deck",
+      "summary": "따뜻한 샌드-아이보리 캔버스에 잉크 브라운 본문과 단일 테라코타 강조, 가는 1pt 라인 다이어그램과 넉넉한 여백의 부드럽고 절제된 따뜻한 미니멀 다이어그램 키트 덱.",
+      "axes": {
+        "color": "earth",
+        "type": "minimal-sans",
+        "layout": "centered",
+        "space": "airy",
+        "motion": "none"
+      },
+      "preview": "design-packs/ppt-warm-minimal-diagram-deck/preview.png",
+      "status": "pass"
+    },
+    {
+      "slug": "web-atelier-archive-serif",
+      "track": "web",
+      "family": "atelier-archive-serif",
+      "display_name": "아틀리에 아카이브 세리프",
+      "summary": "오프화이트 캔버스에 12열 엄격 그리드를 노출하되 갤러리 도록처럼 좌측 작품 인덱스 리스트와 우측 큰 작품 이미지, 세리프+산세리프 혼합 메타데이터의 정적인 도록 톤 사이트.",
+      "axes": {
+        "color": "mono",
+        "type": "mixed",
+        "layout": "strict-grid",
+        "space": "airy",
+        "motion": "none"
+      },
+      "preview": "design-packs/web-atelier-archive-serif/preview.png",
+      "status": "pass"
+    },
+    {
+      "slug": "web-haute-jewelry-noir",
+      "track": "web",
+      "family": "haute-jewelry-noir",
+      "display_name": "오트 주얼리 누아르",
+      "summary": "거의 순흑 캔버스 위 단 하나의 제품 렌더가 라디얼 스포트라이트로 떠 있고, 가는 하이콘트라스트 세리프와 샴페인 골드 헤어라인, 스크롤 구동 회전의 영화적 단일 포커스 사이트.",
+      "axes": {
+        "color": "dark",
+        "type": "serif-editorial",
+        "layout": "centered",
+        "space": "airy",
+        "motion": "playful"
+      },
+      "preview": "design-packs/web-haute-jewelry-noir/preview.png",
+      "status": "pass"
+    },
+    {
+      "slug": "web-cinematic-marque-reveal",
+      "track": "web",
+      "family": "cinematic-marque-reveal",
+      "display_name": "시네마틱 마퀴 리빌",
+      "summary": "잉크 블랙 캔버스에 21:9 시네마틱 풀블리드 키 비주얼과 스크롤 순차 리빌, 굵은 와이드 디스플레이가 클립 마스크 안에서 스냅하게 등장하는 영화 예고편식 사이트.",
+      "axes": {
+        "color": "dark",
+        "type": "heavy-display",
+        "layout": "full-bleed",
+        "space": "airy",
+        "motion": "snappy"
+      },
+      "preview": "design-packs/web-cinematic-marque-reveal/preview.png",
+      "status": "pass"
+    },
+    {
+      "slug": "web-poetic-hospitality-scroll",
+      "track": "web",
+      "family": "poetic-hospitality-scroll",
+      "display_name": "포에틱 호스피탈리티 스크롤",
+      "summary": "따뜻한 샌드·리넨 톤의 풀블리드 환경 사진 위 시처럼 짧은 휴머니스트 세리프 카피, 켄 번스식 줌·디졸브 페이싱의 분위기 중심 부티크 호스피탈리티 사이트.",
+      "axes": {
+        "color": "earth",
+        "type": "serif-editorial",
+        "layout": "full-bleed",
+        "space": "airy",
+        "motion": "playful"
+      },
+      "preview": "design-packs/web-poetic-hospitality-scroll/preview.png",
+      "status": "pass"
+    },
+    {
+      "slug": "web-iridescent-noir-prestige",
+      "track": "web",
+      "family": "iridescent-noir-prestige",
+      "display_name": "이리데센트 누아르 프레스티지",
+      "summary": "딥 잉크 블랙 배경 위 텍스트 가장자리와 헤어라인 보더에만 절제되어 스미는 홀로그래픽 메탈릭 셰이딩, 그로테스크+모노 혼합 비대칭의 컴퓨테이셔널 AI·테크 프리미엄 사이트.",
+      "axes": {
+        "color": "gradient",
+        "type": "mixed",
+        "layout": "asymmetric",
+        "space": "airy",
+        "motion": "subtle"
+      },
+      "preview": "design-packs/web-iridescent-noir-prestige/preview.png",
+      "status": "pass"
+    },
+    {
+      "slug": "web-tactile-luxury-editorial",
+      "track": "web",
+      "family": "tactile-luxury-editorial",
+      "display_name": "택타일 럭셔리 에디토리얼",
+      "summary": "따뜻한 크림·샌드 배경에 종이 그레인·패브릭 위브 텍스처와 비대칭 다단 매거진 레이아웃, 세리프+산세리프 혼합과 머스타드·올리브 강조의 만질 듯한 질감의 럭셔리 사이트.",
+      "axes": {
+        "color": "earth",
+        "type": "mixed",
+        "layout": "asymmetric",
+        "space": "balanced",
+        "motion": "subtle"
+      },
+      "preview": "design-packs/web-tactile-luxury-editorial/preview.png",
+      "status": "pass"
+    },
+    {
+      "slug": "web-prestige-saas-restraint",
+      "track": "web",
+      "family": "prestige-saas-restraint",
+      "display_name": "프레스티지 SaaS 리스트레인트",
+      "summary": "차분한 오프화이트 배경에 절제된 그로테스크 헤드라인과 비대칭 제품 스크린샷, 잉크 슬레이트 단색과 스냅 마이크로인터랙션으로 정밀함이 신뢰가 되는 하이엔드 B2B SaaS 사이트.",
+      "axes": {
+        "color": "mono",
+        "type": "mixed",
+        "layout": "asymmetric",
+        "space": "airy",
+        "motion": "snappy"
+      },
+      "preview": "design-packs/web-prestige-saas-restraint/preview.png",
+      "status": "pass"
+    },
+    {
+      "slug": "web-grand-serif-statement",
+      "track": "web",
+      "family": "grand-serif-statement",
+      "display_name": "그랜드 세리프 스테이트먼트",
+      "summary": "오프화이트 캔버스를 가득 채우는 초대형 디스플레이 세리프가 콘텐츠 자체가 되는 풀블리드 빅타이포, 음수 자간 압축과 작은 산세리프 본문 대비의 우아한 편집 사이트.",
+      "axes": {
+        "color": "mono",
+        "type": "serif-editorial",
+        "layout": "full-bleed",
+        "space": "balanced",
+        "motion": "subtle"
+      },
+      "preview": "design-packs/web-grand-serif-statement/preview.png",
+      "status": "pass"
+    },
+    {
+      "slug": "web-velvet-dark-boutique",
+      "track": "web",
+      "family": "velvet-dark-boutique",
+      "display_name": "벨벳 다크 부티크",
+      "summary": "딥 와인-차콜 배경에 벨벳 매트 질감과 골드-브론즈 헤어라인 보더를 두른 모듈러 벤토 룩북 타일, 세리프+산세리프 혼합의 다크 럭셔리 부티크 e커머스 사이트.",
+      "axes": {
+        "color": "dark",
+        "type": "mixed",
+        "layout": "block-grid",
+        "space": "balanced",
+        "motion": "subtle"
+      },
+      "preview": "design-packs/web-velvet-dark-boutique/preview.png",
+      "status": "pass"
+    },
+    {
+      "slug": "web-couture-color-block",
+      "track": "web",
+      "family": "couture-color-block",
+      "display_name": "쿠튀르 컬러 블록",
+      "summary": "흰 캔버스에 딥 버건디·포레스트·코발트의 깊은 채도 솔리드 컬러 블록이 비대칭으로 깔리고 가는 디스플레이 세리프가 얹히는, 정적이고 위엄 있는 패션 하우스 컬러 블로킹 사이트.",
+      "axes": {
+        "color": "vivid-primary",
+        "type": "serif-editorial",
+        "layout": "asymmetric",
+        "space": "airy",
+        "motion": "none"
+      },
+      "preview": "design-packs/web-couture-color-block/preview.png",
       "status": "pass"
     }
   ]

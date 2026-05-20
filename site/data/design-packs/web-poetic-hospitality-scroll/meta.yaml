@@ -1,0 +1,12 @@
+slug: web-poetic-hospitality-scroll
+display_name: 포에틱 호스피탈리티 스크롤
+track: web
+family: poetic-hospitality-scroll
+summary: 럭셔리 호텔의 시적 웹 — 샌드·리넨 풀블리드 환경 사진·가는 휴머니스트 세리프 시 카피·켄 번스 줌과 디졸브·테라코타 강조 한 톤·극단적 여백.
+axes: { color: earth, type: serif-editorial, layout: full-bleed, space: airy, motion: playful }
+sources:
+  - { title: "Mediaboom — Luxury Hotel Website Design", url: "https://mediaboom.com/news/luxury-hotel-website-design/", type: article }
+  - { title: "Solid Digital — Best of Web: Top Hotel Websites for Design Inspiration", url: "https://www.soliddigital.com/blog/best-of-web-top-hotel-websites-for-design-inspiration", type: article }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님. 폰트는 공개 웹폰트(Cormorant Garamond OFL · EB Garamond OFL). 영감 호텔 브랜드의 로고·워드마크·고유색 미복제 — 테라코타는 본 팩 지정값 #b4623f. 환경 사진은 placeholder 규격만."
+source_depth: full
+status: pass

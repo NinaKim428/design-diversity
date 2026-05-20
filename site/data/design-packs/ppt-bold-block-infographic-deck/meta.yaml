@@ -1,0 +1,14 @@
+slug: ppt-bold-block-infographic-deck
+display_name: 볼드 블록 인포그래픽
+track: ppt
+family: bold-block-infographic
+summary: 흰 바탕에 차콜·앰버·틸 솔리드 색블록이 노드·구간·셀 그 자체를 이루는, 보더·그림자 없는 각진 평면 모더니즘 인포그래픽 키트.
+axes: { color: vivid-primary, type: heavy-display, layout: block-grid, space: dense, motion: none }
+diagram_kit: "프로세스=셰브론 노치 맞물림 풀하이트 색블록 + 64pt 화이트 번호 / 타임라인=색블록 띠 이어붙임 + 각진 화이트 핀 / 비교=풀하이트 색블록 칼럼 + 반전 헤더 띠 / 매트릭스=4 솔리드 색블록 사분면 + 화이트 원 / 계층·퍼널=폭 비례 적층 색블록 / KPI=솔리드 색블록 카드 + 54pt 화이트 수치 + 각진 델타 태그 / 차트=두꺼운 평면 색블록 막대(폭:간격 5:2)·100% 누적 색블록 막대"
+sources:
+  - { title: "SlideEgg — Process PowerPoint Templates", url: "https://www.slideegg.com/powerpoint/process-powerpoint-templates", type: article }
+  - { title: "SlideUpLift — Workflow PowerPoint Templates", url: "https://slideuplift.com/powerpoint-templates/tag/workflow/", type: article }
+  - { title: "SlideBazaar — Process Flow Diagrams", url: "https://slidebazaar.com/categories/process-flow-diagrams/", type: article }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님."
+source_depth: full
+status: pass

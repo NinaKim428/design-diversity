@@ -1,0 +1,12 @@
+slug: web-velvet-dark-boutique
+display_name: 벨벳 다크 부티크
+track: web
+family: velvet-dark-boutique
+summary: 딥 와인-차콜 배경에 크기 위계가 있는 모듈러 벤토 그리드·절차적 벨벳 매트 그레인 질감·비발광 골드-브론즈 헤어라인 보더·세리프 헤딩의 다크 부티크 웹 스타일.
+axes: { color: dark, type: mixed, layout: block-grid, space: balanced, motion: subtle }
+sources:
+  - { title: "DesignRush — Best Luxury Website Designs (Trends)", url: "https://www.designrush.com/best-designs/websites/trends/best-luxury-website-designs", type: article }
+  - { title: "DesignRush — Best Luxury Website Designs", url: "https://www.designrush.com/best-designs/websites/luxury", type: article }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님. 폰트는 공개 웹폰트(Cormorant·Spectral·Inter, OFL). 벨벳 질감은 절차적 SVG/CSS 생성물로 스톡 자산 미사용. 와인·골드 톤은 본 팩 자체 지정값."
+source_depth: full
+status: pass

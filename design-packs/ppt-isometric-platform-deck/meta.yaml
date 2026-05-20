@@ -1,0 +1,13 @@
+slug: ppt-isometric-platform-deck
+display_name: Isometric Platform Deck
+track: ppt
+family: isometric-platform
+summary: 라이트 쿨그레이 캔버스 위 30°/-30° 정사 아이소메트릭 입체 플랫폼·큐브·계단이 콘텐츠를 떠받치고, 단일 코발트 명도 3단계로 입체면을 칠하는 다이어그램 키트형 PPT 팩.
+axes: { color: mono, type: minimal-sans, layout: centered, space: airy, motion: subtle }
+sources:
+  - { title: "Slidesgo — Isometric Infographics", url: "https://slidesgo.com/isometric-infographics", type: official }
+  - { title: "SlideBazaar — Isometric Process Infographic", url: "https://slidebazaar.com/templates/isometric-process-infographic-powerpoint-google-slides/", type: official }
+  - { title: "SlideModel — Isometric Templates", url: "https://slidemodel.com/templates/tag/isometric/", type: official }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님."
+source_depth: full
+status: pass

@@ -1,0 +1,13 @@
+slug: ppt-blueprint-schematic-deck
+display_name: Blueprint Schematic Deck
+track: ppt
+family: blueprint-schematic
+summary: 딥 인디고-블루 배경에 1px 시안 도트 그리드, 채움 없는 0.75pt 라인 드로잉과 치수선·해치·인출선·타이틀 블록을 차용한 엔지니어링 도면 미감의 PPT 다이어그램 키트 팩.
+axes: { color: dark, type: mono, layout: strict-grid, space: dense, motion: none }
+sources:
+  - { title: "SlideMembers — Architecture Blueprints PowerPoint Templates", url: "https://www.slidemembers.com/en_US/view/PPT-Templates/architecture-blueprints-powerpoint-templates-5097", type: official }
+  - { title: "Bizzdesign — Technical Architecture Diagrams", url: "https://bizzdesign.com/blog/technical-architecture-diagrams", type: article }
+  - { title: "ProjectManager — Types of Architectural Drawings", url: "https://www.projectmanager.com/blog/types-of-architectural-drawings", type: article }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님."
+source_depth: full
+status: pass
