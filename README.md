@@ -1,5 +1,7 @@
 # Design Diversity
 
+![Design Diversity — AI도 매번 다른 PPT·웹사이트를 만들 수 있습니다](./assets/social-preview.png)
+
 > AI에게 PPT·웹사이트를 맡기면 결과물이 늘 비슷합니다. **design-pick 스킬**을 설치하면,
 > 서로 뚜렷이 구별되는 **80가지 디자인 스타일** 중 하나를 골라 Claude가 그 스타일대로 만들어 줍니다.
 
