@@ -121,6 +121,81 @@ status: pass           # pass | escalate | draft | render_failed
 
 두 팩이 5축 중 4축 이상 같으면 사실상 쌍둥이 — 합치거나 한쪽을 다른 축으로 재정의한다.
 
+## 스키마 v2 — 카테고리 + 상세 페이지 (2026-05-21)
+
+팩에 두 개념을 추가한다. 기존 v1 팩은 모두 `category: standard`로 자동 분류되며 마이그레이션 불필요(필드 부재 = standard, pages 부재 = 단일 preview).
+
+### category — 팩 등급
+
+- `standard` — 단일 preview.png를 가진 일반 팩. 기존 80팩 전부.
+- `premium` — 한 팩이 **5~7개의 상세 페이지(detail page)**를 갖춰, 표지/본문/차트/다이어그램/비교 등 다양한 활용 장면을 모두 명세·렌더한 심화 팩.
+
+`category`는 `meta.yaml`·`catalog.json` 양쪽에 기재한다.
+
+### 상세 페이지 (premium 전용)
+
+premium 팩은 `design-packs/{slug}/pages/` 폴더에 5~7개의 페이지 렌더를 둔다:
+
+```
+design-packs/{slug}/
+  prompt.md
+  tokens.json
+  preview.png          ← 카드 썸네일용 대표 1컷 (보통 pages/01과 동일하거나 표지)
+  meta.yaml
+  pages/
+    01-cover.png   02-agenda.png   03-body.png   04-chart.png
+    05-diagram.png 06-comparison.png 07-closing.png
+```
+
+파일명은 `NN-{page-id}.png` (2자리 순번 + page-id). 5~7장 권장, 최소 5장.
+
+**페이지 ID 택소노미** — 트랙별 표준 ID에서 5~7개를 고른다(팩 성격에 맞게 취사선택, 신규 ID 추가 가능):
+
+- **PPT:** `cover`(표지) · `agenda`(목차) · `section-divider`(섹션 간지) · `body`(핵심 본문) · `chart`(데이터 차트) · `diagram`(프로세스/관계 다이어그램) · `comparison`(비교·매트릭스) · `timeline`(타임라인) · `kpi`(KPI 대시보드) · `closing`(클로징/Q&A)
+- **웹:** `hero`(히어로) · `nav`(헤더·내비게이션) · `features`(기능 그리드·카드) · `pricing`(가격표) · `content`(콘텐츠 상세·아티클) · `gallery`(쇼케이스·갤러리) · `dashboard`(앱·대시보드 화면) · `testimonial`(후기·로고월) · `cta-footer`(CTA·푸터)
+
+### prompt.md — premium 팩의 추가 섹션
+
+premium 팩의 prompt.md는 기존 "적용 예" 섹션을 **"## 상세 페이지 (5~7종)"**로 확장한다. 각 페이지마다 소제목 + 검증 가능한 구체 레이아웃 지시(그리드 좌표·요소 배치·치수). "다양한 방법으로 활용"이 실제 지시로 존재해야 한다 — 한 줄 요약 금지.
+
+### tokens.json — premium 팩의 pages 키
+
+```json
+{ "...": "...",
+  "category": "premium",
+  "pages": [
+    { "id": "cover", "label": "표지" },
+    { "id": "chart", "label": "데이터 차트" }
+  ] }
+```
+
+### meta.yaml — v2 필드
+
+```yaml
+category: premium        # premium | standard (부재 시 standard)
+pages:                   # premium 전용
+  - { id: cover, label: 표지, kind: cover }
+  - { id: chart, label: 데이터 차트, kind: chart }
+```
+
+### catalog.json — v2 pack 엔트리
+
+```json
+{ "slug": "...", "track": "ppt", "category": "premium",
+  "display_name": "...", "summary": "...", "axes": {...},
+  "preview": "design-packs/{slug}/preview.png",
+  "pages": [
+    { "id": "cover", "label": "표지", "img": "design-packs/{slug}/pages/01-cover.png" }
+  ],
+  "status": "pass" }
+```
+
+`category`는 전 팩 필수(기존 80팩도 일괄 `standard` 백필). `pages`는 premium 팩만.
+
+### 렌더 규약 (sample-renderer)
+
+premium 팩은 1개 HTML에 5~7개 패널을 세로로 쌓아 작성하되, **각 패널을 개별 스크린샷**해 `pages/NN-id.png`로 저장하고, 대표 1컷을 `preview.png`로 복사한다. baseline 대조는 기존과 동일(트랙 baseline 1컷 재사용).
+
 ## 스키마 변경 절차
 
 1. 이 파일을 갱신한다. 2. 버전을 올리고 변경점을 기록한다. 3. 영향받는 기존 팩의 마이그레이션 필요 여부를 pack-architect가 보고한다. 4. 모든 curator에 통지한다.

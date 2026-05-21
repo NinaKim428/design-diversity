@@ -41,6 +41,17 @@ for (const slug of slugs) {
   if (fs.existsSync(preview)) {
     fs.copyFileSync(preview, path.join(PREVIEWS, `${slug}.png`));
   }
+  // premium packs: copy detail-page renders into public/previews/{slug}/NN-id.png
+  const pagesSrc = path.join(srcDir, "pages");
+  if (fs.existsSync(pagesSrc) && fs.statSync(pagesSrc).isDirectory()) {
+    const pagesDst = path.join(PREVIEWS, slug);
+    fs.mkdirSync(pagesDst, { recursive: true });
+    for (const file of fs.readdirSync(pagesSrc)) {
+      if (file.endsWith(".png")) {
+        fs.copyFileSync(path.join(pagesSrc, file), path.join(pagesDst, file));
+      }
+    }
+  }
 }
 
 console.log(`[sync-data] synced ${slugs.length} packs into site/data/`);

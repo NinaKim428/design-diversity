@@ -1,0 +1,19 @@
+slug: web-technical-precision-marque
+display_name: 테크니컬 프리시전 마퀴
+track: web
+family: technical-precision
+category: premium
+summary: 딥 차콜 배경에 1px 헤어라인 사양 그리드·등폭 스펙 라벨·스틸 블루 단색·절제된 계측 페이드 모션의 독일 엔지니어링 정밀 다크 프리미엄 웹 스타일.
+axes: { color: dark, type: minimal-sans, layout: strict-grid, space: balanced, motion: subtle }
+pages:
+  - { id: hero, label: 히어로 (제품 + 스펙 컬럼), kind: hero }
+  - { id: nav, label: 헤더·내비게이션, kind: nav }
+  - { id: features, label: 기능 그리드, kind: features }
+  - { id: content, label: 스펙 비교 테이블, kind: content }
+  - { id: gallery, label: 모델 갤러리, kind: gallery }
+  - { id: cta-footer, label: CTA·푸터, kind: cta-footer }
+sources:
+  - { title: "awesome-design-md — BMW DESIGN.md", url: "https://github.com/VoltAgent/awesome-design-md", type: official }
+license: "원자산은 각 출처 라이선스를 따름(awesome-design-md MIT). 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님. BMW는 디자인 결의 brand_inspiration 영감 출처로만 참조하며 로고·독점 폰트(BMW Type) 명세를 포함하지 않는다 — 타이포는 공개 웹폰트(IBM Plex Sans·IBM Plex Mono, OFL)로 대체한다. 스틸 블루는 본 팩 자체 지정값."
+source_depth: full
+status: pass

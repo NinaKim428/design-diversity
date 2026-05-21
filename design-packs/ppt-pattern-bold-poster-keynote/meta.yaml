@@ -1,0 +1,20 @@
+slug: ppt-pattern-bold-poster-keynote
+display_name: Pattern 볼드 포스터 키노트
+track: ppt
+family: bold-poster
+category: premium
+summary: 슬라이드 전면을 채도 높은 단색 한 가지로 도배하고 그 위에 거대한 굵은 산세리프 헤드라인을 포스터처럼 앉히는, 컴포넌트 최소·정적인 키노트. 색이 페이지를 정의하고 타이포가 이미지를 대신한다.
+axes: { color: vivid-primary, type: heavy-display, layout: full-bleed, space: airy, motion: none }
+diagram_kit: "프로세스=거대 단계 번호 가로 나열(박스 없음) / 타임라인=굵은 흰 수평선 + 흰 솔리드 원 마일스톤 / 비교=좌우 색면 분할 / 매트릭스=색면 위 흰 십자축 + 흰 원 / 계층=거대 흰 사각 적층 / KPI=박스 없는 거대 200~280px 숫자 한 점 / 차트=단색 면 위 흰 솔리드·윤곽 거대 도형(격자선 없음·거대 값 레이블)"
+pages:
+  - { id: cover, label: 표지, kind: cover }
+  - { id: section-divider, label: 섹션 간지 (단색 전환), kind: section-divider }
+  - { id: agenda, label: 목차, kind: agenda }
+  - { id: body, label: 스테이트먼트 본문, kind: body }
+  - { id: kpi, label: 거대 숫자 KPI, kind: kpi }
+  - { id: closing, label: 클로징, kind: closing }
+sources:
+  - { title: "Free Keynote Templates — Pattern (Speckyboy)", url: "https://speckyboy.com/free-keynote-templates", type: article }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님. 브랜드 영감은 brand_inspiration로만 참고하며 독점 폰트는 오픈 폰트로 대체한다."
+source_depth: full
+status: pass

@@ -1,0 +1,20 @@
+slug: web-art-nouveau-florido
+display_name: 아르누보 플로리도
+track: web
+family: art-nouveau
+category: premium
+summary: 휘감기는 식물 채찍 곡선 SVG 장식·흐르는 디스플레이 세리프·머스터드/세이지/플럼 벨 에포크 팔레트·비대칭 유기 곡선 프레임·드로우 모션의 1890년대 아르누보 웹 스타일.
+axes: { color: earth, type: serif-editorial, layout: asymmetric, space: balanced, motion: playful }
+pages:
+  - { id: hero, label: 히어로 (곡선 장식 프레임), kind: hero }
+  - { id: nav, label: 헤더·내비게이션, kind: nav }
+  - { id: content, label: 콘텐츠 상세, kind: content }
+  - { id: gallery, label: 갤러리, kind: gallery }
+  - { id: testimonial, label: 후기, kind: testimonial }
+  - { id: cta-footer, label: CTA·푸터, kind: cta-footer }
+sources:
+  - { title: "designmd.app — Art Nouveau Florido", url: "https://designmd.app", type: official }
+  - { title: "Art Nouveau movement — design canon overview", url: "https://en.wikipedia.org/wiki/Art_Nouveau", type: article }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님. 아르누보는 퍼블릭 도메인 역사 양식으로 brand_inspiration 영감 출처이며 특정 작품·로고 사본을 포함하지 않는다. 폰트는 공개 웹폰트(Cormorant Garamond·EB Garamond, OFL)로 명세한다. 색값은 본 팩 자체 지정값."
+source_depth: full
+status: pass

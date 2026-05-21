@@ -1,0 +1,23 @@
+slug: ppt-bcg-exhibit-deck
+display_name: BCG 익스히빗 덱
+track: ppt
+family: bcg-exhibit
+category: premium
+summary: 모든 슬라이드가 좌상단 `Exhibit N.N` 번호를 달고 헤더는 answer-first 결론 문장을 진술하며 하단에 Source 각주 라인이 깔리는, BCG 그린 단색 강조의 근거 중심 컨설팅 덱.
+axes: { color: vivid-primary, type: minimal-sans, layout: strict-grid, space: balanced, motion: subtle }
+diagram_kit: "프로세스=임팩트 브리지 셰브론 노드 + 그린 윤곽 원 번호·1.5pt 화살표 / 타임라인=수평 축 + 무채색 마일스톤 원(현재만 그린) / 비교=헤어라인 격자 표(우세 열 그린 바) / 매트릭스=2×2 십자축 + 가변 버블 / 계층=폭 비례 적층 / KPI=흰 셀 카드 + 40pt tabular 수치 + 델타 삼각형 / 차트=메코·워터폴(무채색 + 그린 강조 1, 직접 라벨링·Source 각주)"
+pages:
+  - { id: cover, label: 표지, kind: cover }
+  - { id: agenda, label: 목차, kind: agenda }
+  - { id: body, label: 핵심 본문 (answer-first), kind: body }
+  - { id: chart, label: 메코·워터폴 차트 익스히빗, kind: chart }
+  - { id: diagram, label: 임팩트 브리지 다이어그램, kind: diagram }
+  - { id: comparison, label: 2x2 매트릭스 비교, kind: comparison }
+  - { id: closing, label: 제언·다음 단계, kind: closing }
+sources:
+  - { title: "47/54 Real BCG Presentations + Templates (Slideworks)", url: "https://slideworks.io/resources/54-real-bcg-presentations", type: article }
+  - { title: "BCG Slide Decks — analysis (Ampler)", url: "https://ampler.io/articles/bcg-slide-decks", type: article }
+  - { title: "Consulting slide structure (The Analyst Academy)", url: "https://www.theanalystacademy.com/consulting-slide-structure/", type: article }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님. 브랜드 영감은 brand_inspiration로만 참고하며 독점 폰트는 오픈 폰트로 대체한다."
+source_depth: full
+status: pass

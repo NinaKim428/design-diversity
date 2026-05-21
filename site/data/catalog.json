@@ -1,7 +1,7 @@
 {
-  "version": 1,
+  "version": 2,
   "updated": "2026-05-21",
-  "schema": "design-pack-schema v1",
+  "schema": "design-pack-schema v2",
   "packs": [
     {
       "slug": "ppt-consulting-precision-grid",
@@ -17,7 +17,8 @@
         "motion": "none"
       },
       "preview": "design-packs/ppt-consulting-precision-grid/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "ppt-keynote-minimal-fullbleed",
@@ -33,7 +34,8 @@
         "motion": "subtle"
       },
       "preview": "design-packs/ppt-keynote-minimal-fullbleed/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "ppt-editorial-magazine",
@@ -49,7 +51,8 @@
         "motion": "none"
       },
       "preview": "design-packs/ppt-editorial-magazine/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "ppt-neo-brutalism",
@@ -65,7 +68,8 @@
         "motion": "snappy"
       },
       "preview": "design-packs/ppt-neo-brutalism/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "ppt-glassmorphism",
@@ -81,7 +85,8 @@
         "motion": "subtle"
       },
       "preview": "design-packs/ppt-glassmorphism/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "ppt-korea-policy-navy",
@@ -97,7 +102,8 @@
         "motion": "none"
       },
       "preview": "design-packs/ppt-korea-policy-navy/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "ppt-dark-tech",
@@ -113,7 +119,8 @@
         "motion": "snappy"
       },
       "preview": "design-packs/ppt-dark-tech/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "ppt-hand-drawn-sketch",
@@ -129,7 +136,8 @@
         "motion": "playful"
       },
       "preview": "design-packs/ppt-hand-drawn-sketch/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "ppt-data-infographic-heavy",
@@ -145,7 +153,8 @@
         "motion": "subtle"
       },
       "preview": "design-packs/ppt-data-infographic-heavy/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "ppt-monochrome-risk",
@@ -161,7 +170,8 @@
         "motion": "none"
       },
       "preview": "design-packs/ppt-monochrome-risk/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "ppt-memphis-retro-90s",
@@ -177,7 +187,8 @@
         "motion": "playful"
       },
       "preview": "design-packs/ppt-memphis-retro-90s/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "ppt-minimal-mono-note",
@@ -193,7 +204,8 @@
         "motion": "none"
       },
       "preview": "design-packs/ppt-minimal-mono-note/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "ppt-botanical-organic",
@@ -209,7 +221,8 @@
         "motion": "subtle"
       },
       "preview": "design-packs/ppt-botanical-organic/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "ppt-vivid-gradient-future",
@@ -225,7 +238,8 @@
         "motion": "snappy"
       },
       "preview": "design-packs/ppt-vivid-gradient-future/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "ppt-print-first-newspaper",
@@ -241,7 +255,8 @@
         "motion": "none"
       },
       "preview": "design-packs/ppt-print-first-newspaper/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "ppt-swiss-editorial-bold",
@@ -257,7 +272,8 @@
         "motion": "snappy"
       },
       "preview": "design-packs/ppt-swiss-editorial-bold/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "ppt-bauhaus-geometric",
@@ -273,7 +289,8 @@
         "motion": "none"
       },
       "preview": "design-packs/ppt-bauhaus-geometric/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "ppt-expressive-material",
@@ -289,7 +306,8 @@
         "motion": "playful"
       },
       "preview": "design-packs/ppt-expressive-material/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "ppt-luxury-editorial-serif",
@@ -305,7 +323,8 @@
         "motion": "subtle"
       },
       "preview": "design-packs/ppt-luxury-editorial-serif/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "ppt-startup-pitch-colorful",
@@ -321,7 +340,8 @@
         "motion": "playful"
       },
       "preview": "design-packs/ppt-startup-pitch-colorful/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "web-swiss-grid",
@@ -337,7 +357,8 @@
         "motion": "none"
       },
       "preview": "design-packs/web-swiss-grid/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "web-neo-brutalism",
@@ -353,7 +374,8 @@
         "motion": "snappy"
       },
       "preview": "design-packs/web-neo-brutalism/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "web-glassmorphism",
@@ -369,7 +391,8 @@
         "motion": "subtle"
       },
       "preview": "design-packs/web-glassmorphism/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "web-editorial-longform",
@@ -385,7 +408,8 @@
         "motion": "subtle"
       },
       "preview": "design-packs/web-editorial-longform/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "web-dark-terminal",
@@ -401,7 +425,8 @@
         "motion": "subtle"
       },
       "preview": "design-packs/web-dark-terminal/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "web-claymorphism",
@@ -417,7 +442,8 @@
         "motion": "playful"
       },
       "preview": "design-packs/web-claymorphism/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "web-big-type-statement",
@@ -433,7 +459,8 @@
         "motion": "subtle"
       },
       "preview": "design-packs/web-big-type-statement/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "web-y2k-chrome",
@@ -449,7 +476,8 @@
         "motion": "playful"
       },
       "preview": "design-packs/web-y2k-chrome/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "web-botanical-organic",
@@ -465,7 +493,8 @@
         "motion": "subtle"
       },
       "preview": "design-packs/web-botanical-organic/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "web-monospace-docs",
@@ -481,7 +510,8 @@
         "motion": "none"
       },
       "preview": "design-packs/web-monospace-docs/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "web-minimal-luxury",
@@ -497,7 +527,8 @@
         "motion": "subtle"
       },
       "preview": "design-packs/web-minimal-luxury/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "web-memphis-postmodern",
@@ -513,7 +544,8 @@
         "motion": "playful"
       },
       "preview": "design-packs/web-memphis-postmodern/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "web-news-journal-grid",
@@ -529,7 +561,8 @@
         "motion": "none"
       },
       "preview": "design-packs/web-news-journal-grid/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "web-fun-illustrated",
@@ -545,7 +578,8 @@
         "motion": "playful"
       },
       "preview": "design-packs/web-fun-illustrated/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "web-ai-gradient-mesh",
@@ -561,7 +595,8 @@
         "motion": "subtle"
       },
       "preview": "design-packs/web-ai-gradient-mesh/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "web-dark-luxury",
@@ -577,7 +612,8 @@
         "motion": "subtle"
       },
       "preview": "design-packs/web-dark-luxury/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "web-archive-library",
@@ -593,7 +629,8 @@
         "motion": "none"
       },
       "preview": "design-packs/web-archive-library/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "web-material-expressive",
@@ -609,7 +646,8 @@
         "motion": "playful"
       },
       "preview": "design-packs/web-material-expressive/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "web-risograph-print",
@@ -625,7 +663,8 @@
         "motion": "snappy"
       },
       "preview": "design-packs/web-risograph-print/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "web-bauhaus-geometric",
@@ -641,7 +680,8 @@
         "motion": "snappy"
       },
       "preview": "design-packs/web-bauhaus-geometric/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "ppt-precision-fintech-deck",
@@ -657,7 +697,8 @@
         "motion": "subtle"
       },
       "preview": "design-packs/ppt-precision-fintech-deck/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "ppt-engineered-dark-deck",
@@ -673,7 +714,8 @@
         "motion": "snappy"
       },
       "preview": "design-packs/ppt-engineered-dark-deck/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "ppt-warm-hospitality-deck",
@@ -689,7 +731,8 @@
         "motion": "playful"
       },
       "preview": "design-packs/ppt-warm-hospitality-deck/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "ppt-monochrome-infrastructure-deck",
@@ -705,7 +748,8 @@
         "motion": "subtle"
       },
       "preview": "design-packs/ppt-monochrome-infrastructure-deck/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "ppt-expressive-soundwave-deck",
@@ -721,7 +765,8 @@
         "motion": "playful"
       },
       "preview": "design-packs/ppt-expressive-soundwave-deck/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "ppt-editorial-product-deck",
@@ -737,7 +782,8 @@
         "motion": "none"
       },
       "preview": "design-packs/ppt-editorial-product-deck/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "ppt-cinematic-keynote-deck",
@@ -753,7 +799,8 @@
         "motion": "subtle"
       },
       "preview": "design-packs/ppt-cinematic-keynote-deck/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "ppt-confident-color-block-deck",
@@ -769,7 +816,8 @@
         "motion": "snappy"
       },
       "preview": "design-packs/ppt-confident-color-block-deck/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "ppt-strategy-navy-deck",
@@ -785,7 +833,8 @@
         "motion": "none"
       },
       "preview": "design-packs/ppt-strategy-navy-deck/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "ppt-heritage-luxury-deck",
@@ -801,7 +850,8 @@
         "motion": "subtle"
       },
       "preview": "design-packs/ppt-heritage-luxury-deck/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "web-precision-fintech",
@@ -817,7 +867,8 @@
         "motion": "subtle"
       },
       "preview": "design-packs/web-precision-fintech/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "web-blueprint-grid",
@@ -833,7 +884,8 @@
         "motion": "subtle"
       },
       "preview": "design-packs/web-blueprint-grid/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "web-luminous-dark-bento",
@@ -849,7 +901,8 @@
         "motion": "snappy"
       },
       "preview": "design-packs/web-luminous-dark-bento/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "web-warm-workspace",
@@ -865,7 +918,8 @@
         "motion": "subtle"
       },
       "preview": "design-packs/web-warm-workspace/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "web-iridescent-marketing-flow",
@@ -881,7 +935,8 @@
         "motion": "playful"
       },
       "preview": "design-packs/web-iridescent-marketing-flow/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "web-spatial-immersive-hero",
@@ -897,7 +952,8 @@
         "motion": "playful"
       },
       "preview": "design-packs/web-spatial-immersive-hero/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "web-tactile-soft-product",
@@ -913,7 +969,8 @@
         "motion": "snappy"
       },
       "preview": "design-packs/web-tactile-soft-product/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "web-editorial-confidence",
@@ -929,7 +986,8 @@
         "motion": "subtle"
       },
       "preview": "design-packs/web-editorial-confidence/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "web-signal-monochrome",
@@ -945,7 +1003,8 @@
         "motion": "snappy"
       },
       "preview": "design-packs/web-signal-monochrome/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "web-immersive-media-grid",
@@ -961,7 +1020,8 @@
         "motion": "playful"
       },
       "preview": "design-packs/web-immersive-media-grid/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "ppt-isometric-platform-deck",
@@ -977,7 +1037,8 @@
         "motion": "subtle"
       },
       "preview": "design-packs/ppt-isometric-platform-deck/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "ppt-mckinsey-ghost-deck",
@@ -993,7 +1054,8 @@
         "motion": "none"
       },
       "preview": "design-packs/ppt-mckinsey-ghost-deck/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "ppt-blueprint-schematic-deck",
@@ -1009,7 +1071,8 @@
         "motion": "none"
       },
       "preview": "design-packs/ppt-blueprint-schematic-deck/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "ppt-editorial-infographic-deck",
@@ -1025,7 +1088,8 @@
         "motion": "none"
       },
       "preview": "design-packs/ppt-editorial-infographic-deck/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "ppt-vivid-gradient-infographic-deck",
@@ -1041,7 +1105,8 @@
         "motion": "playful"
       },
       "preview": "design-packs/ppt-vivid-gradient-infographic-deck/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "ppt-bold-block-infographic-deck",
@@ -1057,7 +1122,8 @@
         "motion": "none"
       },
       "preview": "design-packs/ppt-bold-block-infographic-deck/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "ppt-prismatic-dark-deck",
@@ -1073,7 +1139,8 @@
         "motion": "snappy"
       },
       "preview": "design-packs/ppt-prismatic-dark-deck/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "ppt-soft-pastel-system-deck",
@@ -1089,7 +1156,8 @@
         "motion": "snappy"
       },
       "preview": "design-packs/ppt-soft-pastel-system-deck/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "ppt-archival-index-deck",
@@ -1105,7 +1173,8 @@
         "motion": "none"
       },
       "preview": "design-packs/ppt-archival-index-deck/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "ppt-warm-minimal-diagram-deck",
@@ -1121,7 +1190,8 @@
         "motion": "none"
       },
       "preview": "design-packs/ppt-warm-minimal-diagram-deck/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "web-atelier-archive-serif",
@@ -1137,7 +1207,8 @@
         "motion": "none"
       },
       "preview": "design-packs/web-atelier-archive-serif/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "web-haute-jewelry-noir",
@@ -1153,7 +1224,8 @@
         "motion": "playful"
       },
       "preview": "design-packs/web-haute-jewelry-noir/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "web-cinematic-marque-reveal",
@@ -1169,7 +1241,8 @@
         "motion": "snappy"
       },
       "preview": "design-packs/web-cinematic-marque-reveal/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "web-poetic-hospitality-scroll",
@@ -1185,7 +1258,8 @@
         "motion": "playful"
       },
       "preview": "design-packs/web-poetic-hospitality-scroll/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "web-iridescent-noir-prestige",
@@ -1201,7 +1275,8 @@
         "motion": "subtle"
       },
       "preview": "design-packs/web-iridescent-noir-prestige/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "web-tactile-luxury-editorial",
@@ -1217,7 +1292,8 @@
         "motion": "subtle"
       },
       "preview": "design-packs/web-tactile-luxury-editorial/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "web-prestige-saas-restraint",
@@ -1233,7 +1309,8 @@
         "motion": "snappy"
       },
       "preview": "design-packs/web-prestige-saas-restraint/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "web-grand-serif-statement",
@@ -1249,7 +1326,8 @@
         "motion": "subtle"
       },
       "preview": "design-packs/web-grand-serif-statement/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "web-velvet-dark-boutique",
@@ -1265,7 +1343,8 @@
         "motion": "subtle"
       },
       "preview": "design-packs/web-velvet-dark-boutique/preview.png",
-      "status": "pass"
+      "status": "pass",
+      "category": "standard"
     },
     {
       "slug": "web-couture-color-block",
@@ -1281,6 +1360,992 @@
         "motion": "none"
       },
       "preview": "design-packs/web-couture-color-block/preview.png",
+      "status": "pass",
+      "category": "standard"
+    },
+    {
+      "slug": "ppt-bcg-exhibit-deck",
+      "track": "ppt",
+      "family": "bcg-exhibit",
+      "category": "premium",
+      "display_name": "BCG 익스히빗 덱",
+      "summary": "모든 슬라이드가 좌상단 `Exhibit N.N` 번호를 달고 헤더는 answer-first 결론 문장을 진술하며 하단에 Source 각주 라인이 깔리는, BCG 그린 단색 강조의 근거 중심 컨설팅 덱.",
+      "axes": {
+        "color": "vivid-primary",
+        "type": "minimal-sans",
+        "layout": "strict-grid",
+        "space": "balanced",
+        "motion": "subtle"
+      },
+      "preview": "design-packs/ppt-bcg-exhibit-deck/preview.png",
+      "pages": [
+        {
+          "id": "cover",
+          "label": "표지",
+          "img": "design-packs/ppt-bcg-exhibit-deck/pages/01-cover.png"
+        },
+        {
+          "id": "agenda",
+          "label": "목차",
+          "img": "design-packs/ppt-bcg-exhibit-deck/pages/02-agenda.png"
+        },
+        {
+          "id": "body",
+          "label": "핵심 본문 (answer-first)",
+          "img": "design-packs/ppt-bcg-exhibit-deck/pages/03-body.png"
+        },
+        {
+          "id": "chart",
+          "label": "메코·워터폴 차트 익스히빗",
+          "img": "design-packs/ppt-bcg-exhibit-deck/pages/04-chart.png"
+        },
+        {
+          "id": "diagram",
+          "label": "임팩트 브리지 다이어그램",
+          "img": "design-packs/ppt-bcg-exhibit-deck/pages/05-diagram.png"
+        },
+        {
+          "id": "comparison",
+          "label": "2x2 매트릭스 비교",
+          "img": "design-packs/ppt-bcg-exhibit-deck/pages/06-comparison.png"
+        },
+        {
+          "id": "closing",
+          "label": "제언·다음 단계",
+          "img": "design-packs/ppt-bcg-exhibit-deck/pages/07-closing.png"
+        }
+      ],
+      "status": "pass"
+    },
+    {
+      "slug": "ppt-bain-results-deck",
+      "track": "ppt",
+      "family": "bain-results",
+      "category": "premium",
+      "display_name": "베인 리절츠 덱",
+      "summary": "슬라이드 중앙 상단에 거대 결과 메트릭 한 점(+34%·2.7×)이 지배하고 아래 작은 캡션이 맥락을 다는, 베인 레드 단색 강조·중앙 정렬 단일 축의 results-first 컨설팅 덱.",
+      "axes": {
+        "color": "vivid-primary",
+        "type": "minimal-sans",
+        "layout": "centered",
+        "space": "balanced",
+        "motion": "none"
+      },
+      "preview": "design-packs/ppt-bain-results-deck/preview.png",
+      "pages": [
+        {
+          "id": "cover",
+          "label": "표지",
+          "img": "design-packs/ppt-bain-results-deck/pages/01-cover.png"
+        },
+        {
+          "id": "agenda",
+          "label": "목차",
+          "img": "design-packs/ppt-bain-results-deck/pages/02-agenda.png"
+        },
+        {
+          "id": "kpi",
+          "label": "결과 메트릭 KPI 히어로",
+          "img": "design-packs/ppt-bain-results-deck/pages/03-kpi.png"
+        },
+        {
+          "id": "comparison",
+          "label": "Before / After 임팩트 비교",
+          "img": "design-packs/ppt-bain-results-deck/pages/04-comparison.png"
+        },
+        {
+          "id": "body",
+          "label": "성과 드라이버 본문",
+          "img": "design-packs/ppt-bain-results-deck/pages/05-body.png"
+        },
+        {
+          "id": "chart",
+          "label": "추이 차트",
+          "img": "design-packs/ppt-bain-results-deck/pages/06-chart.png"
+        },
+        {
+          "id": "closing",
+          "label": "성과 요약·클로징",
+          "img": "design-packs/ppt-bain-results-deck/pages/07-closing.png"
+        }
+      ],
+      "status": "pass"
+    },
+    {
+      "slug": "ppt-goldman-ir-deck",
+      "track": "ppt",
+      "family": "goldman-ir",
+      "category": "premium",
+      "display_name": "골드만 IR 덱",
+      "summary": "딥 네이비 전면 페이지에 메탈릭 골드 0.5pt 헤어라인이 헤더·섹션·표를 구획하고 트랜지셔널 세리프 헤딩과 등폭 재무 표가 권위를 만드는, 디스클레이머 풋라인 의무의 투자은행 IR 덱.",
+      "axes": {
+        "color": "dark",
+        "type": "serif-editorial",
+        "layout": "strict-grid",
+        "space": "balanced",
+        "motion": "subtle"
+      },
+      "preview": "design-packs/ppt-goldman-ir-deck/preview.png",
+      "pages": [
+        {
+          "id": "cover",
+          "label": "표지",
+          "img": "design-packs/ppt-goldman-ir-deck/pages/01-cover.png"
+        },
+        {
+          "id": "agenda",
+          "label": "목차",
+          "img": "design-packs/ppt-goldman-ir-deck/pages/02-agenda.png"
+        },
+        {
+          "id": "body",
+          "label": "재무 하이라이트 본문",
+          "img": "design-packs/ppt-goldman-ir-deck/pages/03-body.png"
+        },
+        {
+          "id": "chart",
+          "label": "다년 추이 차트",
+          "img": "design-packs/ppt-goldman-ir-deck/pages/04-chart.png"
+        },
+        {
+          "id": "comparison",
+          "label": "세그먼트 비교 표",
+          "img": "design-packs/ppt-goldman-ir-deck/pages/05-comparison.png"
+        },
+        {
+          "id": "timeline",
+          "label": "분기·연도 타임라인",
+          "img": "design-packs/ppt-goldman-ir-deck/pages/06-timeline.png"
+        },
+        {
+          "id": "closing",
+          "label": "전망·디스클레이머 클로징",
+          "img": "design-packs/ppt-goldman-ir-deck/pages/07-closing.png"
+        }
+      ],
+      "status": "pass"
+    },
+    {
+      "slug": "ppt-every-golden-grid-keynote",
+      "track": "ppt",
+      "family": "golden-grid",
+      "category": "premium",
+      "display_name": "Every 골든 그리드 키노트",
+      "summary": "황금비(1:1.618)로 분할된 그리드가 모든 슬라이드의 골격이고 이미지 블록·텍스트 컬럼·여백·폰트 크기까지 전부 황금 스케일을 따르는, 무채색 + muted gold 한 점의 비례 일관성 미니멀 키노트.",
+      "axes": {
+        "color": "mono",
+        "type": "minimal-sans",
+        "layout": "block-grid",
+        "space": "balanced",
+        "motion": "subtle"
+      },
+      "preview": "design-packs/ppt-every-golden-grid-keynote/preview.png",
+      "pages": [
+        {
+          "id": "cover",
+          "label": "표지",
+          "img": "design-packs/ppt-every-golden-grid-keynote/pages/01-cover.png"
+        },
+        {
+          "id": "agenda",
+          "label": "목차",
+          "img": "design-packs/ppt-every-golden-grid-keynote/pages/02-agenda.png"
+        },
+        {
+          "id": "section-divider",
+          "label": "섹션 간지",
+          "img": "design-packs/ppt-every-golden-grid-keynote/pages/03-section-divider.png"
+        },
+        {
+          "id": "body",
+          "label": "핵심 본문 (황금비 블록)",
+          "img": "design-packs/ppt-every-golden-grid-keynote/pages/04-body.png"
+        },
+        {
+          "id": "chart",
+          "label": "비례 차트",
+          "img": "design-packs/ppt-every-golden-grid-keynote/pages/05-chart.png"
+        },
+        {
+          "id": "closing",
+          "label": "클로징",
+          "img": "design-packs/ppt-every-golden-grid-keynote/pages/06-closing.png"
+        }
+      ],
+      "status": "pass"
+    },
+    {
+      "slug": "ppt-pattern-bold-poster-keynote",
+      "track": "ppt",
+      "family": "bold-poster",
+      "category": "premium",
+      "display_name": "Pattern 볼드 포스터 키노트",
+      "summary": "슬라이드 전면을 채도 높은 단색 한 가지로 도배하고 그 위에 거대한 굵은 산세리프 헤드라인을 포스터처럼 앉히는, 컴포넌트 최소·정적인 키노트. 색이 페이지를 정의하고 타이포가 이미지를 대신한다.",
+      "axes": {
+        "color": "vivid-primary",
+        "type": "heavy-display",
+        "layout": "full-bleed",
+        "space": "airy",
+        "motion": "none"
+      },
+      "preview": "design-packs/ppt-pattern-bold-poster-keynote/preview.png",
+      "pages": [
+        {
+          "id": "cover",
+          "label": "표지",
+          "img": "design-packs/ppt-pattern-bold-poster-keynote/pages/01-cover.png"
+        },
+        {
+          "id": "section-divider",
+          "label": "섹션 간지 (단색 전환)",
+          "img": "design-packs/ppt-pattern-bold-poster-keynote/pages/02-section-divider.png"
+        },
+        {
+          "id": "agenda",
+          "label": "목차",
+          "img": "design-packs/ppt-pattern-bold-poster-keynote/pages/03-agenda.png"
+        },
+        {
+          "id": "body",
+          "label": "스테이트먼트 본문",
+          "img": "design-packs/ppt-pattern-bold-poster-keynote/pages/04-body.png"
+        },
+        {
+          "id": "kpi",
+          "label": "거대 숫자 KPI",
+          "img": "design-packs/ppt-pattern-bold-poster-keynote/pages/05-kpi.png"
+        },
+        {
+          "id": "closing",
+          "label": "클로징",
+          "img": "design-packs/ppt-pattern-bold-poster-keynote/pages/06-closing.png"
+        }
+      ],
+      "status": "pass"
+    },
+    {
+      "slug": "ppt-altezza-ultramodern-keynote",
+      "track": "ppt",
+      "family": "ultramodern-clip",
+      "category": "premium",
+      "display_name": "Altezza 울트라모던 키노트",
+      "summary": "사진·컬러 면을 각진 사선 클립 마스크(12~18°)로 잘라 동적 긴장을 만들고 거대 산세리프 헤드라인과 얇은 라벨이 강하게 대비하는, near-black + electric mint 한 점의 빽빽한 다크 에이전시 키노트.",
+      "axes": {
+        "color": "dark",
+        "type": "heavy-display",
+        "layout": "asymmetric",
+        "space": "dense",
+        "motion": "snappy"
+      },
+      "preview": "design-packs/ppt-altezza-ultramodern-keynote/preview.png",
+      "pages": [
+        {
+          "id": "cover",
+          "label": "표지 (사선 클립)",
+          "img": "design-packs/ppt-altezza-ultramodern-keynote/pages/01-cover.png"
+        },
+        {
+          "id": "section-divider",
+          "label": "섹션 간지",
+          "img": "design-packs/ppt-altezza-ultramodern-keynote/pages/02-section-divider.png"
+        },
+        {
+          "id": "body",
+          "label": "핵심 본문",
+          "img": "design-packs/ppt-altezza-ultramodern-keynote/pages/03-body.png"
+        },
+        {
+          "id": "comparison",
+          "label": "사선 분할 비교",
+          "img": "design-packs/ppt-altezza-ultramodern-keynote/pages/04-comparison.png"
+        },
+        {
+          "id": "kpi",
+          "label": "KPI 대시보드",
+          "img": "design-packs/ppt-altezza-ultramodern-keynote/pages/05-kpi.png"
+        },
+        {
+          "id": "closing",
+          "label": "클로징",
+          "img": "design-packs/ppt-altezza-ultramodern-keynote/pages/06-closing.png"
+        }
+      ],
+      "status": "pass"
+    },
+    {
+      "slug": "ppt-kula-minimalist-keynote",
+      "track": "ppt",
+      "family": "kula-lookbook",
+      "category": "premium",
+      "display_name": "Kula 미니멀리스트 키노트",
+      "summary": "따뜻한 샌드 배경에 둥근 모서리(16~24px) 이미지 프레임이 모듈러 블록 그리드로 정렬되고 작은 산세리프 캡션이 도록처럼 단정한, 더스티 뉴트럴 톤·dusty clay 한 점의 차분한 룩북 키노트.",
+      "axes": {
+        "color": "earth",
+        "type": "minimal-sans",
+        "layout": "block-grid",
+        "space": "airy",
+        "motion": "subtle"
+      },
+      "preview": "design-packs/ppt-kula-minimalist-keynote/preview.png",
+      "pages": [
+        {
+          "id": "cover",
+          "label": "표지",
+          "img": "design-packs/ppt-kula-minimalist-keynote/pages/01-cover.png"
+        },
+        {
+          "id": "agenda",
+          "label": "목차",
+          "img": "design-packs/ppt-kula-minimalist-keynote/pages/02-agenda.png"
+        },
+        {
+          "id": "body",
+          "label": "핵심 본문",
+          "img": "design-packs/ppt-kula-minimalist-keynote/pages/03-body.png"
+        },
+        {
+          "id": "gallery",
+          "label": "룩북 이미지 갤러리",
+          "img": "design-packs/ppt-kula-minimalist-keynote/pages/04-gallery.png"
+        },
+        {
+          "id": "comparison",
+          "label": "옵션 비교",
+          "img": "design-packs/ppt-kula-minimalist-keynote/pages/05-comparison.png"
+        },
+        {
+          "id": "closing",
+          "label": "클로징",
+          "img": "design-packs/ppt-kula-minimalist-keynote/pages/06-closing.png"
+        }
+      ],
+      "status": "pass"
+    },
+    {
+      "slug": "ppt-epoch-premium-keynote",
+      "track": "ppt",
+      "family": "epoch-corporate",
+      "category": "premium",
+      "display_name": "Epoch 프리미엄 키노트",
+      "summary": "차분한 딥 슬레이트 배경에 가는 세리프 헤딩과 산세리프 본문을 혼합하고 1pt 룰 라인이 콘텐츠를 정연히 구획하는, cool steel 한 점의 차갑고 정제된 하이엔드 코퍼레이트 키노트.",
+      "axes": {
+        "color": "dark",
+        "type": "mixed",
+        "layout": "centered",
+        "space": "balanced",
+        "motion": "subtle"
+      },
+      "preview": "design-packs/ppt-epoch-premium-keynote/preview.png",
+      "pages": [
+        {
+          "id": "cover",
+          "label": "표지",
+          "img": "design-packs/ppt-epoch-premium-keynote/pages/01-cover.png"
+        },
+        {
+          "id": "agenda",
+          "label": "목차",
+          "img": "design-packs/ppt-epoch-premium-keynote/pages/02-agenda.png"
+        },
+        {
+          "id": "body",
+          "label": "핵심 본문",
+          "img": "design-packs/ppt-epoch-premium-keynote/pages/03-body.png"
+        },
+        {
+          "id": "chart",
+          "label": "데이터 차트",
+          "img": "design-packs/ppt-epoch-premium-keynote/pages/04-chart.png"
+        },
+        {
+          "id": "comparison",
+          "label": "비교 매트릭스",
+          "img": "design-packs/ppt-epoch-premium-keynote/pages/05-comparison.png"
+        },
+        {
+          "id": "timeline",
+          "label": "로드맵 타임라인",
+          "img": "design-packs/ppt-epoch-premium-keynote/pages/06-timeline.png"
+        },
+        {
+          "id": "closing",
+          "label": "클로징",
+          "img": "design-packs/ppt-epoch-premium-keynote/pages/07-closing.png"
+        }
+      ],
+      "status": "pass"
+    },
+    {
+      "slug": "ppt-folio-portfolio-keynote",
+      "track": "ppt",
+      "family": "folio-portfolio",
+      "category": "premium",
+      "display_name": "Folio 포트폴리오 키노트",
+      "summary": "슬라이드 한쪽을 큰 직사각 작품 이미지가 채우고 반대쪽에 거대 인덱스 번호(01·02… 120~160px)와 짧은 케이스 캡션이 비대칭으로 앉는, coral 한 점의 크리에이티브 포트폴리오 케이스 스터디 키노트.",
+      "axes": {
+        "color": "vivid-primary",
+        "type": "minimal-sans",
+        "layout": "asymmetric",
+        "space": "balanced",
+        "motion": "playful"
+      },
+      "preview": "design-packs/ppt-folio-portfolio-keynote/preview.png",
+      "pages": [
+        {
+          "id": "cover",
+          "label": "표지",
+          "img": "design-packs/ppt-folio-portfolio-keynote/pages/01-cover.png"
+        },
+        {
+          "id": "agenda",
+          "label": "케이스 인덱스 목차",
+          "img": "design-packs/ppt-folio-portfolio-keynote/pages/02-agenda.png"
+        },
+        {
+          "id": "body",
+          "label": "케이스 스터디 본문",
+          "img": "design-packs/ppt-folio-portfolio-keynote/pages/03-body.png"
+        },
+        {
+          "id": "gallery",
+          "label": "작품 쇼케이스 갤러리",
+          "img": "design-packs/ppt-folio-portfolio-keynote/pages/04-gallery.png"
+        },
+        {
+          "id": "comparison",
+          "label": "Before / Process 비교",
+          "img": "design-packs/ppt-folio-portfolio-keynote/pages/05-comparison.png"
+        },
+        {
+          "id": "closing",
+          "label": "클로징·컨택트",
+          "img": "design-packs/ppt-folio-portfolio-keynote/pages/06-closing.png"
+        }
+      ],
+      "status": "pass"
+    },
+    {
+      "slug": "ppt-dark-luxury-keynote",
+      "track": "ppt",
+      "family": "dark-luxury-keynote",
+      "category": "premium",
+      "display_name": "다크 럭셔리 키노트",
+      "summary": "거의 순흑 무대에 풀블리드 제품/라이프스타일 사진이 떠 있고 샴페인 골드 0.5pt 헤어라인 프레임이 사진·텍스트 군집을 절제되게 두르며 넓은 자간의 가는 디스플레이 세리프 라벨이 럭셔리를 만드는 다크 키노트.",
+      "axes": {
+        "color": "dark",
+        "type": "serif-editorial",
+        "layout": "full-bleed",
+        "space": "airy",
+        "motion": "subtle"
+      },
+      "preview": "design-packs/ppt-dark-luxury-keynote/preview.png",
+      "pages": [
+        {
+          "id": "cover",
+          "label": "표지",
+          "img": "design-packs/ppt-dark-luxury-keynote/pages/01-cover.png"
+        },
+        {
+          "id": "section-divider",
+          "label": "섹션 간지",
+          "img": "design-packs/ppt-dark-luxury-keynote/pages/02-section-divider.png"
+        },
+        {
+          "id": "body",
+          "label": "제품 디테일 본문",
+          "img": "design-packs/ppt-dark-luxury-keynote/pages/03-body.png"
+        },
+        {
+          "id": "gallery",
+          "label": "룩북 갤러리",
+          "img": "design-packs/ppt-dark-luxury-keynote/pages/04-gallery.png"
+        },
+        {
+          "id": "comparison",
+          "label": "라인업 비교",
+          "img": "design-packs/ppt-dark-luxury-keynote/pages/05-comparison.png"
+        },
+        {
+          "id": "closing",
+          "label": "클로징",
+          "img": "design-packs/ppt-dark-luxury-keynote/pages/06-closing.png"
+        }
+      ],
+      "status": "pass"
+    },
+    {
+      "slug": "web-technical-precision-marque",
+      "track": "web",
+      "family": "technical-precision",
+      "category": "premium",
+      "display_name": "테크니컬 프리시전 마퀴",
+      "summary": "딥 차콜 배경에 1px 헤어라인 사양 그리드·등폭 스펙 라벨·스틸 블루 단색·절제된 계측 페이드 모션의 독일 엔지니어링 정밀 다크 프리미엄 웹 스타일.",
+      "axes": {
+        "color": "dark",
+        "type": "minimal-sans",
+        "layout": "strict-grid",
+        "space": "balanced",
+        "motion": "subtle"
+      },
+      "preview": "design-packs/web-technical-precision-marque/preview.png",
+      "pages": [
+        {
+          "id": "hero",
+          "label": "히어로 (제품 + 스펙 컬럼)",
+          "img": "design-packs/web-technical-precision-marque/pages/01-hero.png"
+        },
+        {
+          "id": "nav",
+          "label": "헤더·내비게이션",
+          "img": "design-packs/web-technical-precision-marque/pages/02-nav.png"
+        },
+        {
+          "id": "features",
+          "label": "기능 그리드",
+          "img": "design-packs/web-technical-precision-marque/pages/03-features.png"
+        },
+        {
+          "id": "content",
+          "label": "스펙 비교 테이블",
+          "img": "design-packs/web-technical-precision-marque/pages/04-content.png"
+        },
+        {
+          "id": "gallery",
+          "label": "모델 갤러리",
+          "img": "design-packs/web-technical-precision-marque/pages/05-gallery.png"
+        },
+        {
+          "id": "cta-footer",
+          "label": "CTA·푸터",
+          "img": "design-packs/web-technical-precision-marque/pages/06-cta-footer.png"
+        }
+      ],
+      "status": "pass"
+    },
+    {
+      "slug": "web-monumental-hypercar-display",
+      "track": "web",
+      "family": "monumental-display",
+      "category": "premium",
+      "display_name": "모뉴멘탈 하이퍼카 디스플레이",
+      "summary": "시네마 블랙 캔버스에 뷰포트를 가로지르는 모뉴멘탈 디스플레이 타이포·풀블리드 풀스크린 스테이트먼트·EB 블루 단 한 점·느린 페이드 모션의 하이퍼카 절제 웹 스타일.",
+      "axes": {
+        "color": "dark",
+        "type": "heavy-display",
+        "layout": "full-bleed",
+        "space": "balanced",
+        "motion": "subtle"
+      },
+      "preview": "design-packs/web-monumental-hypercar-display/preview.png",
+      "pages": [
+        {
+          "id": "hero",
+          "label": "히어로 (모뉴멘탈 타이포)",
+          "img": "design-packs/web-monumental-hypercar-display/pages/01-hero.png"
+        },
+        {
+          "id": "content",
+          "label": "풀스크린 스테이트먼트",
+          "img": "design-packs/web-monumental-hypercar-display/pages/02-content.png"
+        },
+        {
+          "id": "gallery",
+          "label": "갤러리",
+          "img": "design-packs/web-monumental-hypercar-display/pages/03-gallery.png"
+        },
+        {
+          "id": "testimonial",
+          "label": "헤리티지·인용",
+          "img": "design-packs/web-monumental-hypercar-display/pages/04-testimonial.png"
+        },
+        {
+          "id": "cta-footer",
+          "label": "CTA·푸터",
+          "img": "design-packs/web-monumental-hypercar-display/pages/05-cta-footer.png"
+        }
+      ],
+      "status": "pass"
+    },
+    {
+      "slug": "web-chiaroscuro-motorsport-editorial",
+      "track": "web",
+      "family": "chiaroscuro-editorial",
+      "category": "premium",
+      "display_name": "키아로스쿠로 모터스포츠 에디토리얼",
+      "summary": "순흑·순백 면이 엣지투엣지로 극적 분할하는 키아로스쿠로 명암 대비에 디스플레이 세리프·좁은 매거진 칼럼·단 한 점의 레이싱 레드·단호한 스냅 모션의 모터스포츠 에디토리얼 웹 스타일.",
+      "axes": {
+        "color": "vivid-primary",
+        "type": "serif-editorial",
+        "layout": "full-bleed",
+        "space": "dense",
+        "motion": "snappy"
+      },
+      "preview": "design-packs/web-chiaroscuro-motorsport-editorial/preview.png",
+      "pages": [
+        {
+          "id": "hero",
+          "label": "히어로 (흑백 분할)",
+          "img": "design-packs/web-chiaroscuro-motorsport-editorial/pages/01-hero.png"
+        },
+        {
+          "id": "nav",
+          "label": "헤더·내비게이션",
+          "img": "design-packs/web-chiaroscuro-motorsport-editorial/pages/02-nav.png"
+        },
+        {
+          "id": "content",
+          "label": "헤리티지 스토리 콘텐츠",
+          "img": "design-packs/web-chiaroscuro-motorsport-editorial/pages/03-content.png"
+        },
+        {
+          "id": "gallery",
+          "label": "모델 갤러리",
+          "img": "design-packs/web-chiaroscuro-motorsport-editorial/pages/04-gallery.png"
+        },
+        {
+          "id": "testimonial",
+          "label": "레이스 기록·인용",
+          "img": "design-packs/web-chiaroscuro-motorsport-editorial/pages/05-testimonial.png"
+        },
+        {
+          "id": "cta-footer",
+          "label": "CTA·푸터",
+          "img": "design-packs/web-chiaroscuro-motorsport-editorial/pages/06-cta-footer.png"
+        }
+      ],
+      "status": "pass"
+    },
+    {
+      "slug": "web-angular-true-black-prestige",
+      "track": "web",
+      "family": "angular-prestige",
+      "category": "premium",
+      "display_name": "앵귤러 트루블랙 프레스티지",
+      "summary": "순흑 캔버스에 헥사곤·예각 사선 clip-path 패널이 비대칭으로 맞물리고 all-caps 콘덴스드 산세리프·각진 골드 1px 보더·절제된 마이크로모션의 공격적 프레스티지 웹 스타일.",
+      "axes": {
+        "color": "dark",
+        "type": "heavy-display",
+        "layout": "asymmetric",
+        "space": "dense",
+        "motion": "subtle"
+      },
+      "preview": "design-packs/web-angular-true-black-prestige/preview.png",
+      "pages": [
+        {
+          "id": "hero",
+          "label": "히어로 (헥사곤 클립)",
+          "img": "design-packs/web-angular-true-black-prestige/pages/01-hero.png"
+        },
+        {
+          "id": "nav",
+          "label": "헤더·내비게이션",
+          "img": "design-packs/web-angular-true-black-prestige/pages/02-nav.png"
+        },
+        {
+          "id": "features",
+          "label": "각진 기능 그리드",
+          "img": "design-packs/web-angular-true-black-prestige/pages/03-features.png"
+        },
+        {
+          "id": "content",
+          "label": "퍼포먼스 콘텐츠",
+          "img": "design-packs/web-angular-true-black-prestige/pages/04-content.png"
+        },
+        {
+          "id": "gallery",
+          "label": "갤러리",
+          "img": "design-packs/web-angular-true-black-prestige/pages/05-gallery.png"
+        },
+        {
+          "id": "cta-footer",
+          "label": "CTA·푸터",
+          "img": "design-packs/web-angular-true-black-prestige/pages/06-cta-footer.png"
+        }
+      ],
+      "status": "pass"
+    },
+    {
+      "slug": "web-radical-subtraction-white",
+      "track": "web",
+      "family": "radical-subtraction",
+      "category": "premium",
+      "display_name": "래디컬 섭트랙션 화이트",
+      "summary": "풀뷰포트 시네마틱 사진·짧은 중앙 정렬 헤드라인·외곽선/솔리드 버튼 페어만 남기고 장식 UI를 전부 제거한 순수 무채·섹션 스냅 스크롤의 극단적 환원 클린 화이트 웹 스타일.",
+      "axes": {
+        "color": "mono",
+        "type": "minimal-sans",
+        "layout": "centered",
+        "space": "airy",
+        "motion": "snappy"
+      },
+      "preview": "design-packs/web-radical-subtraction-white/preview.png",
+      "pages": [
+        {
+          "id": "hero",
+          "label": "히어로 (풀뷰포트 사진)",
+          "img": "design-packs/web-radical-subtraction-white/pages/01-hero.png"
+        },
+        {
+          "id": "nav",
+          "label": "헤더·내비게이션",
+          "img": "design-packs/web-radical-subtraction-white/pages/02-nav.png"
+        },
+        {
+          "id": "features",
+          "label": "풀뷰포트 기능 스택",
+          "img": "design-packs/web-radical-subtraction-white/pages/03-features.png"
+        },
+        {
+          "id": "pricing",
+          "label": "가격·구성 옵션",
+          "img": "design-packs/web-radical-subtraction-white/pages/04-pricing.png"
+        },
+        {
+          "id": "gallery",
+          "label": "갤러리",
+          "img": "design-packs/web-radical-subtraction-white/pages/05-gallery.png"
+        },
+        {
+          "id": "cta-footer",
+          "label": "예약 CTA·푸터",
+          "img": "design-packs/web-radical-subtraction-white/pages/06-cta-footer.png"
+        }
+      ],
+      "status": "pass"
+    },
+    {
+      "slug": "web-art-nouveau-florido",
+      "track": "web",
+      "family": "art-nouveau",
+      "category": "premium",
+      "display_name": "아르누보 플로리도",
+      "summary": "휘감기는 식물 채찍 곡선 SVG 장식·흐르는 디스플레이 세리프·머스터드/세이지/플럼 벨 에포크 팔레트·비대칭 유기 곡선 프레임·드로우 모션의 1890년대 아르누보 웹 스타일.",
+      "axes": {
+        "color": "earth",
+        "type": "serif-editorial",
+        "layout": "asymmetric",
+        "space": "balanced",
+        "motion": "playful"
+      },
+      "preview": "design-packs/web-art-nouveau-florido/preview.png",
+      "pages": [
+        {
+          "id": "hero",
+          "label": "히어로 (곡선 장식 프레임)",
+          "img": "design-packs/web-art-nouveau-florido/pages/01-hero.png"
+        },
+        {
+          "id": "nav",
+          "label": "헤더·내비게이션",
+          "img": "design-packs/web-art-nouveau-florido/pages/02-nav.png"
+        },
+        {
+          "id": "content",
+          "label": "콘텐츠 상세",
+          "img": "design-packs/web-art-nouveau-florido/pages/03-content.png"
+        },
+        {
+          "id": "gallery",
+          "label": "갤러리",
+          "img": "design-packs/web-art-nouveau-florido/pages/04-gallery.png"
+        },
+        {
+          "id": "testimonial",
+          "label": "후기",
+          "img": "design-packs/web-art-nouveau-florido/pages/05-testimonial.png"
+        },
+        {
+          "id": "cta-footer",
+          "label": "CTA·푸터",
+          "img": "design-packs/web-art-nouveau-florido/pages/06-cta-footer.png"
+        }
+      ],
+      "status": "pass"
+    },
+    {
+      "slug": "web-de-stijl-neoplastic",
+      "track": "web",
+      "family": "de-stijl",
+      "category": "premium",
+      "display_name": "데 스틸 네오플라스틱",
+      "summary": "굵은 순흑 수직·수평 선이 페이지를 비대칭 직사각형 면으로 분할하고 소수의 면만 삼원색으로 채우는 정적·모션 없는 1917년 신조형주의 웹 스타일.",
+      "axes": {
+        "color": "vivid-primary",
+        "type": "heavy-display",
+        "layout": "asymmetric",
+        "space": "balanced",
+        "motion": "none"
+      },
+      "preview": "design-packs/web-de-stijl-neoplastic/preview.png",
+      "pages": [
+        {
+          "id": "hero",
+          "label": "히어로 (면 분할 구성)",
+          "img": "design-packs/web-de-stijl-neoplastic/pages/01-hero.png"
+        },
+        {
+          "id": "features",
+          "label": "기능 그리드",
+          "img": "design-packs/web-de-stijl-neoplastic/pages/02-features.png"
+        },
+        {
+          "id": "content",
+          "label": "콘텐츠 상세",
+          "img": "design-packs/web-de-stijl-neoplastic/pages/03-content.png"
+        },
+        {
+          "id": "gallery",
+          "label": "갤러리",
+          "img": "design-packs/web-de-stijl-neoplastic/pages/04-gallery.png"
+        },
+        {
+          "id": "cta-footer",
+          "label": "CTA·푸터",
+          "img": "design-packs/web-de-stijl-neoplastic/pages/05-cta-footer.png"
+        }
+      ],
+      "status": "pass"
+    },
+    {
+      "slug": "web-aurora-french-modernism",
+      "track": "web",
+      "family": "aurora-modernism",
+      "category": "premium",
+      "display_name": "오로라 프렌치 모더니즘",
+      "summary": "노랑→시안→핑크 오로라 메시 그라디언트 면이 섹션 배경을 채우고 버튼·카드는 zero-radius 직각·큰 지오메트릭 산세리프·스냅 모션의 프랑스 모더니즘 웹 스타일.",
+      "axes": {
+        "color": "gradient",
+        "type": "heavy-display",
+        "layout": "full-bleed",
+        "space": "balanced",
+        "motion": "snappy"
+      },
+      "preview": "design-packs/web-aurora-french-modernism/preview.png",
+      "pages": [
+        {
+          "id": "hero",
+          "label": "히어로 (오로라 그라디언트)",
+          "img": "design-packs/web-aurora-french-modernism/pages/01-hero.png"
+        },
+        {
+          "id": "nav",
+          "label": "헤더·내비게이션",
+          "img": "design-packs/web-aurora-french-modernism/pages/02-nav.png"
+        },
+        {
+          "id": "features",
+          "label": "기능 그리드",
+          "img": "design-packs/web-aurora-french-modernism/pages/03-features.png"
+        },
+        {
+          "id": "pricing",
+          "label": "가격표",
+          "img": "design-packs/web-aurora-french-modernism/pages/04-pricing.png"
+        },
+        {
+          "id": "gallery",
+          "label": "갤러리",
+          "img": "design-packs/web-aurora-french-modernism/pages/05-gallery.png"
+        },
+        {
+          "id": "cta-footer",
+          "label": "CTA·푸터",
+          "img": "design-packs/web-aurora-french-modernism/pages/06-cta-footer.png"
+        }
+      ],
+      "status": "pass"
+    },
+    {
+      "slug": "web-orbital-warm-editorial",
+      "track": "web",
+      "family": "orbital-warm",
+      "category": "premium",
+      "display_name": "오비탈 웜 에디토리얼",
+      "summary": "따뜻한 크림 캔버스에 완전 라운드 알약 도형이 궤도처럼 겹쳐 모듈러 블록 그리드로 배치되고 세리프 헤딩·산세리프 본문 에디토리얼 위계·코랄/앰버 듀오·궤도 회전 playful 모션의 따뜻한 브랜드 웹 스타일.",
+      "axes": {
+        "color": "earth",
+        "type": "mixed",
+        "layout": "block-grid",
+        "space": "airy",
+        "motion": "playful"
+      },
+      "preview": "design-packs/web-orbital-warm-editorial/preview.png",
+      "pages": [
+        {
+          "id": "hero",
+          "label": "히어로 (알약 궤도)",
+          "img": "design-packs/web-orbital-warm-editorial/pages/01-hero.png"
+        },
+        {
+          "id": "nav",
+          "label": "헤더·내비게이션",
+          "img": "design-packs/web-orbital-warm-editorial/pages/02-nav.png"
+        },
+        {
+          "id": "features",
+          "label": "기능 그리드 (알약 모듈)",
+          "img": "design-packs/web-orbital-warm-editorial/pages/03-features.png"
+        },
+        {
+          "id": "content",
+          "label": "콘텐츠 상세",
+          "img": "design-packs/web-orbital-warm-editorial/pages/04-content.png"
+        },
+        {
+          "id": "testimonial",
+          "label": "후기·로고월",
+          "img": "design-packs/web-orbital-warm-editorial/pages/05-testimonial.png"
+        },
+        {
+          "id": "cta-footer",
+          "label": "CTA·푸터",
+          "img": "design-packs/web-orbital-warm-editorial/pages/06-cta-footer.png"
+        }
+      ],
+      "status": "pass"
+    },
+    {
+      "slug": "web-acid-display-tech-zine",
+      "track": "web",
+      "family": "acid-tech-zine",
+      "category": "premium",
+      "display_name": "애시드 디스플레이 테크 진",
+      "summary": "짙은 캔버스에 애시드 민트·울트라바이올렛 듀오 강조가 충돌하고 굵은 포스터 디스플레이·의도적으로 어긋난 비대칭 진(zine) 레이아웃·하드 오프셋 스냅 모션의 테크 매거진 웹 스타일.",
+      "axes": {
+        "color": "dark",
+        "type": "heavy-display",
+        "layout": "asymmetric",
+        "space": "balanced",
+        "motion": "snappy"
+      },
+      "preview": "design-packs/web-acid-display-tech-zine/preview.png",
+      "pages": [
+        {
+          "id": "hero",
+          "label": "히어로 (듀오 강조)",
+          "img": "design-packs/web-acid-display-tech-zine/pages/01-hero.png"
+        },
+        {
+          "id": "nav",
+          "label": "헤더·내비게이션",
+          "img": "design-packs/web-acid-display-tech-zine/pages/02-nav.png"
+        },
+        {
+          "id": "content",
+          "label": "기사 콘텐츠",
+          "img": "design-packs/web-acid-display-tech-zine/pages/03-content.png"
+        },
+        {
+          "id": "gallery",
+          "label": "기사 그리드 갤러리",
+          "img": "design-packs/web-acid-display-tech-zine/pages/04-gallery.png"
+        },
+        {
+          "id": "cta-footer",
+          "label": "구독 CTA·푸터",
+          "img": "design-packs/web-acid-display-tech-zine/pages/05-cta-footer.png"
+        }
+      ],
       "status": "pass"
     }
   ]

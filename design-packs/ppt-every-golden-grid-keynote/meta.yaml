@@ -1,0 +1,20 @@
+slug: ppt-every-golden-grid-keynote
+display_name: Every 골든 그리드 키노트
+track: ppt
+family: golden-grid
+category: premium
+summary: 황금비(1:1.618)로 분할된 그리드가 모든 슬라이드의 골격이고 이미지 블록·텍스트 컬럼·여백·폰트 크기까지 전부 황금 스케일을 따르는, 무채색 + muted gold 한 점의 비례 일관성 미니멀 키노트.
+axes: { color: mono, type: minimal-sans, layout: block-grid, space: balanced, motion: subtle }
+diagram_kit: "프로세스=황금비 직사각형 노드 + 1pt 가는 라인(노드:간격 1.618:1) / 타임라인=수평 축 + 황금비 간격 마일스톤 / 비교=황금비 칼럼 폭 / 매트릭스=십자축 61.8% 비대칭 2×2 / 계층=황금비 폭 감소 적층 / KPI=황금비 직사각형 카드 + 55pt 수치 / 차트=무채 + 골드 1막대, 차트 블록 1.618:1 직사각형·막대 폭:간격 1.618:1"
+pages:
+  - { id: cover, label: 표지, kind: cover }
+  - { id: agenda, label: 목차, kind: agenda }
+  - { id: section-divider, label: 섹션 간지, kind: section-divider }
+  - { id: body, label: 핵심 본문 (황금비 블록), kind: body }
+  - { id: chart, label: 비례 차트, kind: chart }
+  - { id: closing, label: 클로징, kind: closing }
+sources:
+  - { title: "Free Keynote Templates — Every (golden grid system) (Speckyboy)", url: "https://speckyboy.com/free-keynote-templates", type: article }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님. 브랜드 영감은 brand_inspiration로만 참고하며 독점 폰트는 오픈 폰트로 대체한다."
+source_depth: full
+status: pass

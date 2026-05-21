@@ -1,0 +1,22 @@
+slug: ppt-goldman-ir-deck
+display_name: 골드만 IR 덱
+track: ppt
+family: goldman-ir
+category: premium
+summary: 딥 네이비 전면 페이지에 메탈릭 골드 0.5pt 헤어라인이 헤더·섹션·표를 구획하고 트랜지셔널 세리프 헤딩과 등폭 재무 표가 권위를 만드는, 디스클레이머 풋라인 의무의 투자은행 IR 덱.
+axes: { color: dark, type: serif-editorial, layout: strict-grid, space: balanced, motion: subtle }
+diagram_kit: "프로세스=네이비 패널 노드 + 골드 헤어라인·1pt 셰브론 / 타임라인=수평 축 + 골드 윤곽 다이아몬드 마일스톤(현재 분기만 솔리드) / 비교=다열 재무 표(골드 헤어라인 격자·등폭 우정렬·합계 골드 룰) / 매트릭스=2×2 골드 십자축 + 골드 윤곽 원 / 계층=폭 비례 적층 / KPI=네이비 패널 카드 + 40pt 세리프 수치 + 골드 YoY 델타 / 차트=다년 추이 라인(골드+오프화이트+네이비 명도·출처/통화 각주)"
+pages:
+  - { id: cover, label: 표지, kind: cover }
+  - { id: agenda, label: 목차, kind: agenda }
+  - { id: body, label: 재무 하이라이트 본문, kind: body }
+  - { id: chart, label: 다년 추이 차트, kind: chart }
+  - { id: comparison, label: 세그먼트 비교 표, kind: comparison }
+  - { id: timeline, label: 분기·연도 타임라인, kind: timeline }
+  - { id: closing, label: 전망·디스클레이머 클로징, kind: closing }
+sources:
+  - { title: "Dark Luxury / Corporate Keynote templates (Design Shack)", url: "https://designshack.net/articles/inspiration/free-keynote-templates", type: article }
+  - { title: "60 Premium PowerPoint Templates — corporate/finance set (Design Shack)", url: "https://designshack.net/articles/inspiration/60-beautiful-premium-powerpoint-presentation-templates", type: article }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님. 브랜드 영감은 brand_inspiration로만 참고하며 독점 폰트는 오픈 폰트로 대체한다."
+source_depth: full
+status: pass

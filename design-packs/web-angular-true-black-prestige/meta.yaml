@@ -1,0 +1,19 @@
+slug: web-angular-true-black-prestige
+display_name: 앵귤러 트루블랙 프레스티지
+track: web
+family: angular-prestige
+category: premium
+summary: 순흑 캔버스에 헥사곤·예각 사선 clip-path 패널이 비대칭으로 맞물리고 all-caps 콘덴스드 산세리프·각진 골드 1px 보더·절제된 마이크로모션의 공격적 프레스티지 웹 스타일.
+axes: { color: dark, type: heavy-display, layout: asymmetric, space: dense, motion: subtle }
+pages:
+  - { id: hero, label: 히어로 (헥사곤 클립), kind: hero }
+  - { id: nav, label: 헤더·내비게이션, kind: nav }
+  - { id: features, label: 각진 기능 그리드, kind: features }
+  - { id: content, label: 퍼포먼스 콘텐츠, kind: content }
+  - { id: gallery, label: 갤러리, kind: gallery }
+  - { id: cta-footer, label: CTA·푸터, kind: cta-footer }
+sources:
+  - { title: "awesome-design-md — Lamborghini DESIGN.md", url: "https://github.com/VoltAgent/awesome-design-md", type: official }
+license: "원자산은 각 출처 라이선스를 따름(awesome-design-md MIT). 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님. Lamborghini는 디자인 결의 brand_inspiration 영감 출처로만 참조하며 로고·독점 폰트 명세를 포함하지 않는다 — 타이포는 공개 웹폰트(Saira Condensed·Saira, OFL)로 대체한다. 골드는 본 팩 자체 지정값."
+source_depth: full
+status: pass

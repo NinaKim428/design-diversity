@@ -3,7 +3,7 @@
 ![Design Diversity — AI도 매번 다른 PPT·웹사이트를 만들 수 있습니다](./assets/social-preview.png)
 
 > AI에게 PPT·웹사이트를 맡기면 결과물이 늘 비슷합니다. **design-pick 스킬**을 설치하면,
-> 서로 뚜렷이 구별되는 **80가지 디자인 스타일** 중 하나를 골라 Claude가 그 스타일대로 만들어 줍니다.
+> 서로 뚜렷이 구별되는 **100가지 디자인 스타일** 중 하나를 골라 Claude가 그 스타일대로 만들어 줍니다.
 
 🌐 **카탈로그 둘러보기:** https://design-diversity.vercel.app
 
@@ -21,7 +21,7 @@
 - 팩 **슬러그를 직접 지정**하면(예: `web-velvet-dark-boutique`) 그 팩으로 바로 생성하고,
 - 고른 팩의 정밀 명세(색·타이포·레이아웃·차트·다이어그램·"하지 말 것")를 그대로 적용합니다.
 
-80개 팩(PPT 40 + 웹 40)의 명세가 스킬 안에 `references/`로 번들돼 있어, 설치 후엔 네트워크
+100개 팩(PPT 50 + 웹 50, 이 중 20개는 5~7개 상세 페이지를 갖춘 프리미엄 팩)의 명세가 스킬 안에 `references/`로 번들돼 있어, 설치 후엔 네트워크
 없이 동작합니다.
 
 ## 설치
@@ -35,7 +35,7 @@ cp -r skills/design-pick ~/.claude/skills/
 
 ## 쓰는 법
 
-1. **둘러보고 고르기 (시각적)** — [카탈로그 사이트](https://design-diversity.vercel.app)에서 80팩의
+1. **둘러보고 고르기 (시각적)** — [카탈로그 사이트](https://design-diversity.vercel.app)에서 100팩의
    미리보기를 보고 마음에 드는 팩의 슬러그를 확인합니다.
 2. **Claude Code에서 적용** — 스킬이 설치된 상태에서 이렇게 요청합니다:
 
@@ -47,9 +47,9 @@ cp -r skills/design-pick ~/.claude/skills/
 
 | 경로 | 내용 |
 | --- | --- |
-| `skills/design-pick/` | **소비자 스킬** — 설치해서 쓰는 본체. SKILL.md + 80팩 명세 references. |
-| `design-packs/` | 80팩 원본 자산 — 각 폴더에 `prompt.md`·`tokens.json`·`preview.png`·`meta.yaml`. |
-| `catalog.json` | 80팩 머신리더블 인덱스. |
+| `skills/design-pick/` | **소비자 스킬** — 설치해서 쓰는 본체. SKILL.md + 100팩 명세 references. |
+| `design-packs/` | 100팩 원본 자산 — 각 폴더에 `prompt.md`·`tokens.json`·`preview.png`·`meta.yaml`. |
+| `catalog.json` | 100팩 머신리더블 인덱스 (schema v2 — `category`/`pages` 포함). |
 | `site/` | Next.js 15 카탈로그 웹사이트(둘러보기·picker). |
 | `.claude/` | 이 카탈로그를 **만든** 빌드 하네스(에이전트 7 + 스킬 8). "어떻게 만들었나" 아카이브. |
 

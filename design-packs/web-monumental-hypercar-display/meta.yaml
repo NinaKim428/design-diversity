@@ -1,0 +1,18 @@
+slug: web-monumental-hypercar-display
+display_name: 모뉴멘탈 하이퍼카 디스플레이
+track: web
+family: monumental-display
+category: premium
+summary: 시네마 블랙 캔버스에 뷰포트를 가로지르는 모뉴멘탈 디스플레이 타이포·풀블리드 풀스크린 스테이트먼트·EB 블루 단 한 점·느린 페이드 모션의 하이퍼카 절제 웹 스타일.
+axes: { color: dark, type: heavy-display, layout: full-bleed, space: balanced, motion: subtle }
+pages:
+  - { id: hero, label: 히어로 (모뉴멘탈 타이포), kind: hero }
+  - { id: content, label: 풀스크린 스테이트먼트, kind: content }
+  - { id: gallery, label: 갤러리, kind: gallery }
+  - { id: testimonial, label: 헤리티지·인용, kind: testimonial }
+  - { id: cta-footer, label: CTA·푸터, kind: cta-footer }
+sources:
+  - { title: "awesome-design-md — Bugatti DESIGN.md", url: "https://github.com/VoltAgent/awesome-design-md", type: official }
+license: "원자산은 각 출처 라이선스를 따름(awesome-design-md MIT). 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님. Bugatti는 디자인 결의 brand_inspiration 영감 출처로만 참조하며 로고·독점 폰트 명세를 포함하지 않는다 — 타이포는 공개 웹폰트(Anton·Inter, OFL)로 대체한다. EB 블루는 본 팩 자체 지정값."
+source_depth: full
+status: pass

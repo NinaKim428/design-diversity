@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { getPacks, getPackDetail, AXIS_LABELS, TRACK_LABELS } from "@/lib/packs";
 import type { Axes } from "@/lib/packs";
 import CopyButton from "@/components/CopyButton";
+import PageGallery from "@/components/PageGallery";
 
 const AXIS_ORDER: (keyof Axes)[] = [
   "color",
@@ -91,7 +92,14 @@ export default async function PackPage({
             )}
             <span className="slug">{pack.slug}</span>
           </div>
-          <h1>{pack.display_name}</h1>
+          <h1>
+            {pack.display_name}
+            {pack.category === "premium" && (
+              <span className="premium-badge premium-badge-inline">
+                PREMIUM
+              </span>
+            )}
+          </h1>
           <p className="summary">{pack.summary}</p>
         </header>
       </div>
@@ -101,12 +109,30 @@ export default async function PackPage({
           {/* LEFT — preview + token details */}
           <div>
             <div className="section detail-preview">
-              <h2>미리보기</h2>
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={`/previews/${pack.slug}.png`}
-                alt={`${pack.display_name} 샘플 렌더`}
-              />
+              {pack.category === "premium" && pack.pages?.length ? (
+                <>
+                  <h2>
+                    상세 페이지 미리보기
+                    <span className="h2-sub">
+                      {pack.pages.length}개 활용 장면
+                    </span>
+                  </h2>
+                  <PageGallery
+                    slug={pack.slug}
+                    pages={pack.pages}
+                    displayName={pack.display_name}
+                  />
+                </>
+              ) : (
+                <>
+                  <h2>미리보기</h2>
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={`/previews/${pack.slug}.png`}
+                    alt={`${pack.display_name} 샘플 렌더`}
+                  />
+                </>
+              )}
             </div>
 
             {swatches.length > 0 && (

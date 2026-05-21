@@ -8,6 +8,12 @@ export type Axes = {
   motion?: string;
 };
 
+export type PackPage = {
+  id: string;
+  label: string;
+  img: string;
+};
+
 export type CatalogPack = {
   slug: string;
   track: "ppt" | "web";
@@ -17,6 +23,8 @@ export type CatalogPack = {
   axes: Axes;
   preview: string;
   status: string;
+  category?: string;
+  pages?: PackPage[];
 };
 
 export type Catalog = {

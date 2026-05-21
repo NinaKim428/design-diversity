@@ -1,0 +1,18 @@
+slug: web-acid-display-tech-zine
+display_name: 애시드 디스플레이 테크 진
+track: web
+family: acid-tech-zine
+category: premium
+summary: 짙은 캔버스에 애시드 민트·울트라바이올렛 듀오 강조가 충돌하고 굵은 포스터 디스플레이·의도적으로 어긋난 비대칭 진(zine) 레이아웃·하드 오프셋 스냅 모션의 테크 매거진 웹 스타일.
+axes: { color: dark, type: heavy-display, layout: asymmetric, space: balanced, motion: snappy }
+pages:
+  - { id: hero, label: 히어로 (듀오 강조), kind: hero }
+  - { id: nav, label: 헤더·내비게이션, kind: nav }
+  - { id: content, label: 기사 콘텐츠, kind: content }
+  - { id: gallery, label: 기사 그리드 갤러리, kind: gallery }
+  - { id: cta-footer, label: 구독 CTA·푸터, kind: cta-footer }
+sources:
+  - { title: "awesome-claude-design — The Verge design system", url: "https://github.com/VoltAgent/awesome-claude-design", type: official }
+license: "원자산은 각 출처 라이선스를 따름(awesome-claude-design MIT). 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님. The Verge는 디자인 결의 brand_inspiration 영감 출처로만 참조하며 로고·독점 폰트 명세를 포함하지 않는다 — 타이포는 공개 웹폰트(Clash Display Fontshare 무료·Inter OFL)로 대체한다. 색값은 본 팩 자체 지정값."
+source_depth: full
+status: pass

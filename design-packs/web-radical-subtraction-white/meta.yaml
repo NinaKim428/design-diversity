@@ -1,0 +1,19 @@
+slug: web-radical-subtraction-white
+display_name: 래디컬 섭트랙션 화이트
+track: web
+family: radical-subtraction
+category: premium
+summary: 풀뷰포트 시네마틱 사진·짧은 중앙 정렬 헤드라인·외곽선/솔리드 버튼 페어만 남기고 장식 UI를 전부 제거한 순수 무채·섹션 스냅 스크롤의 극단적 환원 클린 화이트 웹 스타일.
+axes: { color: mono, type: minimal-sans, layout: centered, space: airy, motion: snappy }
+pages:
+  - { id: hero, label: 히어로 (풀뷰포트 사진), kind: hero }
+  - { id: nav, label: 헤더·내비게이션, kind: nav }
+  - { id: features, label: 풀뷰포트 기능 스택, kind: features }
+  - { id: pricing, label: 가격·구성 옵션, kind: pricing }
+  - { id: gallery, label: 갤러리, kind: gallery }
+  - { id: cta-footer, label: 예약 CTA·푸터, kind: cta-footer }
+sources:
+  - { title: "awesome-claude-design — Tesla design system", url: "https://github.com/VoltAgent/awesome-claude-design", type: official }
+license: "원자산은 각 출처 라이선스를 따름(awesome-claude-design MIT). 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님. Tesla는 디자인 결의 brand_inspiration 영감 출처로만 참조하며 로고·독점 폰트 명세를 포함하지 않는다 — 타이포는 공개 웹폰트(Inter, OFL)로 대체한다. 색값은 본 팩 자체 지정값."
+source_depth: full
+status: pass

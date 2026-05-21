@@ -18,10 +18,12 @@ function uniqSorted(values: (string | undefined)[]): string[] {
 }
 
 function PackCard({ p }: { p: CatalogPack }) {
+  const isPremium = p.category === "premium";
+  const pageCount = p.pages?.length ?? 0;
   return (
     <Link
       href={`/pack/${p.slug}/`}
-      className="card"
+      className={`card${isPremium ? " card-premium" : ""}`}
       prefetch={false}
     >
       <div className="card-thumb">
@@ -31,6 +33,7 @@ function PackCard({ p }: { p: CatalogPack }) {
           alt={`${p.display_name} 미리보기`}
           loading="lazy"
         />
+        {isPremium && <span className="premium-badge">PREMIUM</span>}
       </div>
       <div className="card-body">
         <div className="card-top">
@@ -52,6 +55,9 @@ function PackCard({ p }: { p: CatalogPack }) {
                 </span>
               )
           )}
+          {isPremium && pageCount > 0 && (
+            <span className="tag tag-pages">상세 {pageCount}면</span>
+          )}
         </div>
       </div>
     </Link>
@@ -60,6 +66,7 @@ function PackCard({ p }: { p: CatalogPack }) {
 
 export default function Gallery({ packs }: { packs: CatalogPack[] }) {
   const [track, setTrack] = useState<string>("all");
+  const [premiumOnly, setPremiumOnly] = useState<boolean>(false);
   const [axisFilters, setAxisFilters] = useState<
     Partial<Record<keyof Axes, string>>
   >({});
@@ -75,13 +82,14 @@ export default function Gallery({ packs }: { packs: CatalogPack[] }) {
   const filtered = useMemo(() => {
     return packs.filter((p) => {
       if (track !== "all" && p.track !== track) return false;
+      if (premiumOnly && p.category !== "premium") return false;
       for (const axis of AXIS_ORDER) {
         const want = axisFilters[axis];
         if (want && p.axes?.[axis] !== want) return false;
       }
       return true;
     });
-  }, [packs, track, axisFilters]);
+  }, [packs, track, premiumOnly, axisFilters]);
 
   const pptPacks = filtered.filter((p) => p.track === "ppt");
   const webPacks = filtered.filter((p) => p.track === "web");
@@ -94,6 +102,7 @@ export default function Gallery({ packs }: { packs: CatalogPack[] }) {
   }
 
   const hasAxisFilter = Object.values(axisFilters).some(Boolean);
+  const premiumCount = packs.filter((p) => p.category === "premium").length;
 
   const SEG: { id: string; label: string; sub: string }[] = [
     { id: "all", label: "전체", sub: `${packs.length}` },
@@ -126,6 +135,23 @@ export default function Gallery({ packs }: { packs: CatalogPack[] }) {
               <span className="seg-count">{s.sub}</span>
             </button>
           ))}
+        </div>
+
+        {/* category toggle — premium */}
+        <div className="cat-bar">
+          <button
+            className={`cat-toggle${premiumOnly ? " cat-toggle-on" : ""}`}
+            aria-pressed={premiumOnly}
+            onClick={() => setPremiumOnly((v) => !v)}
+          >
+            <span className="cat-toggle-star">★</span>
+            프리미엄 팩만 보기
+            <span className="cat-toggle-count">{premiumCount}</span>
+          </button>
+          <span className="cat-bar-note">
+            프리미엄 팩은 표지·본문·차트·다이어그램 등 5~7개 상세 페이지를
+            모두 명세·렌더한 심화 팩입니다.
+          </span>
         </div>
 
         {/* axis filters */}

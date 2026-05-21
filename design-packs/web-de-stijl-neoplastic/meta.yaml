@@ -1,0 +1,19 @@
+slug: web-de-stijl-neoplastic
+display_name: 데 스틸 네오플라스틱
+track: web
+family: de-stijl
+category: premium
+summary: 굵은 순흑 수직·수평 선이 페이지를 비대칭 직사각형 면으로 분할하고 소수의 면만 삼원색으로 채우는 정적·모션 없는 1917년 신조형주의 웹 스타일.
+axes: { color: vivid-primary, type: heavy-display, layout: asymmetric, space: balanced, motion: none }
+pages:
+  - { id: hero, label: 히어로 (면 분할 구성), kind: hero }
+  - { id: features, label: 기능 그리드, kind: features }
+  - { id: content, label: 콘텐츠 상세, kind: content }
+  - { id: gallery, label: 갤러리, kind: gallery }
+  - { id: cta-footer, label: CTA·푸터, kind: cta-footer }
+sources:
+  - { title: "designmd.app — De Stijl Abstrato", url: "https://designmd.app", type: official }
+  - { title: "De Stijl / Neoplasticism — design canon overview", url: "https://en.wikipedia.org/wiki/De_Stijl", type: article }
+license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님. 데 스틸/신조형주의는 퍼블릭 도메인 역사 양식으로 brand_inspiration 영감 출처이며 특정 작품 사본을 포함하지 않는다. 폰트는 공개 웹폰트(Archivo Black·Archivo, OFL)로 명세한다. 색값은 본 팩 자체 지정값."
+source_depth: full
+status: pass
