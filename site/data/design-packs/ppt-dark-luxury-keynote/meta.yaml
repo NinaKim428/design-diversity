@@ -3,18 +3,41 @@ display_name: 다크 럭셔리 키노트
 track: ppt
 family: dark-luxury-keynote
 category: premium
-summary: 거의 순흑 무대에 풀블리드 제품/라이프스타일 사진이 떠 있고 샴페인 골드 0.5pt 헤어라인 프레임이 사진·텍스트 군집을 절제되게 두르며 넓은 자간의 가는 디스플레이 세리프 라벨이 럭셔리를 만드는 다크 키노트.
-axes: { color: dark, type: serif-editorial, layout: full-bleed, space: airy, motion: subtle }
-diagram_kit: "프로세스=골드 헤어라인 프레임 노드 + 0.5pt 가는 골드 커넥터 / 타임라인=수평 골드 헤어라인 축 + 골드 윤곽 원 마일스톤 / 비교=골드 헤어라인 격자 칼럼 + 풀블리드 제품 사진 / 매트릭스=2×2 골드 헤어라인 십자축 + 골드 윤곽 원 / 계층=골드 헤어라인 프레임 폭 비례 적층 / KPI=골드 헤어라인 프레임 카드 + 52pt 세리프 수치 / 차트=순흑 + 골드 헤어라인(넓은 간격 막대·골드 라인·출처 각주)"
+summary: 거의 순흑 무대에 풀블리드 제품/라이프스타일 사진이 떠 있고 샴페인 골드 0.5pt 헤어라인 프레임이 사진·텍스트 군집을 절제되게
+  두르며 넓은 자간의 가는 디스플레이 세리프 라벨이 럭셔리를 만드는 다크 키노트.
+axes:
+  color: dark
+  type: serif-editorial
+  layout: full-bleed
+  space: airy
+  motion: subtle
+diagram_kit: 프로세스=골드 헤어라인 프레임 노드 + 0.5pt 가는 골드 커넥터 / 타임라인=수평 골드 헤어라인 축 + 골드 윤곽 원 마일스톤
+  / 비교=골드 헤어라인 격자 칼럼 + 풀블리드 제품 사진 / 매트릭스=2×2 골드 헤어라인 십자축 + 골드 윤곽 원 / 계층=골드 헤어라인 프레임
+  폭 비례 적층 / KPI=골드 헤어라인 프레임 카드 + 52pt 세리프 수치 / 차트=순흑 + 골드 헤어라인(넓은 간격 막대·골드 라인·출처 각주)
 pages:
-  - { id: cover, label: 표지, kind: cover }
-  - { id: section-divider, label: 섹션 간지, kind: section-divider }
-  - { id: body, label: 제품 디테일 본문, kind: body }
-  - { id: gallery, label: 룩북 갤러리, kind: gallery }
-  - { id: comparison, label: 라인업 비교, kind: comparison }
-  - { id: closing, label: 클로징, kind: closing }
+- id: cover
+  label: 표지
+  kind: cover
+- id: section-divider
+  label: 섹션 간지
+  kind: section-divider
+- id: body
+  label: 제품 디테일 본문
+  kind: body
+- id: gallery
+  label: 룩북 갤러리
+  kind: gallery
+- id: comparison
+  label: 라인업 비교
+  kind: comparison
+- id: closing
+  label: 클로징
+  kind: closing
 sources:
-  - { title: "Dark Luxury Keynote — premium templates (Design Shack)", url: "https://designshack.net/articles/inspiration/free-keynote-templates", type: article }
-license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님. 럭셔리/브랜드 영감은 brand_inspiration로만 참고하며 독점 폰트는 명세하지 않고 오픈 폰트(Cormorant Garamond)로 대체한다."
+- title: Dark Luxury Keynote — premium templates (Design Shack)
+  url: https://designshack.net/articles/inspiration/free-keynote-templates
+  type: article
+license: 원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님. 럭셔리/브랜드 영감은 brand_inspiration로만
+  참고하며 독점 폰트는 명세하지 않고 오픈 폰트(Cormorant Garamond)로 대체한다.
 source_depth: full
 status: pass

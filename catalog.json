@@ -1616,9 +1616,14 @@
           "img": "design-packs/ppt-pattern-bold-poster-keynote/pages/05-kpi.png"
         },
         {
+          "id": "comparison",
+          "label": "비교",
+          "img": "design-packs/ppt-pattern-bold-poster-keynote/pages/06-comparison.png"
+        },
+        {
           "id": "closing",
           "label": "클로징",
-          "img": "design-packs/ppt-pattern-bold-poster-keynote/pages/06-closing.png"
+          "img": "design-packs/ppt-pattern-bold-poster-keynote/pages/07-closing.png"
         }
       ],
       "status": "pass"
@@ -1709,14 +1714,19 @@
           "img": "design-packs/ppt-kula-minimalist-keynote/pages/04-gallery.png"
         },
         {
+          "id": "kpi",
+          "label": "핵심 지표",
+          "img": "design-packs/ppt-kula-minimalist-keynote/pages/05-kpi.png"
+        },
+        {
           "id": "comparison",
           "label": "옵션 비교",
-          "img": "design-packs/ppt-kula-minimalist-keynote/pages/05-comparison.png"
+          "img": "design-packs/ppt-kula-minimalist-keynote/pages/06-comparison.png"
         },
         {
           "id": "closing",
           "label": "클로징",
-          "img": "design-packs/ppt-kula-minimalist-keynote/pages/06-closing.png"
+          "img": "design-packs/ppt-kula-minimalist-keynote/pages/07-closing.png"
         }
       ],
       "status": "pass"
@@ -1812,14 +1822,19 @@
           "img": "design-packs/ppt-folio-portfolio-keynote/pages/04-gallery.png"
         },
         {
+          "id": "chart",
+          "label": "데이터 차트",
+          "img": "design-packs/ppt-folio-portfolio-keynote/pages/05-chart.png"
+        },
+        {
           "id": "comparison",
           "label": "Before / Process 비교",
-          "img": "design-packs/ppt-folio-portfolio-keynote/pages/05-comparison.png"
+          "img": "design-packs/ppt-folio-portfolio-keynote/pages/06-comparison.png"
         },
         {
           "id": "closing",
           "label": "클로징·컨택트",
-          "img": "design-packs/ppt-folio-portfolio-keynote/pages/06-closing.png"
+          "img": "design-packs/ppt-folio-portfolio-keynote/pages/07-closing.png"
         }
       ],
       "status": "pass"

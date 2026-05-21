@@ -3,18 +3,44 @@ display_name: Kula 미니멀리스트 키노트
 track: ppt
 family: kula-lookbook
 category: premium
-summary: 따뜻한 샌드 배경에 둥근 모서리(16~24px) 이미지 프레임이 모듈러 블록 그리드로 정렬되고 작은 산세리프 캡션이 도록처럼 단정한, 더스티 뉴트럴 톤·dusty clay 한 점의 차분한 룩북 키노트.
-axes: { color: earth, type: minimal-sans, layout: block-grid, space: airy, motion: subtle }
-diagram_kit: "프로세스=둥근 흰 카드 노드 + 1.5pt 부드러운 커넥터·clay 원 번호 / 타임라인=수평 축 + 더스티 원 마일스톤(현재만 clay) / 비교=둥근 흰 카드 칼럼 / 매트릭스=2×2 더스티 십자축 + 더스티 원 / 계층=둥근 사각 적층 / KPI=둥근 흰 카드 + 44pt 수치 / 차트=더스티 뉴트럴 + clay 1막대, 막대 모서리 4px·출처 각주"
+summary: 따뜻한 샌드 배경에 둥근 모서리(16~24px) 이미지 프레임이 모듈러 블록 그리드로 정렬되고 작은 산세리프 캡션이 도록처럼 단정한,
+  더스티 뉴트럴 톤·dusty clay 한 점의 차분한 룩북 키노트.
+axes:
+  color: earth
+  type: minimal-sans
+  layout: block-grid
+  space: airy
+  motion: subtle
+diagram_kit: 프로세스=둥근 흰 카드 노드 + 1.5pt 부드러운 커넥터·clay 원 번호 / 타임라인=수평 축 + 더스티 원 마일스톤(현재만
+  clay) / 비교=둥근 흰 카드 칼럼 / 매트릭스=2×2 더스티 십자축 + 더스티 원 / 계층=둥근 사각 적층 / KPI=둥근 흰 카드 + 44pt
+  수치 / 차트=더스티 뉴트럴 + clay 1막대, 막대 모서리 4px·출처 각주
 pages:
-  - { id: cover, label: 표지, kind: cover }
-  - { id: agenda, label: 목차, kind: agenda }
-  - { id: body, label: 핵심 본문, kind: body }
-  - { id: gallery, label: 룩북 이미지 갤러리, kind: gallery }
-  - { id: comparison, label: 옵션 비교, kind: comparison }
-  - { id: closing, label: 클로징, kind: closing }
+- id: cover
+  label: 표지
+  kind: cover
+- id: agenda
+  label: 목차
+  kind: agenda
+- id: body
+  label: 핵심 본문
+  kind: body
+- id: gallery
+  label: 룩북 이미지 갤러리
+  kind: gallery
+- id: kpi
+  label: 핵심 지표
+  kind: kpi
+- id: comparison
+  label: 옵션 비교
+  kind: comparison
+- id: closing
+  label: 클로징
+  kind: closing
 sources:
-  - { title: "Free Keynote Templates — Kula minimalist (Design Shack)", url: "https://designshack.net/articles/inspiration/free-keynote-templates", type: article }
-license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님. 브랜드 영감은 brand_inspiration로만 참고하며 독점 폰트는 오픈 폰트로 대체한다."
+- title: Free Keynote Templates — Kula minimalist (Design Shack)
+  url: https://designshack.net/articles/inspiration/free-keynote-templates
+  type: article
+license: 원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님. 브랜드 영감은 brand_inspiration로만
+  참고하며 독점 폰트는 오픈 폰트로 대체한다.
 source_depth: full
 status: pass

@@ -3,20 +3,47 @@ display_name: 베인 리절츠 덱
 track: ppt
 family: bain-results
 category: premium
-summary: 슬라이드 중앙 상단에 거대 결과 메트릭 한 점(+34%·2.7×)이 지배하고 아래 작은 캡션이 맥락을 다는, 베인 레드 단색 강조·중앙 정렬 단일 축의 results-first 컨설팅 덱.
-axes: { color: vivid-primary, type: minimal-sans, layout: centered, space: balanced, motion: none }
-diagram_kit: "프로세스=거대 단계 번호 + 가는 화살표(박스 없음) / 타임라인=수평 축 + 무채색 마일스톤(결과 시점만 레드 + 거대 메트릭) / 비교=before/after 중심선 좌우 칼럼 + 레드 델타 삼각형 / 매트릭스=2×2 십자축 + 동일 크기 점 / 계층=중앙 정렬 폭 비례 적층 / KPI=보더 없는 카드 + 100~120pt 거대 수치 / 차트=무채 + 레드 한 점, 추이 라인·도넛(직접 라벨링·출처 각주)"
+summary: 슬라이드 중앙 상단에 거대 결과 메트릭 한 점(+34%·2.7×)이 지배하고 아래 작은 캡션이 맥락을 다는, 베인 레드 단색 강조·중앙
+  정렬 단일 축의 results-first 컨설팅 덱.
+axes:
+  color: vivid-primary
+  type: minimal-sans
+  layout: centered
+  space: balanced
+  motion: none
+diagram_kit: 프로세스=거대 단계 번호 + 가는 화살표(박스 없음) / 타임라인=수평 축 + 무채색 마일스톤(결과 시점만 레드 + 거대 메트릭)
+  / 비교=before/after 중심선 좌우 칼럼 + 레드 델타 삼각형 / 매트릭스=2×2 십자축 + 동일 크기 점 / 계층=중앙 정렬 폭 비례
+  적층 / KPI=보더 없는 카드 + 100~120pt 거대 수치 / 차트=무채 + 레드 한 점, 추이 라인·도넛(직접 라벨링·출처 각주)
 pages:
-  - { id: cover, label: 표지, kind: cover }
-  - { id: agenda, label: 목차, kind: agenda }
-  - { id: kpi, label: 결과 메트릭 KPI 히어로, kind: kpi }
-  - { id: comparison, label: Before / After 임팩트 비교, kind: comparison }
-  - { id: body, label: 성과 드라이버 본문, kind: body }
-  - { id: chart, label: 추이 차트, kind: chart }
-  - { id: closing, label: 성과 요약·클로징, kind: closing }
+- id: cover
+  label: 표지
+  kind: cover
+- id: agenda
+  label: 목차
+  kind: agenda
+- id: kpi
+  label: 결과 메트릭 KPI 히어로
+  kind: kpi
+- id: comparison
+  label: Before / After 임팩트 비교
+  kind: comparison
+- id: body
+  label: 성과 드라이버 본문
+  kind: body
+- id: chart
+  label: 추이 차트
+  kind: chart
+- id: closing
+  label: 성과 요약·클로징
+  kind: closing
 sources:
-  - { title: "60 Beautiful Premium PowerPoint Templates (Design Shack)", url: "https://designshack.net/articles/inspiration/60-beautiful-premium-powerpoint-presentation-templates", type: article }
-  - { title: "Consulting slide structure & results framing (The Analyst Academy)", url: "https://www.theanalystacademy.com/consulting-slide-structure/", type: article }
-license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님. 브랜드 영감은 brand_inspiration로만 참고하며 독점 폰트는 오픈 폰트로 대체한다."
+- title: 60 Beautiful Premium PowerPoint Templates (Design Shack)
+  url: https://designshack.net/articles/inspiration/60-beautiful-premium-powerpoint-presentation-templates
+  type: article
+- title: Consulting slide structure & results framing (The Analyst Academy)
+  url: https://www.theanalystacademy.com/consulting-slide-structure/
+  type: article
+license: 원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님. 브랜드 영감은 brand_inspiration로만
+  참고하며 독점 폰트는 오픈 폰트로 대체한다.
 source_depth: full
 status: pass

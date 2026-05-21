@@ -3,19 +3,44 @@ display_name: Epoch 프리미엄 키노트
 track: ppt
 family: epoch-corporate
 category: premium
-summary: 차분한 딥 슬레이트 배경에 가는 세리프 헤딩과 산세리프 본문을 혼합하고 1pt 룰 라인이 콘텐츠를 정연히 구획하는, cool steel 한 점의 차갑고 정제된 하이엔드 코퍼레이트 키노트.
-axes: { color: dark, type: mixed, layout: centered, space: balanced, motion: subtle }
-diagram_kit: "프로세스=슬레이트 패널 노드 + 1pt 룰 보더·1pt 셰브론 / 타임라인=수평 축 + steel 윤곽 원 마일스톤(현재만 솔리드) / 비교=1pt 룰 격자 칼럼·2×2 룰 십자축 / 매트릭스=1pt 룰 십자축 + steel 윤곽 원 / 계층=폭 비례 적층 / KPI=슬레이트 패널 카드 + 42pt 세리프 수치 + steel 델타 / 차트=무채색 슬레이트 + steel 1막대(직접 라벨링·출처 각주)"
+summary: 차분한 딥 슬레이트 배경에 가는 세리프 헤딩과 산세리프 본문을 혼합하고 1pt 룰 라인이 콘텐츠를 정연히 구획하는, cool steel
+  한 점의 차갑고 정제된 하이엔드 코퍼레이트 키노트.
+axes:
+  color: dark
+  type: mixed
+  layout: centered
+  space: balanced
+  motion: subtle
+diagram_kit: 프로세스=슬레이트 패널 노드 + 1pt 룰 보더·1pt 셰브론 / 타임라인=수평 축 + steel 윤곽 원 마일스톤(현재만
+  솔리드) / 비교=1pt 룰 격자 칼럼·2×2 룰 십자축 / 매트릭스=1pt 룰 십자축 + steel 윤곽 원 / 계층=폭 비례 적층 / KPI=슬레이트
+  패널 카드 + 42pt 세리프 수치 + steel 델타 / 차트=무채색 슬레이트 + steel 1막대(직접 라벨링·출처 각주)
 pages:
-  - { id: cover, label: 표지, kind: cover }
-  - { id: agenda, label: 목차, kind: agenda }
-  - { id: body, label: 핵심 본문, kind: body }
-  - { id: chart, label: 데이터 차트, kind: chart }
-  - { id: comparison, label: 비교 매트릭스, kind: comparison }
-  - { id: timeline, label: 로드맵 타임라인, kind: timeline }
-  - { id: closing, label: 클로징, kind: closing }
+- id: cover
+  label: 표지
+  kind: cover
+- id: agenda
+  label: 목차
+  kind: agenda
+- id: body
+  label: 핵심 본문
+  kind: body
+- id: chart
+  label: 데이터 차트
+  kind: chart
+- id: comparison
+  label: 비교 매트릭스
+  kind: comparison
+- id: timeline
+  label: 로드맵 타임라인
+  kind: timeline
+- id: closing
+  label: 클로징
+  kind: closing
 sources:
-  - { title: "Free Keynote Templates — Epoch premium (Design Shack)", url: "https://designshack.net/articles/inspiration/free-keynote-templates", type: article }
-license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님. 브랜드 영감은 brand_inspiration로만 참고하며 독점 폰트는 오픈 폰트로 대체한다."
+- title: Free Keynote Templates — Epoch premium (Design Shack)
+  url: https://designshack.net/articles/inspiration/free-keynote-templates
+  type: article
+license: 원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님. 브랜드 영감은 brand_inspiration로만
+  참고하며 독점 폰트는 오픈 폰트로 대체한다.
 source_depth: full
 status: pass

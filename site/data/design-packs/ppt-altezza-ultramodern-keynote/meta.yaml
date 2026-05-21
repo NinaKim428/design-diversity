@@ -3,18 +3,41 @@ display_name: Altezza 울트라모던 키노트
 track: ppt
 family: ultramodern-clip
 category: premium
-summary: 사진·컬러 면을 각진 사선 클립 마스크(12~18°)로 잘라 동적 긴장을 만들고 거대 산세리프 헤드라인과 얇은 라벨이 강하게 대비하는, near-black + electric mint 한 점의 빽빽한 다크 에이전시 키노트.
-axes: { color: dark, type: heavy-display, layout: asymmetric, space: dense, motion: snappy }
-diagram_kit: "프로세스=사선 평행사변형 노드 + 2pt 각진 셰브론·mint 배지 / 타임라인=사선 기울인 축 + 각진 다이아몬드 마일스톤 / 비교=12~18° 사선 분할 영역 / 매트릭스=8~12° 기울인 2×2 + 각진 마름모 / 계층=사선 클립 폭 비례 적층 / KPI=사선 클립 패널 카드 + 60pt 수치 / 차트=다크 + mint 1막대, 강조 막대 상단 사선 클립·출처 각주"
+summary: 사진·컬러 면을 각진 사선 클립 마스크(12~18°)로 잘라 동적 긴장을 만들고 거대 산세리프 헤드라인과 얇은 라벨이 강하게 대비하는,
+  near-black + electric mint 한 점의 빽빽한 다크 에이전시 키노트.
+axes:
+  color: dark
+  type: heavy-display
+  layout: asymmetric
+  space: dense
+  motion: snappy
+diagram_kit: 프로세스=사선 평행사변형 노드 + 2pt 각진 셰브론·mint 배지 / 타임라인=사선 기울인 축 + 각진 다이아몬드 마일스톤
+  / 비교=12~18° 사선 분할 영역 / 매트릭스=8~12° 기울인 2×2 + 각진 마름모 / 계층=사선 클립 폭 비례 적층 / KPI=사선 클립
+  패널 카드 + 60pt 수치 / 차트=다크 + mint 1막대, 강조 막대 상단 사선 클립·출처 각주
 pages:
-  - { id: cover, label: 표지 (사선 클립), kind: cover }
-  - { id: section-divider, label: 섹션 간지, kind: section-divider }
-  - { id: body, label: 핵심 본문, kind: body }
-  - { id: comparison, label: 사선 분할 비교, kind: comparison }
-  - { id: kpi, label: KPI 대시보드, kind: kpi }
-  - { id: closing, label: 클로징, kind: closing }
+- id: cover
+  label: 표지 (사선 클립)
+  kind: cover
+- id: section-divider
+  label: 섹션 간지
+  kind: section-divider
+- id: body
+  label: 핵심 본문
+  kind: body
+- id: comparison
+  label: 사선 분할 비교
+  kind: comparison
+- id: kpi
+  label: KPI 대시보드
+  kind: kpi
+- id: closing
+  label: 클로징
+  kind: closing
 sources:
-  - { title: "Free Keynote Templates — Altezza (Speckyboy)", url: "https://speckyboy.com/free-keynote-templates", type: article }
-license: "원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님. 브랜드 영감은 brand_inspiration로만 참고하며 독점 폰트는 오픈 폰트로 대체한다."
+- title: Free Keynote Templates — Altezza (Speckyboy)
+  url: https://speckyboy.com/free-keynote-templates
+  type: article
+license: 원자산은 각 출처 라이선스를 따름. 본 팩이 배포하는 것은 디자인 명세·토큰이며 원자산 사본이 아님. 브랜드 영감은 brand_inspiration로만
+  참고하며 독점 폰트는 오픈 폰트로 대체한다.
 source_depth: full
 status: pass
