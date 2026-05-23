@@ -86,6 +86,37 @@ export default function HomePage() {
             에서 받아 Claude Code에 설치합니다. 100개 팩 명세가 스킬에 번들돼
             있어, 느낌만 말해도 어울리는 팩을 추천받을 수 있습니다.
           </p>
+          <div className="usage-alt">
+            <h3>스킬 없이 — Claude.ai 채팅에 붙여넣기</h3>
+            <p>
+              Claude Code가 없어도 됩니다. 팩 상세 페이지에서{" "}
+              <code>prompt.md</code> 전문을 복사해, 원본 자료(기획서·강의안·제품
+              소개 등)와 함께{" "}
+              <a
+                href="https://claude.ai"
+                target="_blank"
+                rel="noreferrer"
+              >
+                claude.ai
+              </a>{" "}
+              채팅에 그대로 붙여넣고 이렇게 요청하세요:
+            </p>
+            <div className="usage-eg">
+              <span className="usage-eg-tag ppt">PPT</span>
+              “위 디자인 명세 그대로, <b>편집 가능한 네이티브 .pptx</b> 로
+              발표자료를 만들어줘”
+            </div>
+            <div className="usage-eg">
+              <span className="usage-eg-tag web">웹</span>
+              “위 디자인 명세 그대로, HTML/CSS로 [내 주제] 페이지를 만들어줘”
+            </div>
+            <p className="usage-alt-foot">
+              Claude.ai 가 <code>.pptx</code>/HTML 파일을 직접 생성해 다운로드로
+              줍니다. PPT는 슬라이드를 통째 PNG로 박지 않도록 “
+              <b>편집 가능한 네이티브 .pptx</b>” 문구를 그대로 넣는 것이
+              중요합니다.
+            </p>
+          </div>
         </div>
       </section>
 
