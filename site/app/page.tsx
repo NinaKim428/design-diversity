@@ -120,6 +120,57 @@ export default function HomePage() {
         </div>
       </section>
 
+      <section className="spec">
+        <div className="wrap">
+          <div className="spec-head">
+            <h2>출력 사양 — PPT는 편집 가능한 네이티브 .pptx</h2>
+            <p>
+              이 카탈로그의 PPT 팩으로 만들어지는 슬라이드는{" "}
+              <b>모두 편집 가능한 PowerPoint 네이티브 객체</b>입니다. 받은 사람이
+              파워포인트에서 그대로 글자·색·도형을 수정·재배치할 수 있도록
+              하는 것이 카탈로그의 출력 규칙입니다.
+            </p>
+          </div>
+          <ul className="spec-grid">
+            <li>
+              <h3>네이티브 객체</h3>
+              <p>
+                제목·본문·표·불릿·도형·화살표가 모두 python-pptx 네이티브
+                객체(텍스트박스·표·오토셰이프·연결선·차트). 차트·다이어그램·
+                인포그래픽도 가능한 한 네이티브 도형으로 그립니다.
+              </p>
+            </li>
+            <li>
+              <h3>풀블리드 PNG 금지</h3>
+              <p>
+                HTML/CSS 로 렌더한 뒤 슬라이드를 통째로 PNG 이미지 한 장으로
+                박는 방식은 사용하지 않습니다. 텍스트가 비트맵으로 굳어 수정
+                불가가 되기 때문입니다.
+              </p>
+            </li>
+            <li>
+              <h3>이미지는 보조 자산만</h3>
+              <p>
+                사진·일러스트·로고 같은 비주얼 자산은 슬라이드 위에 이미지로
+                얹지만, 텍스트·차트는 그 위에 별도 네이티브 레이어로 올립니다.
+              </p>
+            </li>
+            <li>
+              <h3>폰트 임베딩 권고</h3>
+              <p>
+                본문 한글 + 영문 라벨 글꼴은 <code>.pptx</code>에 임베딩합니다.
+                받는 사람의 PC에 폰트가 없어도 디자인이 깨지지 않습니다.
+              </p>
+            </li>
+          </ul>
+          <p className="spec-foot">
+            이 규칙은 <code>skills/design-pick/SKILL.md</code>와 각 팩의{" "}
+            <code>prompt.md</code> 양쪽에 명시돼 있어, 스킬을 통해서든 Claude.ai
+            에 명세를 붙여 쓰든 동일하게 적용됩니다.
+          </p>
+        </div>
+      </section>
+
       <Gallery packs={packs} />
     </>
   );
